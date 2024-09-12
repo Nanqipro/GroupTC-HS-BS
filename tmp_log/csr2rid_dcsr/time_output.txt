@@ -1,0 +1,5 @@
+[2024-09-12 21:49:48.808] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	1	0.000398
+[2024-09-12 21:50:48.705] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	1	0.000386
+[2024-09-12 21:52:36.930] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	1	0.000388
+[2024-09-12 22:01:03.791] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	1	0.000473
+[2024-09-12 22:07:00.747] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	1	0.000362

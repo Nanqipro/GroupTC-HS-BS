@@ -1,0 +1,4 @@
+[2024-09-12 21:49:48.807] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	36365	1	0.000029
+[2024-09-12 21:50:48.703] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	36365	1	0.000042
+[2024-09-12 21:52:36.928] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	36365	1	0.000029
+[2024-09-12 22:01:03.790] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	36365	1	0.000035
