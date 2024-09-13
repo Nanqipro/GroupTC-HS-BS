@@ -1,3 +1,4 @@
 [2024-09-12 21:49:48.810] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	1	0.000409
 [2024-09-12 21:50:48.706] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	1	0.000384
 [2024-09-12 21:52:36.938] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	1	0.000368
+[2024-09-13 09:08:44.090] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/home/LiJB/cuda_project/TC-compare-V100/data/csr_dataset/As-Caida	1	0.000390
