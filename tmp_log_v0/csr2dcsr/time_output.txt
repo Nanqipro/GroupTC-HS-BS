@@ -65,3 +65,7 @@
 [2024-09-13 20:36:23.446] [csr2dcsr_file_logger] [info] csr2dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-Pokec	1	0.009884
 [2024-09-13 20:36:46.980] [csr2dcsr_file_logger] [info] csr2dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Sx-Stackoverflow	1	0.017153
 [2024-09-13 20:37:31.572] [csr2dcsr_file_logger] [info] csr2dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Lj	1	0.017754
+[2024-09-13 21:43:52.352] [csr2dcsr_file_logger] [info] csr2dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	1	0.000234
+[2024-09-13 21:44:09.126] [csr2dcsr_file_logger] [info] csr2dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	1	0.000245
+[2024-09-13 21:45:04.313] [csr2dcsr_file_logger] [info] csr2dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	1	1.486368
+[2024-09-13 21:47:14.499] [csr2dcsr_file_logger] [info] csr2dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	1	1.494691

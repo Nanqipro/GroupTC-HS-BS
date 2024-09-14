@@ -118,3 +118,7 @@
 [2024-09-13 20:37:25.909] [GroupTC_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Sx-Stackoverflow	114206974	100	0.022373
 [2024-09-13 20:37:47.004] [GroupTC_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Lj	56594615	100	0.009635
 [2024-09-13 20:38:01.119] [GroupTC_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Lj	177820130	100	0.014210
+[2024-09-13 21:43:52.353] [GroupTC_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	14479	10	0.000055
+[2024-09-13 21:43:52.355] [GroupTC_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	36365	10	0.000060
+[2024-09-13 21:44:09.127] [GroupTC_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	14479	10	0.000055
+[2024-09-13 21:44:09.129] [GroupTC_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	36365	10	0.000059

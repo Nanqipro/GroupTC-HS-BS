@@ -62,3 +62,7 @@
 [2024-09-13 20:36:45.088] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-Pokec	1	0.008472
 [2024-09-13 20:37:25.975] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Sx-Stackoverflow	1	0.020239
 [2024-09-13 20:38:01.197] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Lj	1	0.016558
+[2024-09-13 21:43:52.356] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	1	0.000371
+[2024-09-13 21:44:09.130] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	1	0.000362
+[2024-09-13 21:45:12.299] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	1	1.738791
+[2024-09-13 21:47:22.508] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	1	1.739850

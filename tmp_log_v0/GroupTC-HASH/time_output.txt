@@ -58,3 +58,7 @@
 [2024-09-13 20:36:45.875] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-Pokec	32557458	100	0.007757
 [2024-09-13 20:37:28.324] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Sx-Stackoverflow	114206974	100	0.023329
 [2024-09-13 20:38:02.288] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Lj	177820130	100	0.010693
+[2024-09-13 21:43:52.358] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	36365	10	0.000079
+[2024-09-13 21:44:09.132] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	36365	10	0.000079
+[2024-09-13 21:45:43.396] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	34824916864	10	3.051518
+[2024-09-13 21:47:53.606] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	34824916864	10	3.051545

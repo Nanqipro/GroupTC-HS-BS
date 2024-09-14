@@ -58,3 +58,7 @@
 [2024-09-13 20:36:46.776] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-Pokec	32557458	100	0.008987
 [2024-09-13 20:37:31.212] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Sx-Stackoverflow	114206974	100	0.028816
 [2024-09-13 20:38:03.600] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Lj	177820130	100	0.013066
+[2024-09-13 21:43:52.359] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	36365	10	0.000063
+[2024-09-13 21:44:09.134] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/As-Caida	36365	10	0.000068
+[2024-09-13 21:46:16.523] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	34824916864	10	3.288296
+[2024-09-13 21:48:26.727] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	34824916864	10	3.288156
