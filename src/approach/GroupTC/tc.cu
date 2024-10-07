@@ -12,12 +12,15 @@
 #include "comm/cuda_comm.h"
 #include "spdlog/spdlog.h"
 
+// 实现一个二分查找，成功返回1，否则返回0
 __device__ int tc::approach::GroupTC::bin_search(vertex_t* arr, int len, int val) {
     uint32_t Y;
     int32_t bot = 0;
     int32_t top = len - 1;
+    // 中点
     int32_t r;
     while (top >= bot) {
+
         r = (top + bot) / 2;
         Y = arr[r];
 
@@ -34,20 +37,28 @@ __device__ int tc::approach::GroupTC::bin_search(vertex_t* arr, int len, int val
     return 0;
 }
 
+// 优化后的二分搜索算法--目的是减少分支预测失误以提高性能
 __device__ int tc::approach::GroupTC::bin_search_less_branch(vertex_t* arr, int len, int val) {
+    // 用于跟踪当前位置
     int ret = 0;
+
     int halfsize;
+
     int candidate;
     int temp = len;
+
     while (temp > 1) {
         halfsize = temp / 2;
         candidate = arr[ret + halfsize];
         ret += (candidate < val) ? halfsize : 0;
         temp -= halfsize;
     }
+
     ret += (arr[ret] < val);
+
     return ret < len && arr[ret] == val;
 }
+
 
 __device__ int tc::approach::GroupTC::bin_search_with_offset_and_less_branch(vertex_t* arr, int len, int val, int& offset) {
     int ret = 0;
@@ -55,16 +66,34 @@ __device__ int tc::approach::GroupTC::bin_search_with_offset_and_less_branch(ver
     int candidate;
     int temp = len;
     while (temp > 1) {
+
         halfsize = temp / 2;
+
         candidate = arr[ret + halfsize];
+
         ret += (candidate < val) ? halfsize : 0;
         temp -= halfsize;
     }
     ret += (arr[ret] < val);
+
+    // offset 的作用是用来存储二分查找过程中得到的结果位置，即查找到的元素的索引，或者如果没有找到该元素时，表示它应当插入的位置。
     offset = ret;
+
     return ret < len && arr[ret] == val;
 }
 
+/**
+ * @brief 计算团TC（Triangle Count）的GPU内核函数
+ * 
+ * 该函数通过遍历边列表，利用共享内存中的哈希表来加速查找二跳邻居节点的过程，从而计算出团的数量
+ * 
+ * @param src_list 边的源节点数组
+ * @param adj_list 邻接表，存储边的目标节点
+ * @param beg_pos 每个节点在邻接表中开始位置的索引数组
+ * @param edge_count 边的数量
+ * @param vertex_count 节点的数量
+ * @param GLOBAL_COUNT 用于存储每个线程块计算结果的全局计数器数组
+ */
 __global__ void tc::approach::GroupTC::grouptc(vertex_t* src_list, vertex_t* adj_list, index_t* beg_pos, uint edge_count, uint vertex_count,
                                                unsigned long long* GLOBAL_COUNT) {
     // 共享内存中的 hashTable
