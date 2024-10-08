@@ -59,7 +59,6 @@ __device__ int tc::approach::GroupTC::bin_search_less_branch(vertex_t* arr, int 
     return ret < len && arr[ret] == val;
 }
 
-
 __device__ int tc::approach::GroupTC::bin_search_with_offset_and_less_branch(vertex_t* arr, int len, int val, int& offset) {
     int ret = 0;
     int halfsize;
@@ -83,7 +82,7 @@ __device__ int tc::approach::GroupTC::bin_search_with_offset_and_less_branch(ver
 }
 
 /**
- * @brief 计算团TC（Triangle Count）的GPU内核函数
+ * @brief 计算GROUP_TC（Triangle Count）的GPU内核函数
  * 
  * 该函数通过遍历边列表，利用共享内存中的哈希表来加速查找二跳邻居节点的过程，从而计算出团的数量
  * 
@@ -96,30 +95,40 @@ __device__ int tc::approach::GroupTC::bin_search_with_offset_and_less_branch(ver
  */
 __global__ void tc::approach::GroupTC::grouptc(vertex_t* src_list, vertex_t* adj_list, index_t* beg_pos, uint edge_count, uint vertex_count,
                                                unsigned long long* GLOBAL_COUNT) {
-    // 共享内存中的 hashTable
-    __shared__ int sh_tb_start[GroupTC_BLOCK_BUCKETNUM];
-    __shared__ int sh_tb_len[GroupTC_BLOCK_BUCKETNUM];
-    __shared__ int sh_ele_start[GroupTC_BLOCK_BUCKETNUM];
-    __shared__ int sh_ele_len[GroupTC_BLOCK_BUCKETNUM];
-
+    // 定义共享内存，用于存储块内的哈希表数据
+    __shared__ int sh_tb_start[GroupTC_BLOCK_BUCKETNUM]; // 块中存储每个线程的邻接表起点
+    __shared__ int sh_tb_len[GroupTC_BLOCK_BUCKETNUM]; // 块中存储每个线程邻接表的长度
+    __shared__ int sh_ele_start[GroupTC_BLOCK_BUCKETNUM]; // 块中存储每个线程的二跳邻居的起点
+    __shared__ int sh_ele_len[GroupTC_BLOCK_BUCKETNUM]; // 块中存储每个线程的二跳邻居列表长度
+    // 定义一个局部变量计数器，用于存储当前块的结果 （每个线程块的计算结果） 
     unsigned long long P_counter = 0;
-
+    // 获取当前线程块的索引 (bid) 和当前线程的索引 (tid)
     int bid = blockIdx.x;
     int tid = threadIdx.x;
 
+    // 以线程块为单位进行处理
     for (int i = bid * GroupTC_BLOCK_BUCKETNUM; i < edge_count; i += gridDim.x * GroupTC_BLOCK_BUCKETNUM) {
+        // 检查是否超出边界范围
         if (i + tid < edge_count) {
+            // 获取当前边的源节点和目的节点
             vertex_t src = src_list[i + tid];
             vertex_t dst = adj_list[i + tid];
+
             int temp;
 
+            // 初始化起点和长度，用于一阶邻居和二阶邻居
             int tb_start, tb_len, ele_start, ele_len;
-            tb_start = i + tid + 1;
-            // tb_start = beg_pos[src];
-            tb_len = beg_pos[src + 1] - tb_start;
-            ele_start = beg_pos[dst];
-            ele_len = beg_pos[dst + 1] - ele_start;
 
+            // i + tid + 1 结合了当前线程块（block）和线程（thread）的索引，保证每个线程都能处理一条唯一的边，并且 +1 的操作避免了自查找。
+            // 这个方式的核心在于，每个线程块处理不同的边，并且在块内由每个线程处理不同的边起点，确保每个线程有各自的起始位置，不会发生重复。
+
+            tb_start = i + tid + 1; // 当前线程处理的邻居起点（可通过邻接表偏移调整）
+            // tb_start = beg_pos[src];
+            tb_len = beg_pos[src + 1] - tb_start;// 当前源节点邻接表的长度
+            ele_start = beg_pos[dst]; // 当前目的节点的邻接表起点
+            ele_len = beg_pos[dst + 1] - ele_start; // 当前目的节点邻接表的长度
+
+            // 优化处理：如果源节点邻居较少，将源和目的节点的邻接表交换
             if (tb_len * 2 < ele_len) {
                 temp = tb_start;
                 tb_start = ele_start;
@@ -130,14 +139,16 @@ __global__ void tc::approach::GroupTC::grouptc(vertex_t* src_list, vertex_t* adj
                 ele_len = temp;
             }
 
+
+            // 将当前线程的邻接表数据存储到共享内存中
             sh_tb_start[tid] = tb_start;
             sh_tb_len[tid] = tb_len;
             sh_ele_start[tid] = ele_start;
             sh_ele_len[tid] = ele_len;
         }
-
         __syncthreads();
 
+        // 计算当前线程属于哪个子组（sub-warp），即现在处理哪一块数据
         int now = tid / GroupTC_SUBWARP_SIZE;
         int end = min(edge_count - i, GroupTC_BLOCK_BUCKETNUM);
         int workid = tid % GroupTC_SUBWARP_SIZE;
