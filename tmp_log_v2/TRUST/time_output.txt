@@ -19,3 +19,12 @@
 [2024-09-15 11:42:29.119] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale25-ef16	21575375802	50	3.881345
 [2024-09-15 11:50:44.888] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	34824916864	50	3.284555
 [2024-09-15 11:56:42.912] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Friendster	4173724142	50	2.226231
+[2024-11-01 10:12:24.388] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-LiveJ	285730264	50	0.018137
+[2024-11-01 10:12:46.270] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Orkut	627584181	50	0.093633
+[2024-11-01 10:16:33.588] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale24-ef16	9936161560	50	1.508561
+[2024-11-01 11:24:12.778] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-LiveJ	285730264	50	0.018136
+[2024-11-01 11:24:30.210] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Orkut	627584181	50	0.093710
+[2024-11-01 11:28:07.563] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale24-ef16	9936161560	50	1.508529
+[2024-11-01 11:37:20.007] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale25-ef16	21575375802	50	3.879520
+[2024-11-01 11:46:09.926] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	34824916864	50	3.283518
+[2024-11-01 11:52:24.511] [TRUST_file_logger] [info] TRUST	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Friendster	4173724142	50	2.225570

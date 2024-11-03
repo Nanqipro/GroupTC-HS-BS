@@ -19,3 +19,12 @@
 [2024-09-15 11:35:09.540] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale25-ef16	21575375802	10	10.961868
 [2024-09-15 11:44:19.844] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	34824916864	10	10.128427
 [2024-09-15 11:52:06.055] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Friendster	4173724142	10	5.436038
+[2024-11-01 10:12:20.669] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-LiveJ	285730264	50	0.035646
+[2024-11-01 10:12:31.977] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Orkut	627584181	10	0.232710
+[2024-11-01 10:13:41.120] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale24-ef16	9936161560	10	4.304500
+[2024-11-01 11:24:09.096] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-LiveJ	285730264	50	0.035630
+[2024-11-01 11:24:15.931] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Orkut	627584181	10	0.232602
+[2024-11-01 11:25:15.160] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale24-ef16	9936161560	10	4.304531
+[2024-11-01 11:30:00.909] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale25-ef16	21575375802	10	10.949979
+[2024-11-01 11:39:45.346] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	34824916864	10	10.116136
+[2024-11-01 11:47:48.538] [Polak_file_logger] [info] Polak	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Friendster	4173724142	10	5.429951

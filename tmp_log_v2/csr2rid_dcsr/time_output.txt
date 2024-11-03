@@ -19,3 +19,12 @@
 [2024-09-15 11:35:36.567] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale25-ef16	1	0.519805
 [2024-09-15 11:44:48.654] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	1	1.505251
 [2024-09-15 11:52:41.184] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Friendster	1	14.334505
+[2024-11-01 10:12:21.468] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-LiveJ	1	0.024870
+[2024-11-01 10:12:36.233] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Orkut	1	0.063257
+[2024-11-01 10:13:51.777] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale24-ef16	1	0.226317
+[2024-11-01 11:24:09.887] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-LiveJ	1	0.023104
+[2024-11-01 11:24:20.182] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Orkut	1	0.063167
+[2024-11-01 11:25:25.798] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale24-ef16	1	0.226164
+[2024-11-01 11:30:27.849] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale25-ef16	1	0.519177
+[2024-11-01 11:40:14.118] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	1	1.504799
+[2024-11-01 11:48:23.504] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Friendster	1	14.355138

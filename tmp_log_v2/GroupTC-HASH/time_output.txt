@@ -19,3 +19,12 @@
 [2024-09-15 11:39:14.949] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale25-ef16	21575375802	50	3.538112
 [2024-09-15 11:48:00.413] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	34824916864	50	3.050104
 [2024-09-15 11:54:51.216] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Friendster	4173724142	50	2.013182
+[2024-11-01 10:12:23.452] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-LiveJ	285730264	50	0.015126
+[2024-11-01 10:12:41.584] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Orkut	627584181	50	0.081780
+[2024-11-01 10:15:18.106] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale24-ef16	9936161560	50	1.401005
+[2024-11-01 11:24:11.842] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Soc-LiveJ	285730264	50	0.015107
+[2024-11-01 11:24:25.520] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Orkut	627584181	50	0.081871
+[2024-11-01 11:26:52.083] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale24-ef16	9936161560	50	1.401021
+[2024-11-01 11:34:05.932] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/graph500-scale25-ef16	21575375802	50	3.534023
+[2024-11-01 11:43:25.499] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Twitter7	34824916864	50	3.047980
+[2024-11-01 11:50:32.865] [GroupTC-HASH_file_logger] [info] GroupTC	/app/ZZQ/zj/gitlocal/github_TC/data/csr_dataset/Com-Friendster	4173724142	50	2.009032
