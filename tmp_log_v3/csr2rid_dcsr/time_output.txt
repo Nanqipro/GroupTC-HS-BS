@@ -1,0 +1,11 @@
+[2024-11-04 23:14:11.536] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/As-Caida	1	0.000914
+[2024-11-04 23:14:12.162] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/P2p-Gnutella31	1	0.001656
+[2024-11-04 23:14:12.904] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/Email-EuAll	1	0.002116
+[2024-11-04 23:14:13.601] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/Soc-Slashdot0922	1	0.002040
+[2024-11-04 23:14:15.095] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	1	0.001769
+[2024-11-04 23:14:16.385] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/Com-Dblp	1	0.002348
+[2024-11-04 23:14:18.068] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/Amazon0601	1	0.002825
+[2024-11-04 23:14:20.888] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/RoadNet-CA	1	0.003675
+[2024-11-04 23:14:24.949] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/Wiki-Talk	1	0.007327
+[2024-11-04 23:14:29.961] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/Web-BerkStan	1	0.005027
+[2024-11-04 23:14:36.763] [csr2rid_dcsr_file_logger] [info] csr2rid_dcsr	/app/ZJ/dataset_TC/csr_dataset/As-Skitter	1	0.009358

@@ -1,0 +1,11 @@
+[2024-11-04 23:14:11.586] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/As-Caida	36365	50	0.000121
+[2024-11-04 23:14:12.227] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/P2p-Gnutella31	2024	50	0.000219
+[2024-11-04 23:14:13.023] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Email-EuAll	267313	50	0.000363
+[2024-11-04 23:14:13.729] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Soc-Slashdot0922	602592	50	0.000484
+[2024-11-04 23:14:15.300] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	8910005	50	0.000754
+[2024-11-04 23:14:16.541] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Com-Dblp	2224385	50	0.000616
+[2024-11-04 23:14:18.287] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Amazon0601	3986507	50	0.000852
+[2024-11-04 23:14:21.141] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/RoadNet-CA	120676	50	0.000865
+[2024-11-04 23:14:26.763] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Wiki-Talk	9203519	50	0.003202
+[2024-11-04 23:14:30.517] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Web-BerkStan	64690980	50	0.001783
+[2024-11-04 23:14:38.306] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/As-Skitter	28769868	50	0.004042

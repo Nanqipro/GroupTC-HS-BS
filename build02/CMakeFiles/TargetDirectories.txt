@@ -1,3 +1,0 @@
-/app/ZZQ/zj/gitlocal/github_TC/build02/CMakeFiles/main.dir
-/app/ZZQ/zj/gitlocal/github_TC/build02/CMakeFiles/edit_cache.dir
-/app/ZZQ/zj/gitlocal/github_TC/build02/CMakeFiles/rebuild_cache.dir

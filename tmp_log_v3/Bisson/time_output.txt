@@ -1,0 +1,11 @@
+[2024-11-04 23:14:11.556] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/As-Caida	36365	50	0.000322
+[2024-11-04 23:14:12.185] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/P2p-Gnutella31	2024	50	0.000407
+[2024-11-04 23:14:12.962] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Email-EuAll	267313	50	0.001113
+[2024-11-04 23:14:13.658] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Soc-Slashdot0922	602592	50	0.001115
+[2024-11-04 23:14:15.177] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	8910005	50	0.001575
+[2024-11-04 23:14:16.450] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Com-Dblp	2224385	50	0.001241
+[2024-11-04 23:14:18.165] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Amazon0601	3986507	50	0.001850
+[2024-11-04 23:14:21.018] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/RoadNet-CA	120676	50	0.002442
+[2024-11-04 23:14:26.400] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Wiki-Talk	9203519	50	0.028818
+[2024-11-04 23:14:30.227] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Web-BerkStan	64690980	50	0.005237
+[2024-11-04 23:14:37.716] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/As-Skitter	28769868	50	0.018769

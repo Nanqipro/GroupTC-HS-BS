@@ -1,0 +1,11 @@
+[2024-11-04 23:14:11.403] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/As-Caida	36365	50	0.000091
+[2024-11-04 23:14:11.994] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/P2p-Gnutella31	2024	50	0.000083
+[2024-11-04 23:14:12.778] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/Email-EuAll	267313	50	0.000220
+[2024-11-04 23:14:13.451] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/Soc-Slashdot0922	602592	50	0.000322
+[2024-11-04 23:14:14.949] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	8910005	50	0.000397
+[2024-11-04 23:14:16.206] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/Com-Dblp	2224385	50	0.000427
+[2024-11-04 23:14:17.803] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/Amazon0601	3986507	50	0.000407
+[2024-11-04 23:14:20.745] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/RoadNet-CA	120676	50	0.000379
+[2024-11-04 23:14:24.441] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/Wiki-Talk	9203519	50	0.001457
+[2024-11-04 23:14:29.460] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/Web-BerkStan	64690980	50	0.001328
+[2024-11-04 23:14:36.109] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/As-Skitter	28769868	50	0.002754

@@ -1,0 +1,11 @@
+[2024-11-04 23:14:11.349] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/As-Caida	1	0.003345
+[2024-11-04 23:14:11.902] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/P2p-Gnutella31	1	0.002997
+[2024-11-04 23:14:12.660] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/Email-EuAll	1	0.005884
+[2024-11-04 23:14:13.347] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/Soc-Slashdot0922	1	0.004017
+[2024-11-04 23:14:14.385] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	1	0.003136
+[2024-11-04 23:14:16.045] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/Com-Dblp	1	0.005032
+[2024-11-04 23:14:17.558] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/Amazon0601	1	0.007358
+[2024-11-04 23:14:20.204] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/RoadNet-CA	1	0.025026
+[2024-11-04 23:14:23.916] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/Wiki-Talk	1	0.022918
+[2024-11-04 23:14:28.729] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/Web-BerkStan	1	0.010062
+[2024-11-04 23:14:34.412] [Hu_preprocessing_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/As-Skitter	1	0.029166
