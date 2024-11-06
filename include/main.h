@@ -12,10 +12,12 @@
 #include "approach/TC-Check/tc.h"
 #include "approach/TRUST/tc.h"
 #include "approach/TriCore/tc.h"
+
 #include "comm/config_comm.h"
 #include "datatransfer/csr2dcsr_data_transfer.h"
 #include "datatransfer/csr2rid_dcsr_data_transfer.h"
 #include "datatransfer/csr2trust_dcsr_data_transfer.h"
+
 #include "graph/cuda_graph_comm.h"
 #include "spdlog/sinks/basic_file_sink.h"
 #include "spdlog/spdlog.h"
