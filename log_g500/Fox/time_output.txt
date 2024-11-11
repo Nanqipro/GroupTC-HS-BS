@@ -1,0 +1,15 @@
+[2024-11-11 13:23:47.539] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e2	401994	50	0.001125
+[2024-11-11 13:23:48.291] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e8	8666544	50	0.001714
+[2024-11-11 13:23:54.468] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e32	135616399	50	0.011867
+[2024-11-11 13:24:22.707] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e128	1563016939	50	0.091776
+[2024-11-11 13:24:34.564] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e2	1864356	50	0.003366
+[2024-11-11 13:24:39.084] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e8	43103088	50	0.009288
+[2024-11-11 13:25:02.681] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e32	745161019	50	0.071110
+[2024-11-11 13:28:01.068] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e128	9715222666	10	0.974599
+[2024-11-11 13:28:59.331] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e2	8503849	50	0.006232
+[2024-11-11 13:29:18.066] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e8	210569530	50	0.054827
+[2024-11-11 13:30:45.799] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e32	3964459518	10	0.832944
+[2024-11-11 14:07:41.797] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e128	57395351730	10	10.507381
+[2024-11-11 14:16:11.484] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e2	38792237	50	0.022561
+[2024-11-11 14:16:52.401] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e8	1015849186	10	0.330118
+[2024-11-11 14:31:02.442] [Fox_file_logger] [info] Fox	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e32	20579400628	10	5.450948

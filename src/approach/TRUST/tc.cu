@@ -759,8 +759,8 @@ __global__ void tc::approach::TRUST::trust(vertex_t* adj_list, index_t* beg_pos,
     __shared__ int ver;
 
 
-    // while (vertex < warpfirstvertex)
-    while (0)
+    while (vertex < warpfirstvertex)
+    // while (0)
     // 高度数顶点
     // 使用CTA（线程块）进行并行处理
     // 包括初始化哈希表、计数桶、插入邻居等操作

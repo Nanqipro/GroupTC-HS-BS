@@ -1,0 +1,15 @@
+[2024-11-11 13:23:47.443] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e2	401994	50	0.001120
+[2024-11-11 13:23:48.062] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e8	8666544	50	0.003214
+[2024-11-11 13:23:52.444] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e32	135616399	50	0.019890
+[2024-11-11 13:24:08.750] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e128	1563016939	10	0.166807
+[2024-11-11 13:24:34.245] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e2	1864356	50	0.005075
+[2024-11-11 13:24:37.697] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e8	43103088	50	0.018506
+[2024-11-11 13:24:50.840] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e32	745161019	10	0.130051
+[2024-11-11 13:27:33.840] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e128	9715222666	10	3.203347
+[2024-11-11 13:28:58.355] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e2	8503849	50	0.023297
+[2024-11-11 13:29:09.100] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e8	210569530	10	0.100055
+[2024-11-11 13:30:25.667] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e32	3964459518	10	1.280695
+[2024-11-11 14:03:42.406] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e128	57395351730	10	39.210059
+[2024-11-11 14:16:07.429] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e2	38792237	50	0.082366
+[2024-11-11 14:16:41.075] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e8	1015849186	10	0.456803
+[2024-11-11 14:28:42.287] [Green_file_logger] [info] Green	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e32	20579400628	10	14.771301

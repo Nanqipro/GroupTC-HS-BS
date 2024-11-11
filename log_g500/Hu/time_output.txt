@@ -1,0 +1,15 @@
+[2024-11-11 13:23:47.468] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e2	401994	50	0.000436
+[2024-11-11 13:23:48.139] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e8	8666544	50	0.001426
+[2024-11-11 13:23:53.102] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e32	135616399	50	0.013039
+[2024-11-11 13:24:12.643] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e128	1563016939	50	0.077743
+[2024-11-11 13:24:34.330] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e2	1864356	50	0.001578
+[2024-11-11 13:24:38.182] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e8	43103088	50	0.009593
+[2024-11-11 13:24:55.061] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e32	745161019	50	0.084294
+[2024-11-11 13:27:42.090] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e128	9715222666	10	0.824197
+[2024-11-11 13:28:58.721] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e2	8503849	50	0.007194
+[2024-11-11 13:29:12.206] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e8	210569530	50	0.061897
+[2024-11-11 13:30:30.950] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e32	3964459518	10	0.527295
+[2024-11-11 14:04:45.498] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e128	57395351730	10	6.307236
+[2024-11-11 14:16:08.945] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e2	38792237	50	0.030094
+[2024-11-11 14:16:45.597] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e8	1015849186	10	0.450290
+[2024-11-11 14:29:27.548] [Hu_file_logger] [info] Hu	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e32	20579400628	10	4.518843

@@ -1,0 +1,15 @@
+[2024-11-11 13:23:47.368] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e2	401994	50	0.002955
+[2024-11-11 13:23:47.807] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e8	8666544	50	0.003018
+[2024-11-11 13:23:49.676] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e32	135616399	50	0.008907
+[2024-11-11 13:24:01.264] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e128	1563016939	50	0.068598
+[2024-11-11 13:24:33.922] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e2	1864356	50	0.003526
+[2024-11-11 13:24:35.892] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e8	43103088	50	0.010511
+[2024-11-11 13:24:45.895] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e32	745161019	50	0.068843
+[2024-11-11 13:25:28.026] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e128	9715222666	10	0.527615
+[2024-11-11 13:28:56.794] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e2	8503849	50	0.005751
+[2024-11-11 13:29:06.591] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e8	210569530	50	0.038115
+[2024-11-11 13:29:36.238] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e32	3964459518	10	0.341835
+[2024-11-11 13:38:33.817] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e128	57395351730	10	4.469163
+[2024-11-11 14:16:00.931] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e2	38792237	50	0.016815
+[2024-11-11 14:16:25.169] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e8	1015849186	10	0.230558
+[2024-11-11 14:19:02.766] [TriCore_file_logger] [info] TriCore	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e32	20579400628	10	2.499590

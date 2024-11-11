@@ -432,11 +432,11 @@ __global__ void tc::approach::GroupTC_HASH::grouptc_hash(vertex_t *src_list, ver
     int vertex_end = vertex + CHUNK_SIZE;
     __shared__ int ver;
 
-    // while (vertex < warpfirstvertex)
+    while (vertex < warpfirstvertex)
     // 高度数顶点
     // 使用CTA（线程块）进行并行处理
     // 包括初始化哈希表、计数桶、插入邻居等操作
-    while (0)
+    // while (0)
     {
         // if (degree<=USE_CTA) break;
         int group_start = beg_pos[vertex];

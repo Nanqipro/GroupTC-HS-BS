@@ -1,0 +1,15 @@
+[2024-11-11 13:23:47.567] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e2	401994	50	0.000469
+[2024-11-11 13:23:48.464] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e8	8666544	50	0.003369
+[2024-11-11 13:23:55.498] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e32	135616399	50	0.020408
+[2024-11-11 13:24:24.065] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s17-e128	1563016939	10	0.133203
+[2024-11-11 13:24:34.722] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e2	1864356	50	0.003004
+[2024-11-11 13:24:40.245] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e8	43103088	50	0.022973
+[2024-11-11 13:25:04.355] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e32	745161019	10	0.164326
+[2024-11-11 13:28:12.944] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s19-e128	9715222666	10	1.177425
+[2024-11-11 13:29:00.142] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e2	8503849	50	0.015917
+[2024-11-11 13:29:19.622] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e8	210569530	10	0.151804
+[2024-11-11 13:31:08.041] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e32	3964459518	10	2.203428
+[2024-11-11 14:09:35.044] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s21-e128	57395351730	10	11.268238
+[2024-11-11 14:16:15.461] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e2	38792237	50	0.078496
+[2024-11-11 14:17:12.792] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e8	1015849186	10	2.022798
+[2024-11-11 14:33:28.171] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/cluster0-s23-e32	20579400628	10	14.502740
