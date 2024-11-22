@@ -86,8 +86,8 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_reduce(vertex_t* src_lis
             int temp;
 
             int tb_start, tb_len, ele_start, ele_len;
-            // tb_start = i + tid + 1;
-            tb_start = beg_pos[src];
+            tb_start = i + tid + 1;
+            // tb_start = beg_pos[src];
             tb_len = beg_pos[src + 1] - tb_start;
             ele_start = beg_pos[dst];
             ele_len = beg_pos[dst + 1] - ele_start;
