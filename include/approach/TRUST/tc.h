@@ -29,3 +29,4 @@ void start_up(INIReader& config, GPUGraph& gpu_graph, int argc, char** argv);
 }  // namespace approach
 }  // namespace tc
 
+

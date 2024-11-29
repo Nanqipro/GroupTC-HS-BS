@@ -1,11 +1,11 @@
-# ./prof-fox.sh
+./prof-fox.sh
 ./prof-grouptc-opt.sh
 ./prof-grouptc.sh
-# ./prof-hu.sh
-# ./prof-tricore.sh
+./prof-hu.sh
+./prof-tricore.sh
 ./prof-trust.sh
-./prof-trust-new.sh
-# ./prof-polak.sh
+# ./prof-trust-new.sh
+./prof-polak.sh
 
 
 

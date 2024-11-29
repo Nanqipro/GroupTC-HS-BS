@@ -78,7 +78,7 @@ int main(int argc, char** argv) {
             tc::approach::Green::start_up(config, dcsr, argc, argv);
             tc::approach::Hu::start_up(config, dcsr, argc, argv);
             // tc::approach::TC_Check::start_up(config, dcsr, argc, argv);
-            tc::approach::GroupTC::start_up(config, dcsr, argc, argv);
+            // tc::approach::GroupTC::start_up(config, dcsr, argc, argv);
             // tc::approach::GroupTC_OPT::start_up(config, dcsr, argc, argv);
             tc::approach::Fox::start_up(config, dcsr, argc, argv);
         }
