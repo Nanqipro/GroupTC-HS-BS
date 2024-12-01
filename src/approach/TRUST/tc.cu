@@ -647,7 +647,7 @@ void tc::approach::TRUST::start_up(INIReader& config, GPUGraph& gpu_graph, int a
 
 //     // algorithm, dataset, triangle_count, iteration_count, avg kernel time/s 
 //     spdlog::get("TRUST_file_logger")
-//         ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}\t{5}", "TRUST", gpu_graph.input_dir, counter[0], iteration_count, total_kernel_use / iteration_count,edge_count);
+//         ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}", "TRUST", gpu_graph.input_dir, counter[0], iteration_count, total_kernel_use / iteration_count);
 
 //     spdlog::info("Iter {0}, avg kernel use {1:.6f} s", iteration_count, total_kernel_use / iteration_count);
 //     spdlog::info("Triangle count {:d}", counter[0]);

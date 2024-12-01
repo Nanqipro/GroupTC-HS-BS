@@ -319,7 +319,7 @@ void tc::approach::GroupTC_HASH::gpu_run(INIReader &config, GPUGraph &gpu_graph,
 
     // algorithm, dataset, iteration_count, avg compute time/s,
     spdlog::get("GroupTC-HASH_file_logger")
-        ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}\t{5}\t{6}", "GroupTC-Hash", gpu_graph.input_dir, counter[0], iteration_count, total_kernel_use / iteration_count,vertex_count,edge_count);
+        ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}", "GroupTC-Hash", gpu_graph.input_dir, counter[0], iteration_count, total_kernel_use / iteration_count);
 
     spdlog::info("Iter {0}, avg kernel use {1:.6f} s", iteration_count, total_kernel_use / iteration_count);
     spdlog::info("Triangle count {:d}", counter[0]);
@@ -677,11 +677,11 @@ void tc::approach::GroupTC_HASH::start_up(INIReader &config, GPUGraph &gpu_graph
 //     HRR(cudaMemcpy(counter, GLOBAL_COUNT, sizeof(unsigned long long) * 10, cudaMemcpyDeviceToHost));
 
 //     // algorithm, dataset, iteration_count, avg compute time/s,
-//     // spdlog::get("GroupTC-HASH_file_logger")
-//     //     ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}", "GroupTC-Hash", gpu_graph.input_dir, counter[0], iteration_count, total_kernel_use / iteration_count);
-
 //     spdlog::get("GroupTC-HASH_file_logger")
-//         ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}\t{5}", "GroupTC-Hash", gpu_graph.input_dir, counter[0], iteration_count, total_kernel_use / iteration_count, edge_count);
+//         ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}", "GroupTC-Hash", gpu_graph.input_dir, counter[0], iteration_count, total_kernel_use / iteration_count);
+
+//     // spdlog::get("GroupTC-HASH_file_logger")
+//     //     ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}\t{5}", "GroupTC-Hash", gpu_graph.input_dir, counter[0], iteration_count, total_kernel_use / iteration_count, edge_count);
 
 //     // // 计算度数小于100的顶点数
 //     // spdlog::get("GroupTC-HASH_file_logger")

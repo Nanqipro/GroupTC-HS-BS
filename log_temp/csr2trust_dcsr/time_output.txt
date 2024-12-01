@@ -1,0 +1,16 @@
+[2024-12-01 21:30:08.377] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e2	1	0.001802
+[2024-12-01 21:30:09.011] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e4	1	0.002155
+[2024-12-01 21:30:11.101] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e8	1	0.003269
+[2024-12-01 21:30:18.261] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e16	1	0.005937
+[2024-12-01 21:30:30.184] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e32	1	0.010232
+[2024-12-01 21:30:55.279] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e64	1	0.020539
+[2024-12-01 21:32:11.000] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e128	1	0.041648
+[2024-12-01 21:35:57.071] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e256	1	0.090391
+[2024-12-01 21:45:17.496] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster4-s17-e32	1	0.001913
+[2024-12-01 21:45:20.925] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster4-s18-e32	1	0.003010
+[2024-12-01 21:45:25.864] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster4-s19-e32	1	0.005091
+[2024-12-01 21:45:38.404] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster4-s20-e32	1	0.010178
+[2024-12-01 21:46:01.065] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster4-s21-e32	1	0.025753
+[2024-12-01 21:46:59.738] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster4-s22-e32	1	0.082818
+[2024-12-01 21:49:32.507] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster4-s23-e32	1	0.225396
+[2024-12-01 21:56:09.729] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/cluster4-s24-e32	1	0.566093

@@ -250,7 +250,7 @@ void tc::approach::GroupTC_OPT::gpu_run_with_reduce(INIReader& config, GPUGraph&
     index_t* d_beg_pos = gpu_graph.beg_pos;
     uint vertex_count = gpu_graph.vertex_count;
     uint edge_count = gpu_graph.edge_count;
-    int grid_size = edge_count / GroupTC_OPT_BLOCK_BUCKETNUM / 20;
+    int grid_size = max(NumberOfMPs() * 8, edge_count / GroupTC_OPT_BLOCK_BUCKETNUM / 20);
 
     double t_start, total_kernel_use = 0;
     uint64_t count;
@@ -364,12 +364,12 @@ void tc::approach::GroupTC_OPT::start_up(INIReader& config, GPUGraph& gpu_graph,
         available_byte = total_byte - free_byte;
         spdlog::debug("GroupTC_OPT before compute, used memory {:.2f} GB", float(total_byte - free_byte) / MEMORY_G);
 
-        vertex_t edge_count = gpu_graph.edge_count;
-        if (edge_count > 1e8) {
-            tc::approach::GroupTC_OPT::gpu_run_with_reduce(config, gpu_graph);
-        } else {
-            tc::approach::GroupTC_OPT::gpu_run_with_atomic(config, gpu_graph);
-        }
+        // vertex_t edge_count = gpu_graph.edge_count;
+        // if (edge_count > 1e8) {
+        tc::approach::GroupTC_OPT::gpu_run_with_reduce(config, gpu_graph);
+        // } else {
+        //     tc::approach::GroupTC_OPT::gpu_run_with_atomic(config, gpu_graph);
+        // }
 
         HRR(cudaMemGetInfo(&free_byte, &total_byte));
         spdlog::debug("GroupTC_OPT after compute, used memory {:.2f} GB", float(total_byte - free_byte) / MEMORY_G);

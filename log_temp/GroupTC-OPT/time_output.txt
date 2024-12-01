@@ -1,0 +1,16 @@
+[2024-12-01 21:30:08.366] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e2	3966418	50	0.000547
+[2024-12-01 21:30:09.000] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e4	20219754	50	0.002190
+[2024-12-01 21:30:11.084] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e8	95652855	50	0.008352
+[2024-12-01 21:30:18.230] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e16	420642337	50	0.027332
+[2024-12-01 21:30:30.131] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e32	1726926306	50	0.100222
+[2024-12-01 21:30:55.174] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e64	6619001657	10	0.320997
+[2024-12-01 21:32:10.817] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e128	23750654538	10	0.977227
+[2024-12-01 21:35:56.713] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster2-s20-e256	79941782408	10	2.996743
+[2024-12-01 21:45:17.486] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster4-s17-e32	135616399	50	0.006244
+[2024-12-01 21:45:20.759] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster4-s18-e32	319298964	50	0.014947
+[2024-12-01 21:45:25.838] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster4-s19-e32	745161019	50	0.039902
+[2024-12-01 21:45:38.351] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster4-s20-e32	1726926306	50	0.099744
+[2024-12-01 21:46:00.954] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster4-s21-e32	3964459518	10	0.244886
+[2024-12-01 21:46:59.489] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster4-s22-e32	9055827800	10	0.628950
+[2024-12-01 21:49:31.920] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster4-s23-e32	20579400628	10	1.651331
+[2024-12-01 21:56:08.392] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/app/ZJ/dataset_TC/csr_dataset/cluster4-s24-e32	46556649365	10	4.266891

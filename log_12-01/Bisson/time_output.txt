@@ -1,0 +1,17 @@
+[2024-12-01 13:46:44.287] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/As-Caida	36365	50	0.000119
+[2024-12-01 13:46:44.633] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/P2p-Gnutella31	2024	50	0.000130
+[2024-12-01 13:46:45.136] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Email-EuAll	267313	50	0.000835
+[2024-12-01 13:46:45.618] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Soc-Slashdot0922	602592	50	0.000861
+[2024-12-01 13:46:46.739] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	8910005	50	0.001294
+[2024-12-01 13:46:47.531] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Com-Dblp	2224385	50	0.000906
+[2024-12-01 13:46:48.673] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Amazon0601	3986507	50	0.001302
+[2024-12-01 13:46:50.684] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/RoadNet-CA	120676	50	0.001992
+[2024-12-01 13:46:54.652] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Wiki-Talk	9203519	50	0.022070
+[2024-12-01 13:46:57.461] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Web-BerkStan	64690980	50	0.004376
+[2024-12-01 13:47:03.191] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/As-Skitter	28769868	50	0.015595
+[2024-12-01 13:47:11.886] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Cit-Patents	7515023	50	0.014177
+[2024-12-01 13:47:22.425] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Soc-Pokec	32557458	50	0.025446
+[2024-12-01 13:47:41.286] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Sx-Stackoverflow	114206974	10	0.143885
+[2024-12-01 13:47:58.034] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Com-Lj	177820130	50	0.067058
+[2024-12-01 13:49:54.133] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Soc-LiveJ	285730264	10	0.105260
+[2024-12-01 13:50:18.950] [Bisson_file_logger] [info] Bisson	/app/ZJ/dataset_TC/csr_dataset/Com-Orkut	627584181	10	0.565981
