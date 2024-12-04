@@ -95,7 +95,7 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_reduce(vertex_t* src_lis
             ele_start = beg_pos[dst];
             ele_len = beg_pos[dst + 1] - ele_start;
 
-            // 消融实验3
+            // 消融实验2
             if (tb_len * 2 < ele_len) {
                 temp = tb_start;
                 tb_start = ele_start;
@@ -132,7 +132,7 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_reduce(vertex_t* src_lis
                 }
             }
 
-            // 消融实验2
+            // 消融实验3
             if (now < end) {
                 // P_counter += tc::approach::GroupTC_OPT::bin_search_less_branch(
                 //     adj_list + (sh_tb_start[now]), sh_tb_len[now], adj_list[sh_ele_start[now] + workid]);
@@ -186,7 +186,7 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_atomic(vertex_t* src_lis
             ele_len = beg_pos[dst + 1] - ele_start;
 
 
-            //消融实验3
+            //消融实验2
             if (tb_len * 2 < ele_len) {
                 temp = tb_start;
                 tb_start = ele_start;
@@ -222,7 +222,7 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_atomic(vertex_t* src_lis
                     neighbor_degree = sh_ele_len[now];
                 }
             }
-            // 消融实验2
+            // 消融实验3
             if (now < end) {
                 // P_counter += tc::approach::GroupTC_OPT::bin_search_less_branch(
                 //     adj_list + (sh_tb_start[now]), sh_tb_len[now], adj_list[sh_ele_start[now] + workid]);
