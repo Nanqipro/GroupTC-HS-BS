@@ -140,6 +140,7 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_reduce(vertex_t* src_lis
                 offset = last_now == now ? offset : 0;
                 P_counter += tc::approach::GroupTC_OPT::bin_search_with_offset_and_less_branch(
                     adj_list + (sh_tb_start[now] + offset), sh_tb_len[now] - offset, adj_list[sh_ele_start[now] + workid], offset);
+
                 last_now = now;
             }
             workid += GroupTC_OPT_SUBWARP_SIZE;
@@ -229,6 +230,7 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_atomic(vertex_t* src_lis
                 offset = last_now == now ? offset : 0;
                 P_counter += tc::approach::GroupTC_OPT::bin_search_with_offset_and_less_branch(
                     adj_list + (sh_tb_start[now] + offset), sh_tb_len[now] - offset, adj_list[sh_ele_start[now] + workid], offset);
+
                 last_now = now;
             }
             workid += GroupTC_OPT_SUBWARP_SIZE;

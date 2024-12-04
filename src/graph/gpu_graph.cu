@@ -27,9 +27,9 @@ GPUGraph::GPUGraph(CPUGraph &graph) {
     spdlog::debug("Load graph from host to device, alloc GPU space finished");
 
     /* copy it to GPU */
-    HRR(cudaMemcpy(src_list, graph.src_list, adj_sz, cudaMemcpyHostToDevice));
-    HRR(cudaMemcpy(adj_list, graph.adj_list, adj_sz, cudaMemcpyHostToDevice));
-    HRR(cudaMemcpy(beg_pos, graph.beg_pos, beg_sz, cudaMemcpyHostToDevice));
+    HRR(cudaMemcpy(src_list, graph.src_list, sizeof(vertex_t) * (edge_count), cudaMemcpyHostToDevice));
+    HRR(cudaMemcpy(adj_list, graph.adj_list, sizeof(vertex_t) * (edge_count), cudaMemcpyHostToDevice));
+    HRR(cudaMemcpy(beg_pos, graph.beg_pos,  sizeof(index_t) * (vertex_count + 1), cudaMemcpyHostToDevice));
 
     if (has_edge_list) {
         size_t edge_sz = adj_sz * 2;
