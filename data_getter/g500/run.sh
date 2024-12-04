@@ -129,6 +129,8 @@ nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster2-s20-e32/e
 nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster2-s20-e64/edges.bin  -R  -s 20  -e 64 &  
 nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster2-s20-e128/edges.bin  -R  -s 20 -e 128 &  
 nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster2-s20-e256/edges.bin  -R  -s 20 -e 256   &  
+nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster2-s20-e512/edges.bin  -R  -s 20 -e 512  &  
+nohup ./seq-csr  /app/ZJ/gitlocal/GroupTC-HS-BS/data/g500_dataset/cluster2-s20-e1024/edges.bin  -R  -s 20 -e 1024   &  
 
 nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster4-s17-e32/edges.bin  -R  -s 17  -e 32 &  
 nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster4-s18-e32/edges.bin  -R  -s 18  -e 32 &  
@@ -138,3 +140,12 @@ nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster4-s21-e32/e
 nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster4-s22-e32/edges.bin  -R  -s 22  -e 32   &  
 nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster4-s23-e32/edges.bin  -R  -s 23  -e 32 &  
 nohup ./seq-csr  /app/ZJ/gitlocal/github_TC/data/g500_dataset/cluster4-s24-e32/edges.bin  -R  -s 24  -e 32  &  
+
+nohup ./seq-csr  /app/ZJ/gitlocal/GroupTC-HS-BS/data/g500_dataset/cluster5-s17-e64/edges.bin  -R  -s 17  -e 64 &  
+nohup ./seq-csr  /app/ZJ/gitlocal/GroupTC-HS-BS/data/g500_dataset/cluster5-s18-e64/edges.bin  -R  -s 18  -e 64 &  
+nohup ./seq-csr  /app/ZJ/gitlocal/GroupTC-HS-BS/data/g500_dataset/cluster5-s19-e64/edges.bin  -R  -s 19  -e 64  &  
+nohup ./seq-csr  /app/ZJ/gitlocal/GroupTC-HS-BS/data/g500_dataset/cluster5-s20-e64/edges.bin  -R  -s 20  -e 64  &  
+nohup ./seq-csr  /app/ZJ/gitlocal/GroupTC-HS-BS/data/g500_dataset/cluster5-s21-e64/edges.bin  -R  -s 21  -e 64 &  
+nohup ./seq-csr  /app/ZJ/gitlocal/GroupTC-HS-BS/data/g500_dataset/cluster5-s22-e64/edges.bin  -R  -s 22  -e 64  &  
+nohup ./seq-csr  /app/ZJ/gitlocal/GroupTC-HS-BS/data/g500_dataset/cluster5-s23-e64/edges.bin  -R  -s 23  -e 64 &  
+nohup ./seq-csr  /app/ZJ/gitlocal/GroupTC-HS-BS/data/g500_dataset/cluster5-s24-e64/edges.bin  -R  -s 24  -e 64  &  
