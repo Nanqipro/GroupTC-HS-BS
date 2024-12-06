@@ -35,6 +35,9 @@ int main(int argc, char** argv) {
     std::string log_file_path = config.Get("comm", "log_file_path", "UNKNOWN");
     std::string str_datasets_1 = config.Get("comm", "datasets_1", "");
     std::string str_datasets_2 = config.Get("comm", "datasets_2", "");
+    std::string str_datasets_3 = config.Get("comm", "datasets_3", "");
+    std::string str_datasets_4 = config.Get("comm", "datasets_4", "");
+    std::string str_datasets_5 = config.Get("comm", "datasets_5", "");
     std::string log_level_str = config.Get("comm", "log_level", "info");
     spdlog::level::level_enum log_level = switch_log_level(log_level_str);
     spdlog::set_level(log_level);
@@ -50,7 +53,12 @@ int main(int argc, char** argv) {
 
     std::vector<std::string> datasets_1 = get_datasets(str_datasets_1);
     std::vector<std::string> datasets_2 = get_datasets(str_datasets_2);
-    std::vector<std::string> datasets = merge_vectors(datasets_1, datasets_2);
+    std::vector<std::string> datasets_3 = get_datasets(str_datasets_3);
+    std::vector<std::string> datasets_4 = get_datasets(str_datasets_4);
+    std::vector<std::string> datasets_5 = get_datasets(str_datasets_5);
+
+    // std::vector<std::string> datasets = merge_vectors(datasets_1, datasets_2);
+    std::vector<std::string> datasets = merge_vectors_5(datasets_1, datasets_2,datasets_3,datasets_4,datasets_5);
 
     for (auto dataset : datasets) {
         std::string input_file = dataset_file_path + dataset;
@@ -214,6 +222,19 @@ std::vector<std::string> merge_vectors(const std::vector<std::string>& vec1, con
 
     return merged_vec;
 }
+
+std::vector<std::string> merge_vectors_5(const std::vector<std::string>& vec1, const std::vector<std::string>& vec2, const std::vector<std::string>& vec3, const std::vector<std::string>& vec4, const std::vector<std::string>& vec5) {
+    std::vector<std::string> merged_vec;
+
+    merged_vec.insert(merged_vec.end(), vec1.begin(), vec1.end());
+    merged_vec.insert(merged_vec.end(), vec2.begin(), vec2.end());
+    merged_vec.insert(merged_vec.end(), vec3.begin(), vec3.end());
+    merged_vec.insert(merged_vec.end(), vec4.begin(), vec4.end());
+    merged_vec.insert(merged_vec.end(), vec5.begin(), vec5.end());
+
+    return merged_vec;
+}
+
 
 void init_loggers(std::string log_file_path) {
     try {

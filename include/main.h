@@ -31,6 +31,7 @@ void init_file_logger(std::string logger_name, std::string file, spdlog::level::
 std::vector<std::string> get_datasets(const std::string& str, const std::string& delimiter = ",");
 
 std::vector<std::string> merge_vectors(const std::vector<std::string>& vec1, const std::vector<std::string>& vec2);
+std::vector<std::string> merge_vectors_5(const std::vector<std::string>& vec1, const std::vector<std::string>& vec2, const std::vector<std::string>& vec3, const std::vector<std::string>& vec4, const std::vector<std::string>& vec5);
 
 void init_loggers(std::string log_file_path);
 

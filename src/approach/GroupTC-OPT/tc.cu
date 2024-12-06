@@ -96,6 +96,7 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_reduce(vertex_t* src_lis
             ele_len = beg_pos[dst + 1] - ele_start;
 
             // 消融实验2
+            // 对比实验
             if (tb_len * 2 < ele_len) {
                 temp = tb_start;
                 tb_start = ele_start;
@@ -186,7 +187,7 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_atomic(vertex_t* src_lis
             ele_len = beg_pos[dst + 1] - ele_start;
 
 
-            //消融实验2
+            // 消融实验2
             if (tb_len * 2 < ele_len) {
                 temp = tb_start;
                 tb_start = ele_start;
@@ -224,12 +225,12 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_atomic(vertex_t* src_lis
             }
             // 消融实验3
             if (now < end) {
-                // P_counter += tc::approach::GroupTC_OPT::bin_search_less_branch(
-                //     adj_list + (sh_tb_start[now]), sh_tb_len[now], adj_list[sh_ele_start[now] + workid]);
+                P_counter += tc::approach::GroupTC_OPT::bin_search_less_branch(
+                    adj_list + (sh_tb_start[now]), sh_tb_len[now], adj_list[sh_ele_start[now] + workid]);
 
-                offset = last_now == now ? offset : 0;
-                P_counter += tc::approach::GroupTC_OPT::bin_search_with_offset_and_less_branch(
-                    adj_list + (sh_tb_start[now] + offset), sh_tb_len[now] - offset, adj_list[sh_ele_start[now] + workid], offset);
+                // offset = last_now == now ? offset : 0;
+                // P_counter += tc::approach::GroupTC_OPT::bin_search_with_offset_and_less_branch(
+                //     adj_list + (sh_tb_start[now] + offset), sh_tb_len[now] - offset, adj_list[sh_ele_start[now] + workid], offset);
 
                 last_now = now;
             }
@@ -307,7 +308,7 @@ void tc::approach::GroupTC_OPT::gpu_run_with_reduce(INIReader& config, GPUGraph&
 
     // algorithm, dataset, iteration_count, avg compute time/s,
     spdlog::get("GroupTC-OPT_file_logger")
-        ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}", "GroupTC-OPT", gpu_graph.input_dir, count, iteration_count, total_kernel_use / iteration_count);
+        ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}\t{5}\t{6}", "GroupTC-OPT", gpu_graph.input_dir, count, iteration_count, total_kernel_use / iteration_count,vertex_count,edge_count);
 
     spdlog::info("iter {0}, avg kernel use {1:.6f} s", iteration_count, total_kernel_use / iteration_count);
     spdlog::info("Triangle count {:d}", count);

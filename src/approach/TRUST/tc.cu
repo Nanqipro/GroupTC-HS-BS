@@ -411,8 +411,8 @@ __global__ void tc::approach::TRUST::trust(vertex_t* adj_list, index_t* beg_pos,
     int vertex = blockIdx.x * CHUNK_SIZE;
     int vertex_end = vertex + CHUNK_SIZE;
     __shared__ int ver;
-    // while (vertex < warpfirstvertex)
-    while (0)
+    while (vertex < warpfirstvertex)
+    // while (0)
     // 处理高度数顶点
     {
         // if (degree<=TRUST_USE_CTA) break;
@@ -495,8 +495,8 @@ __global__ void tc::approach::TRUST::trust(vertex_t* adj_list, index_t* beg_pos,
     int WARP_TID = threadIdx.x % WARPSIZE;
     vertex = warpfirstvertex + ((WARPID + blockIdx.x * blockDim.x / WARPSIZE)) * CHUNK_SIZE;
     vertex_end = vertex + CHUNK_SIZE;
-    while (vertex < vertex_count) 
-    // while (0)
+    // while (vertex < vertex_count) 
+    while (0)
     // 低度数顶点
     // 使用warp级别的并行处理
     // 每个warp处理一个低频顶点
