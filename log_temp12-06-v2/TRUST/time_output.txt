@@ -1,0 +1,7 @@
+[2024-12-06 23:31:27.552] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	3929961	50	0.000463
+[2024-12-06 23:33:31.067] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	3929961	50	0.000463
+[2024-12-06 23:33:37.024] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	3929961	50	0.000463
+[2024-12-06 23:33:42.177] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	3929961	50	0.000462
+[2024-12-06 23:33:43.752] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	3929961	50	0.000461
+[2024-12-06 23:33:44.850] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	3929961	50	0.000462
+[2024-12-06 23:33:45.739] [TRUST_file_logger] [info] TRUST	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	3929961	50	0.000462
