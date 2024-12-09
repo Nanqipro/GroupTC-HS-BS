@@ -159,7 +159,9 @@ __global__ void tc::approach::TRUST::trust(vertex_t* adj_list, index_t* beg_pos,
     int WARP_TID = threadIdx.x % WARPSIZE;
     vertex = warpfirstvertex + ((WARPID + blockIdx.x * blockDim.x / WARPSIZE)) * CHUNK_SIZE;
     vertex_end = vertex + CHUNK_SIZE;
-    while (vertex < vertex_count) {
+    while (vertex < vertex_count) 
+    // while(0)
+    {
         int degree = beg_pos[vertex + 1] - beg_pos[vertex];
         if (degree < TRUST_USE_WARP) break;
         int start = beg_pos[vertex];
