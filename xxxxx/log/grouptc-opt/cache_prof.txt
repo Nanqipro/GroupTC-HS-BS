@@ -1,0 +1,23 @@
+==3562515== NVPROF is profiling process 3562515, command: /home/LiJB/cuda_project/TC-compare-V100/approach/GroupTC-OPT/grouptc-opt /home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Com-Friendster/ 0 1
+==3562515== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3562515== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/GroupTC-OPT/grouptc-opt /home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Com-Friendster/ 0 1
+==3562515== Profiling result:
+==3562515== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"achieved_occupancy","Achieved Occupancy",0.999761,0.999761,0.999761
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"branch_efficiency","Branch Efficiency",91.506984%,91.506984%,91.506984%
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"warp_execution_efficiency","Warp Execution Efficiency",94.608444%,94.608444%,94.608444%
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.100863,1.100863,1.100863
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",5.294656,5.294656,5.294656
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"shared_load_transactions","Shared Load Transactions",14961131893,14961131893,14961131893
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"gld_transactions","Global Load Transactions",161589712280,161589712280,161589712280
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"dram_read_transactions","Device Memory Read Transactions",46597573063,46597573063,46597573063
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",83.210882%,83.210882%,83.210882%
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"gld_requested_throughput","Requested Global Load Throughput",697.160540GB/s,697.160540GB/s,697.160540GB/s
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"gld_throughput","Global Load Throughput",2327.122309GB/s,2327.122309GB/s,2327.122309GB/s
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"dram_read_throughput","Device Memory Read Throughput",671.071507GB/s,671.071507GB/s,671.071507GB/s
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"shared_load_throughput","Shared Memory Load Throughput",861.846545GB/s,861.846545GB/s,861.846545GB/s
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"gld_efficiency","Global Memory Load Efficiency",29.958053%,29.958053%,29.958053%
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"shared_efficiency","Shared Memory Efficiency",6.324049%,6.324049%,6.324049%
+"Tesla V100-DGXS-32GB (0)","grouptc_with_reduce(int*, int*, long*, int, int, __int64*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",30519400518,30519400518,30519400518
+==3562515== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.

@@ -1,0 +1,163 @@
+inPath: ../../data/csr_dataset/As-Caida/
+outPath: ../../data/dcsr_dataset/As-Caida/
+vertex: 26475   edge: 53381
+loadok
+before compute max degree :2605
+compute time spent 0.000540304 s
+after compute max degree :35
+writebackok
+
+inPath: ../../data/csr_dataset/P2p-Gnutella31/
+outPath: ../../data/dcsr_dataset/P2p-Gnutella31/
+vertex: 62586   edge: 147892
+loadok
+before compute max degree :81
+compute time spent 0.000542593 s
+after compute max degree :14
+writebackok
+
+inPath: ../../data/csr_dataset/Email-EuAll/
+outPath: ../../data/dcsr_dataset/Email-EuAll/
+vertex: 265214   edge: 364481
+loadok
+before compute max degree :7635
+compute time spent 0.000580382 s
+after compute max degree :158
+writebackok
+
+inPath: ../../data/csr_dataset/Soc-Slashdot0922/
+outPath: ../../data/dcsr_dataset/Soc-Slashdot0922/
+vertex: 82168   edge: 504230
+loadok
+before compute max degree :2188
+compute time spent 0.000607681 s
+after compute max degree :103
+writebackok
+
+inPath: ../../data/csr_dataset/Web-NotreDame/
+outPath: ../../data/dcsr_dataset/Web-NotreDame/
+vertex: 325729   edge: 1090108
+loadok
+before compute max degree :10720
+compute time spent 0.000763917 s
+after compute max degree :155
+writebackok
+
+inPath: ../../data/csr_dataset/Com-Dblp/
+outPath: ../../data/dcsr_dataset/Com-Dblp/
+vertex: 317080   edge: 1049866
+loadok
+before compute max degree :306
+compute time spent 0.000761008 s
+after compute max degree :113
+writebackok
+
+inPath: ../../data/csr_dataset/Amazon0601/
+outPath: ../../data/dcsr_dataset/Amazon0601/
+vertex: 403394   edge: 2443408
+loadok
+before compute max degree :2745
+compute time spent 0.00109379 s
+after compute max degree :24
+writebackok
+
+inPath: ../../data/csr_dataset/RoadNet-CA/
+outPath: ../../data/dcsr_dataset/RoadNet-CA/
+vertex: 1965206   edge: 2766607
+loadok
+before compute max degree :8
+compute time spent 0.00113809 s
+after compute max degree :4
+writebackok
+
+inPath: ../../data/csr_dataset/Wiki-Talk/
+outPath: ../../data/dcsr_dataset/Wiki-Talk/
+vertex: 2394385   edge: 4659565
+loadok
+before compute max degree :100022
+compute time spent 0.00167501 s
+after compute max degree :340
+writebackok
+
+inPath: ../../data/csr_dataset/Web-BerkStan/
+outPath: ../../data/dcsr_dataset/Web-BerkStan/
+vertex: 685230   edge: 6649470
+loadok
+before compute max degree :44032
+compute time spent 0.0024579 s
+after compute max degree :201
+writebackok
+
+inPath: ../../data/csr_dataset/As-Skitter/
+outPath: ../../data/dcsr_dataset/As-Skitter/
+vertex: 1696415   edge: 11095298
+loadok
+before compute max degree :35387
+compute time spent 0.004476 s
+after compute max degree :231
+writebackok
+
+inPath: ../../data/csr_dataset/Cit-Patents/
+outPath: ../../data/dcsr_dataset/Cit-Patents/
+vertex: 3774768   edge: 16518947
+loadok
+before compute max degree :779
+compute time spent 0.0061609 s
+after compute max degree :77
+writebackok
+
+inPath: ../../data/csr_dataset/Soc-Pokec/
+outPath: ../../data/dcsr_dataset/Soc-Pokec/
+vertex: 1632803   edge: 22301964
+loadok
+before compute max degree :14734
+compute time spent 0.00850511 s
+after compute max degree :96
+writebackok
+
+inPath: ../../data/csr_dataset/Sx-Stackoverflow/
+outPath: ../../data/dcsr_dataset/Sx-Stackoverflow/
+vertex: 2601977   edge: 28183518
+loadok
+before compute max degree :41940
+compute time spent 0.0107363 s
+after compute max degree :472
+writebackok
+
+inPath: ../../data/csr_dataset/Com-Lj/
+outPath: ../../data/dcsr_dataset/Com-Lj/
+vertex: 3997962   edge: 34681189
+loadok
+before compute max degree :14703
+compute time spent 0.01319 s
+after compute max degree :524
+writebackok
+
+inPath: ../../data/csr_dataset/Soc-LiveJ/
+outPath: ../../data/dcsr_dataset/Soc-LiveJ/
+vertex: 4847571   edge: 42851237
+loadok
+before compute max degree :20331
+compute time spent 0.0164817 s
+after compute max degree :686
+writebackok
+
+inPath: ../../data/csr_dataset/Com-Orkut/
+outPath: ../../data/dcsr_dataset/Com-Orkut/
+vertex: 3072441   edge: 117185083
+loadok
+before compute max degree :33007
+compute time spent 0.0446073 s
+after compute max degree :535
+writebackok
+
+inPath: ../../data/csr_dataset/Twitter7/
+outPath: ../../data/dcsr_dataset/Twitter7/
+vertex: 41652230   edge: 1202513046
+loadok
+before compute max degree :2802535
+inPath: ../../data/csr_dataset/Com-Friendster/
+outPath: ../../data/dcsr_dataset/Com-Friendster/
+vertex: 65608366   edge: 1806067135
+loadok
+out of memory in CSR2DCSR.cu at line 138

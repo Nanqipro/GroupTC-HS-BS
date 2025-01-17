@@ -1,0 +1,317 @@
+inPath: ../../data/csr_dataset/As-Caida/
+outPath: ../../data/trust_dataset/As-Caida/
+vertex: 26475   edge: 53381
+loadok
+before compute max degree :2605
+compute time spent 0.000462794 s
+after compute max degree :35
+writebackok
+
+inPath: ../../data/csr_dataset/P2p-Gnutella31/
+outPath: ../../data/trust_dataset/P2p-Gnutella31/
+vertex: 62586   edge: 147892
+loadok
+before compute max degree :81
+compute time spent 0.000569105 s
+after compute max degree :14
+writebackok
+
+inPath: ../../data/csr_dataset/Email-EuAll/
+outPath: ../../data/trust_dataset/Email-EuAll/
+vertex: 265214   edge: 364481
+loadok
+before compute max degree :7635
+compute time spent 0.000743008 s
+after compute max degree :158
+writebackok
+
+inPath: ../../data/csr_dataset/Soc-Slashdot0922/
+outPath: ../../data/trust_dataset/Soc-Slashdot0922/
+vertex: 82168   edge: 504230
+loadok
+before compute max degree :2188
+compute time spent 0.000811195 s
+after compute max degree :103
+writebackok
+
+inPath: ../../data/csr_dataset/Web-NotreDame/
+outPath: ../../data/trust_dataset/Web-NotreDame/
+vertex: 325729   edge: 1090108
+loadok
+before compute max degree :10720
+compute time spent 0.000881505 s
+after compute max degree :156
+writebackok
+
+inPath: ../../data/csr_dataset/Com-Dblp/
+outPath: ../../data/trust_dataset/Com-Dblp/
+vertex: 317080   edge: 1049866
+loadok
+before compute max degree :306
+compute time spent 0.000876904 s
+after compute max degree :113
+writebackok
+
+inPath: ../../data/csr_dataset/Amazon0601/
+outPath: ../../data/trust_dataset/Amazon0601/
+vertex: 403394   edge: 2443408
+loadok
+before compute max degree :2745
+compute time spent 0.0012166 s
+after compute max degree :24
+writebackok
+
+inPath: ../../data/csr_dataset/RoadNet-CA/
+outPath: ../../data/trust_dataset/RoadNet-CA/
+vertex: 1965206   edge: 2766607
+loadok
+before compute max degree :8
+compute time spent 0.00152321 s
+after compute max degree :4
+writebackok
+
+inPath: ../../data/csr_dataset/Wiki-Talk/
+outPath: ../../data/trust_dataset/Wiki-Talk/
+vertex: 2394385   edge: 4659565
+loadok
+before compute max degree :100022
+compute time spent 0.00205488 s
+after compute max degree :340
+writebackok
+
+inPath: ../../data/csr_dataset/Web-BerkStan/
+outPath: ../../data/trust_dataset/Web-BerkStan/
+vertex: 685230   edge: 6649470
+loadok
+before compute max degree :44032
+compute time spent 0.0022892 s
+after compute max degree :201
+writebackok
+
+inPath: ../../data/csr_dataset/As-Skitter/
+outPath: ../../data/trust_dataset/As-Skitter/
+vertex: 1696415   edge: 11095298
+loadok
+before compute max degree :35387
+compute time spent 0.0038713 s
+after compute max degree :231
+writebackok
+
+inPath: ../../data/csr_dataset/Cit-Patents/
+outPath: ../../data/trust_dataset/Cit-Patents/
+vertex: 3774768   edge: 16518947
+loadok
+before compute max degree :779
+compute time spent 0.00553479 s
+after compute max degree :77
+writebackok
+
+inPath: ../../data/csr_dataset/Soc-Pokec/
+outPath: ../../data/trust_dataset/Soc-Pokec/
+vertex: 1632803   edge: 22301964
+loadok
+before compute max degree :14734
+compute time spent 0.00666571 s
+after compute max degree :96
+writebackok
+
+inPath: ../../data/csr_dataset/Sx-Stackoverflow/
+outPath: ../../data/trust_dataset/Sx-Stackoverflow/
+vertex: 2601977   edge: 28183518
+loadok
+before compute max degree :41940
+compute time spent 0.0085088 s
+after compute max degree :472
+writebackok
+
+inPath: ../../data/csr_dataset/Com-Lj/
+outPath: ../../data/trust_dataset/Com-Lj/
+vertex: 3997962   edge: 34681189
+loadok
+before compute max degree :14703
+compute time spent 0.0101712 s
+after compute max degree :531
+writebackok
+
+inPath: ../../data/csr_dataset/Soc-LiveJ/
+outPath: ../../data/trust_dataset/Soc-LiveJ/
+vertex: 4847571   edge: 42851237
+loadok
+before compute max degree :20331
+compute time spent 0.012595 s
+after compute max degree :688
+writebackok
+
+inPath: ../../data/csr_dataset/Com-Orkut/
+outPath: ../../data/trust_dataset/Com-Orkut/
+vertex: 3072441   edge: 117185083
+loadok
+before compute max degree :33007
+compute time spent 0.0329737 s
+after compute max degree :535
+writebackok
+
+inPath: ../../data/csr_dataset/Twitter7/
+outPath: ../../data/trust_dataset/Twitter7/
+vertex: 41652230   edge: 1202513046
+loadok
+before compute max degree :2802535
+an illegal memory access was encountered in CSR2TrustNSortDCSR.cu at line 248
+inPath: ../../data/csr_dataset/Com-Friendster/
+outPath: ../../data/trust_dataset/Com-Friendster/
+vertex: 65608366   edge: 1806067135
+loadok
+before compute max degree :3615
+inPath: ../../data/csr_dataset/As-Caida/
+outPath: ../../data/trust_dataset/As-Caida/
+vertex: 26475   edge: 53381
+loadok
+before compute max degree :2605
+compute time spent 0.000468802 s
+after compute max degree :35
+writebackok
+
+inPath: ../../data/csr_dataset/P2p-Gnutella31/
+outPath: ../../data/trust_dataset/P2p-Gnutella31/
+vertex: 62586   edge: 147892
+loadok
+before compute max degree :81
+compute time spent 0.00183671 s
+after compute max degree :14
+writebackok
+
+inPath: ../../data/csr_dataset/Email-EuAll/
+outPath: ../../data/trust_dataset/Email-EuAll/
+vertex: 265214   edge: 364481
+loadok
+before compute max degree :7635
+compute time spent 0.00303249 s
+after compute max degree :158
+writebackok
+
+inPath: ../../data/csr_dataset/Soc-Slashdot0922/
+outPath: ../../data/trust_dataset/Soc-Slashdot0922/
+vertex: 82168   edge: 504230
+loadok
+before compute max degree :2188
+compute time spent 0.0031018 s
+after compute max degree :103
+writebackok
+
+inPath: ../../data/csr_dataset/Web-NotreDame/
+outPath: ../../data/trust_dataset/Web-NotreDame/
+vertex: 325729   edge: 1090108
+loadok
+before compute max degree :10720
+compute time spent 0.00450819 s
+after compute max degree :156
+writebackok
+
+inPath: ../../data/csr_dataset/Com-Dblp/
+outPath: ../../data/trust_dataset/Com-Dblp/
+vertex: 317080   edge: 1049866
+loadok
+before compute max degree :306
+compute time spent 0.00454962 s
+after compute max degree :113
+writebackok
+
+inPath: ../../data/csr_dataset/Amazon0601/
+outPath: ../../data/trust_dataset/Amazon0601/
+vertex: 403394   edge: 2443408
+loadok
+before compute max degree :2745
+compute time spent 0.00763612 s
+after compute max degree :24
+writebackok
+
+inPath: ../../data/csr_dataset/RoadNet-CA/
+outPath: ../../data/trust_dataset/RoadNet-CA/
+vertex: 1965206   edge: 2766607
+loadok
+before compute max degree :8
+compute time spent 0.0096391 s
+after compute max degree :4
+writebackok
+
+inPath: ../../data/csr_dataset/Wiki-Talk/
+outPath: ../../data/trust_dataset/Wiki-Talk/
+vertex: 2394385   edge: 4659565
+loadok
+before compute max degree :100022
+compute time spent 0.013717 s
+after compute max degree :340
+writebackok
+
+inPath: ../../data/csr_dataset/Web-BerkStan/
+outPath: ../../data/trust_dataset/Web-BerkStan/
+vertex: 685230   edge: 6649470
+loadok
+before compute max degree :44032
+compute time spent 0.0158189 s
+after compute max degree :201
+writebackok
+
+inPath: ../../data/csr_dataset/As-Skitter/
+outPath: ../../data/trust_dataset/As-Skitter/
+vertex: 1696415   edge: 11095298
+loadok
+before compute max degree :35387
+compute time spent 0.0264724 s
+after compute max degree :231
+writebackok
+
+inPath: ../../data/csr_dataset/Cit-Patents/
+outPath: ../../data/trust_dataset/Cit-Patents/
+vertex: 3774768   edge: 16518947
+loadok
+before compute max degree :779
+compute time spent 0.0397579 s
+after compute max degree :77
+writebackok
+
+inPath: ../../data/csr_dataset/Soc-Pokec/
+outPath: ../../data/trust_dataset/Soc-Pokec/
+vertex: 1632803   edge: 22301964
+loadok
+before compute max degree :14734
+compute time spent 0.0438482 s
+after compute max degree :96
+writebackok
+
+inPath: ../../data/csr_dataset/Sx-Stackoverflow/
+outPath: ../../data/trust_dataset/Sx-Stackoverflow/
+vertex: 2601977   edge: 28183518
+loadok
+before compute max degree :41940
+compute time spent 0.0475444 s
+after compute max degree :472
+writebackok
+
+inPath: ../../data/csr_dataset/Com-Lj/
+outPath: ../../data/trust_dataset/Com-Lj/
+vertex: 3997962   edge: 34681189
+loadok
+before compute max degree :14703
+compute time spent 0.0560527 s
+after compute max degree :531
+writebackok
+
+inPath: ../../data/csr_dataset/Soc-LiveJ/
+outPath: ../../data/trust_dataset/Soc-LiveJ/
+vertex: 4847571   edge: 42851237
+loadok
+before compute max degree :20331
+compute time spent 0.0468613 s
+after compute max degree :688
+writebackok
+
+inPath: ../../data/csr_dataset/Com-Orkut/
+outPath: ../../data/trust_dataset/Com-Orkut/
+vertex: 3072441   edge: 117185083
+loadok
+before compute max degree :33007
+compute time spent 0.116802 s
+after compute max degree :535
+writebackok
+

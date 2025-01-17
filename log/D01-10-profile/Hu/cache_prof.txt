@@ -1,0 +1,23 @@
+==2033833== NVPROF is profiling process 2033833, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Com-Friendster
+==2033833== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033833== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Com-Friendster
+==2033833== Profiling result:
+==2033833== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.996108,0.996108,0.996108
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",92.065765%,92.065765%,92.065765%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",91.978328%,91.978328%,91.978328%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.296187,1.296187,1.296187
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.388460,1.388460,1.388460
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",64057376775,64057376775,64057376775
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",131170574506,131170574506,131170574506
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",157108338345,157108338345,157108338345
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",63.191579%,63.191579%,63.191579%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",220.859461GB/s,220.859461GB/s,220.859461GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",705.970829GB/s,705.970829GB/s,705.970829GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",845.570008GB/s,845.570008GB/s,845.570008GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",1379.048297GB/s,1379.048297GB/s,1379.048297GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",31.284502%,31.284502%,31.284502%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",10.388113%,10.388113%,10.388113%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",94471964493,94471964493,94471964493
+==2033833== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.

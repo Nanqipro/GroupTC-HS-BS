@@ -1,4 +1,0 @@
-==2860841== NVPROF is profiling process 2860841, command: /app/ZJ/gitlocal/github_TC/build/main -dataset=As-Caida
-==2860841== Profiling application: /app/ZJ/gitlocal/github_TC/build/main -dataset=As-Caida
-==2860841== Profiling result:
-No events/metrics were profiled.

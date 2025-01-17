@@ -1,0 +1,80 @@
+small degree vertex total time
+[2025-01-11 18:21:52.645] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	4980044	100	0.000241
+[2025-01-11 18:21:52.777] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2145521	100	0.000199
+[2025-01-11 18:21:52.978] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000381
+[2025-01-11 18:21:53.247] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000358
+[2025-01-11 18:21:53.921] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4314523	100	0.001032
+[2025-01-11 18:21:54.373] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13642846	100	0.001099
+[2025-01-11 18:21:54.795] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	53725684	100	0.001138
+[2025-01-11 18:21:55.667] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	26241728	100	0.002165
+[2025-01-11 18:21:57.277] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004610
+[2025-01-11 18:21:59.563] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007163
+[2025-01-11 18:22:04.967] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	35105509	100	0.016147
+[2025-01-11 18:22:08.186] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	98673840	100	0.009061
+[2025-01-11 18:22:12.568] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	125630993	100	0.012375
+[2025-01-11 18:22:19.925] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.004564
+[2025-01-11 18:22:27.537] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	846908379	100	0.052722
+[2025-01-11 18:22:43.856] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	391668654	100	0.054299
+[2025-01-11 18:22:54.024] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	415206584	100	0.068154
+[2025-01-11 18:23:22.590] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.017424
+[2025-01-11 18:23:57.465] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	1032300520	10	0.658432
+[2025-01-11 18:25:17.131] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	2267818608	10	1.032429
+
+[2025-01-11 18:26:40.979] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e2	3379767	100	0.000910
+[2025-01-11 18:26:41.847] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e4	7093994	100	0.002041
+[2025-01-11 18:26:43.611] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e8	8973742	100	0.004728
+[2025-01-11 18:26:48.313] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e16	27226855	100	0.012974
+[2025-01-11 18:26:59.044] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e32	56151843	100	0.032749
+[2025-01-11 18:27:05.875] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e64	52305514	100	0.051838
+[2025-01-11 18:27:18.094] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e128	88837046	100	0.091758
+[2025-01-11 18:27:26.269] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e256	190604472	10	0.207622
+[2025-01-11 18:27:27.412] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s17-e32	10728625	100	0.001891
+[2025-01-11 18:27:29.925] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s18-e32	24675747	100	0.005340
+[2025-01-11 18:27:33.458] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s19-e32	18652012	100	0.010114
+[2025-01-11 18:27:44.194] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s20-e32	56151843	100	0.032752
+[2025-01-11 18:27:51.377] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s21-e32	37765420	100	0.054532
+[2025-01-11 18:27:57.407] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s22-e32	94881666	10	0.164537
+[2025-01-11 18:28:14.632] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s23-e32	273455101	10	0.501368
+[2025-01-11 18:28:42.005] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s24-e32	157645735	10	0.787883
+
+
+small degree vertex hash table construction time
+
+[2025-01-11 18:32:00.116] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	0	100	0.000092
+[2025-01-11 18:32:00.205] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	0	100	0.000084
+[2025-01-11 18:32:00.325] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000126
+[2025-01-11 18:32:00.559] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000115
+[2025-01-11 18:32:00.810] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	0	100	0.000161
+[2025-01-11 18:32:01.027] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	0	100	0.000221
+[2025-01-11 18:32:01.233] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	0	100	0.000279
+[2025-01-11 18:32:01.594] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	0	100	0.000385
+[2025-01-11 18:32:02.207] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000484
+[2025-01-11 18:32:02.690] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000642
+[2025-01-11 18:32:03.309] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	0	100	0.000628
+[2025-01-11 18:32:04.166] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	0	100	0.000889
+[2025-01-11 18:32:05.379] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	0	100	0.001037
+[2025-01-11 18:32:11.503] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	0	100	0.000983
+[2025-01-11 18:32:13.112] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	0	100	0.001367
+[2025-01-11 18:32:14.958] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	0	100	0.002333
+[2025-01-11 18:32:17.931] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	0	100	0.003458
+[2025-01-11 18:32:41.820] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	0	100	0.003573
+[2025-01-11 18:33:04.015] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	0	100	0.015506
+[2025-01-11 18:34:01.818] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	0	100	0.025867
+
+
+[2025-01-11 18:31:13.569] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e2	0	100	0.000123
+[2025-01-11 18:31:13.713] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e4	0	100	0.000203
+[2025-01-11 18:31:13.913] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e8	0	100	0.000227
+[2025-01-11 18:31:14.192] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e16	0	100	0.000296
+[2025-01-11 18:31:14.635] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e32	0	100	0.000388
+[2025-01-11 18:31:15.367] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e64	0	100	0.000378
+[2025-01-11 18:31:16.625] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e128	0	100	0.000410
+[2025-01-11 18:31:18.881] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e256	0	100	0.000530
+[2025-01-11 18:31:19.080] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s17-e32	0	100	0.000148
+[2025-01-11 18:31:19.216] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s18-e32	0	100	0.000195
+[2025-01-11 18:31:19.434] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s19-e32	0	100	0.000226
+[2025-01-11 18:31:19.881] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s20-e32	0	100	0.000389
+[2025-01-11 18:31:20.720] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s21-e32	0	100	0.000465
+[2025-01-11 18:31:22.439] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s22-e32	0	100	0.000907
+[2025-01-11 18:31:26.163] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s23-e32	0	100	0.001959
+[2025-01-11 18:31:33.626] [GroupTC-HASH-V2_file_logger] [info] GroupTC-HASH-V2	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s24-e32	0	100	0.002458

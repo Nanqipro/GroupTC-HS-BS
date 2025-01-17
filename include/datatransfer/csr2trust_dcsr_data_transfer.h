@@ -14,5 +14,7 @@ class Csr2TrustDcsrDataTransfer : public DataTransfer {
    public:
     Csr2TrustDcsrDataTransfer(std::string file, CPUGraph* graph) : DataTransfer(file, graph){};
 
+    Csr2TrustDcsrDataTransfer() {};
+    
     void transfer();
 };

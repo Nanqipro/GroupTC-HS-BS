@@ -1,0 +1,162 @@
+no optimization
+[2025-01-11 17:02:05.989] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000303
+[2025-01-11 17:02:06.057] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000208
+[2025-01-11 17:02:06.160] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000298
+[2025-01-11 17:02:06.295] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000248
+[2025-01-11 17:02:06.728] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203519	100	0.002704
+[2025-01-11 17:02:07.069] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.001763
+[2025-01-11 17:02:07.359] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.001652
+[2025-01-11 17:02:07.847] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769868	100	0.003133
+[2025-01-11 17:02:08.656] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.005245
+[2025-01-11 17:02:09.809] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.008254
+[2025-01-11 17:02:13.455] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114206974	100	0.032822
+[2025-01-11 17:02:15.210] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177820130	100	0.012667
+[2025-01-11 17:02:17.681] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285730264	100	0.018410
+[2025-01-11 17:02:20.249] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.005384
+[2025-01-11 17:02:27.613] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.427977
+[2025-01-11 17:02:30.027] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627584181	10	0.111560
+[2025-01-11 17:02:32.857] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.116981
+[2025-01-11 17:02:41.857] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.016861
+[2025-01-11 17:03:50.843] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	34824916864	10	5.068971
+[2025-01-11 17:04:50.747] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4173724142	10	2.541915
+
+[2025-01-11 17:09:25.536] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e2	3966418	100	0.001382
+[2025-01-11 17:09:26.168] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e4	20219754	100	0.005502
+[2025-01-11 17:09:27.999] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e8	95652855	100	0.017121
+[2025-01-11 17:09:33.533] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e16	420642337	100	0.053499
+[2025-01-11 17:09:35.652] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e32	1726926306	10	0.181606
+[2025-01-11 17:09:42.204] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e64	6619001657	10	0.584978
+[2025-01-11 17:10:01.716] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e128	23750654538	10	1.828414
+[2025-01-11 17:10:58.794] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e256	79941782408	10	5.486331
+[2025-01-11 17:11:00.939] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s17-e32	135616399	100	0.012320
+[2025-01-11 17:11:03.907] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s18-e32	319298964	100	0.028612
+[2025-01-11 17:11:11.330] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s19-e32	745161019	100	0.072336
+[2025-01-11 17:11:13.512] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s20-e32	1726926306	10	0.183388
+[2025-01-11 17:11:18.997] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s21-e32	3964459518	10	0.480624
+[2025-01-11 17:11:32.609] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s22-e32	9055827800	10	1.246001
+[2025-01-11 17:12:07.766] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s23-e32	20579400628	10	3.276041
+[2025-01-11 17:13:37.752] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s24-e32	46556649365	10	8.494577
+
+
+VP
+[2025-01-11 17:19:45.643] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000297
+[2025-01-11 17:19:45.716] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000188
+[2025-01-11 17:19:45.819] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000297
+[2025-01-11 17:19:45.967] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000262
+[2025-01-11 17:19:46.390] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203519	100	0.002276
+[2025-01-11 17:19:46.699] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.001740
+[2025-01-11 17:19:46.988] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.001570
+[2025-01-11 17:19:47.490] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769868	100	0.003180
+[2025-01-11 17:19:48.241] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004330
+[2025-01-11 17:19:49.325] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007674
+[2025-01-11 17:19:52.619] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114206974	100	0.029091
+[2025-01-11 17:19:54.474] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177820130	100	0.013384
+[2025-01-11 17:19:57.057] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285730264	100	0.018893
+[2025-01-11 17:20:00.617] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.005565
+[2025-01-11 17:20:06.646] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.382132
+[2025-01-11 17:20:09.005] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627584181	10	0.101745
+[2025-01-11 17:20:11.943] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.109073
+[2025-01-11 17:20:24.831] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.016723
+[2025-01-11 17:21:27.425] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	34824916864	10	4.499527
+[2025-01-11 17:22:38.238] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4173724142	10	2.258984
+
+
+[2025-01-11 17:15:34.622] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e2	3966418	100	0.001119
+[2025-01-11 17:15:35.152] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e4	20219754	100	0.004461
+[2025-01-11 17:15:36.793] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e8	95652855	100	0.015129
+[2025-01-11 17:15:41.703] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e16	420642337	100	0.047155
+[2025-01-11 17:15:43.651] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e32	1726926306	10	0.161842
+[2025-01-11 17:15:49.518] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e64	6619001657	10	0.526170
+[2025-01-11 17:16:07.138] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e128	23750654538	10	1.656266
+[2025-01-11 17:16:58.776] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e256	79941782408	10	4.970398
+[2025-01-11 17:17:00.374] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s17-e32	135616399	100	0.010863
+[2025-01-11 17:17:03.090] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s18-e32	319298964	100	0.026200
+[2025-01-11 17:17:09.611] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s19-e32	745161019	100	0.063449
+[2025-01-11 17:17:11.559] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s20-e32	1726926306	10	0.162605
+[2025-01-11 17:17:16.401] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s21-e32	3964459518	10	0.420960
+[2025-01-11 17:17:28.724] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s22-e32	9055827800	10	1.101784
+[2025-01-11 17:18:00.103] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s23-e32	20579400628	10	2.859348
+[2025-01-11 17:19:20.177] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s24-e32	46556649365	10	7.428715
+
+
+VP+EF
+[2025-01-11 17:24:34.195] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000277
+[2025-01-11 17:24:34.260] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000170
+[2025-01-11 17:24:34.358] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000278
+[2025-01-11 17:24:34.504] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000220
+[2025-01-11 17:24:34.766] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203519	100	0.000908
+[2025-01-11 17:24:35.040] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.001378
+[2025-01-11 17:24:35.314] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.001513
+[2025-01-11 17:24:35.728] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769868	100	0.002290
+[2025-01-11 17:24:36.453] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004115
+[2025-01-11 17:24:37.606] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.008243
+[2025-01-11 17:24:40.046] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114206974	100	0.020512
+[2025-01-11 17:24:41.894] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177820130	100	0.013425
+[2025-01-11 17:24:44.443] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285730264	100	0.018497
+[2025-01-11 17:24:47.951] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.005035
+[2025-01-11 17:24:52.702] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.257770
+[2025-01-11 17:24:54.966] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627584181	10	0.095127
+[2025-01-11 17:24:57.765] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.098895
+[2025-01-11 17:25:10.509] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.015552
+[2025-01-11 17:25:59.633] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	34824916864	10	3.170485
+[2025-01-11 17:27:10.323] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4173724142	10	2.188833
+
+
+[2025-01-11 17:27:41.887] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e2	3966418	100	0.000574
+[2025-01-11 17:27:42.202] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e4	20219754	100	0.002236
+[2025-01-11 17:27:43.134] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e8	95652855	100	0.008063
+[2025-01-11 17:27:46.106] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e16	420642337	100	0.027701
+[2025-01-11 17:27:56.019] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e32	1726926306	100	0.095831
+[2025-01-11 17:27:59.823] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e64	6619001657	10	0.320481
+[2025-01-11 17:28:11.257] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e128	23750654538	10	1.036003
+[2025-01-11 17:28:44.670] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e256	79941782408	10	3.143581
+[2025-01-11 17:28:45.817] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s17-e32	135616399	100	0.006260
+[2025-01-11 17:28:47.400] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s18-e32	319298964	100	0.014914
+[2025-01-11 17:28:51.313] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s19-e32	745161019	100	0.037408
+[2025-01-11 17:29:01.208] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s20-e32	1726926306	100	0.095722
+[2025-01-11 17:29:04.383] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s21-e32	3964459518	10	0.253678
+[2025-01-11 17:29:12.235] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s22-e32	9055827800	10	0.656435
+[2025-01-11 17:29:32.073] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s23-e32	20579400628	10	1.706758
+[2025-01-11 17:30:21.319] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s24-e32	46556649365	10	4.343467
+
+
+VP+EF+RL
+[2025-01-11 17:35:49.378] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000278
+[2025-01-11 17:35:49.441] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000179
+[2025-01-11 17:35:49.545] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000290
+[2025-01-11 17:35:49.687] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000231
+[2025-01-11 17:35:49.949] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203519	100	0.000924
+[2025-01-11 17:35:50.226] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.001389
+[2025-01-11 17:35:50.512] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.001608
+[2025-01-11 17:35:50.926] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769868	100	0.002286
+[2025-01-11 17:35:51.657] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004189
+[2025-01-11 17:35:52.800] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.008363
+[2025-01-11 17:35:55.213] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114206974	100	0.020367
+[2025-01-11 17:35:57.062] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177820130	100	0.013381
+[2025-01-11 17:35:59.599] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285730264	100	0.018414
+[2025-01-11 17:36:03.111] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.005046
+[2025-01-11 17:36:07.812] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.252780
+[2025-01-11 17:36:10.084] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627584181	10	0.094874
+[2025-01-11 17:36:12.920] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.098665
+[2025-01-11 17:36:25.887] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.015744
+[2025-01-11 17:37:13.945] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	34824916864	10	3.055351
+[2025-01-11 17:38:24.607] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4173724142	10	2.176627
+
+
+[2025-01-11 17:32:14.109] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e2	3966418	100	0.000576
+[2025-01-11 17:32:14.426] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e4	20219754	100	0.002240
+[2025-01-11 17:32:15.355] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e8	95652855	100	0.008061
+[2025-01-11 17:32:18.265] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e16	420642337	100	0.027200
+[2025-01-11 17:32:28.010] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e32	1726926306	100	0.094155
+[2025-01-11 17:32:31.619] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e64	6619001657	10	0.302929
+[2025-01-11 17:32:42.324] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e128	23750654538	10	0.966813
+[2025-01-11 17:33:14.172] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e256	79941782408	10	2.993987
+[2025-01-11 17:33:15.303] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s17-e32	135616399	100	0.006207
+[2025-01-11 17:33:16.874] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s18-e32	319298964	100	0.014811
+[2025-01-11 17:33:20.734] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s19-e32	745161019	100	0.036865
+[2025-01-11 17:33:30.475] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s20-e32	1726926306	100	0.094196
+[2025-01-11 17:33:33.551] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s21-e32	3964459518	10	0.243673
+[2025-01-11 17:33:41.124] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s22-e32	9055827800	10	0.628929
+[2025-01-11 17:34:00.306] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s23-e32	20579400628	10	1.641911
+[2025-01-11 17:34:48.631] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s24-e32	46556649365	10	4.257930
+

@@ -1,0 +1,4 @@
+==4044531== NVPROF is profiling process 4044531, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Soc-LiveJ
+==4044531== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Soc-LiveJ
+==4044531== Profiling result:
+No events/metrics were profiled.

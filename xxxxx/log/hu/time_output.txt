@@ -1,0 +1,355 @@
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/As-Caida/edges.bin
+Number of nodes: 16538, number of edges: 43444
+iter 100, avg kernel use 0.000286 s
+triangle count 36365 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/P2p-Gnutella31/edges.bin
+Number of nodes: 33924, number of edges: 119239
+iter 100, avg kernel use 0.000929 s
+triangle count 2024 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Email-EuAll/edges.bin
+Number of nodes: 39051, number of edges: 151799
+iter 100, avg kernel use 0.000353 s
+triangle count 267313 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Soc-Slashdot0922/edges.bin
+Number of nodes: 53669, number of edges: 475731
+iter 100, avg kernel use 0.000669 s
+triangle count 602592 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Web-NotreDame/edges.bin
+Number of nodes: 163897, number of edges: 928276
+iter 100, avg kernel use 0.003340 s
+triangle count 8910005 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Com-Dblp/edges.bin
+Number of nodes: 273899, number of edges: 1006685
+iter 100, avg kernel use 0.001485 s
+triangle count 2224385 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Amazon0601/edges.bin
+Number of nodes: 391767, number of edges: 2431783
+iter 100, avg kernel use 0.002942 s
+triangle count 3986507 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/RoadNet-CA/edges.bin
+Number of nodes: 1644179, number of edges: 2447819
+iter 100, avg kernel use 0.006702 s
+triangle count 120676 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Wiki-Talk/edges.bin
+Number of nodes: 626749, number of edges: 2894276
+iter 100, avg kernel use 0.003582 s
+triangle count 9203519 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Web-BerkStan/edges.bin
+Number of nodes: 645108, number of edges: 6609508
+iter 100, avg kernel use 0.009306 s
+triangle count 64690980 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/As-Skitter/edges.bin
+Number of nodes: 1478016, number of edges: 10877499
+iter 100, avg kernel use 0.014577 s
+triangle count 28769868 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Cit-Patents/edges.bin
+Number of nodes: 3107432, number of edges: 15853615
+iter 100, avg kernel use 0.022107 s
+triangle count 7515023 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Soc-Pokec/edges.bin
+Number of nodes: 1468832, number of edges: 22137993
+iter 100, avg kernel use 0.025290 s
+triangle count 32557458 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Sx-Stackoverflow/edges.bin
+Number of nodes: 1965554, number of edges: 27570414
+iter 100, avg kernel use 0.051432 s
+triangle count 114206974 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Com-Lj/edges.bin
+Number of nodes: 3212032, number of edges: 33895259
+iter 100, avg kernel use 0.039683 s
+triangle count 177820130 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Soc-LiveJ/edges.bin
+Number of nodes: 3788616, number of edges: 41793895
+iter 100, avg kernel use 0.053862 s
+triangle count 285730264 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Com-Orkut/edges.bin
+Number of nodes: 3004674, number of edges: 117117316
+iter 10, avg kernel use 0.193936 s
+triangle count 627584181 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Twitter7/edges.bin
+Number of nodes: 39750674, number of edges: 1200611490
+iter 10, avg kernel use 5.857838 s
+triangle count 34824916864 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/Com-Friendster/edges.bin
+Number of nodes: 51952104, number of edges: 1792410873
+iter 10, avg kernel use 4.364895 s
+triangle count 4173724142 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s17-e2/edges.bin
+Number of nodes: 119145, number of edges: 252682
+iter 100, avg kernel use 0.003869 s
+triangle count 9 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e2/edges.bin
+Number of nodes: 13007, number of edges: 150444
+iter 100, avg kernel use 0.000271 s
+triangle count 1685273 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s17-e8/edges.bin
+Number of nodes: 131070, number of edges: 1048508
+iter 100, avg kernel use 0.001651 s
+triangle count 699 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e8/edges.bin
+Number of nodes: 24402, number of edges: 489735
+iter 100, avg kernel use 0.000898 s
+triangle count 12831887 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s17-e32/edges.bin
+Number of nodes: 131072, number of edges: 4193279
+iter 100, avg kernel use 0.004257 s
+triangle count 43863 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e32/edges.bin
+Number of nodes: 39949, number of edges: 1474780
+iter 100, avg kernel use 0.003814 s
+triangle count 85649891 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s17-e128/edges.bin
+Number of nodes: 131072, number of edges: 16760551
+iter 100, avg kernel use 0.027985 s
+triangle count 2789507 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e128/edges.bin
+Number of nodes: 58253, number of edges: 4120169
+iter 100, avg kernel use 0.017623 s
+triangle count 492976596 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s19-e2/edges.bin
+Number of nodes: 476130, number of edges: 1010273
+iter 100, avg kernel use 0.006030 s
+triangle count 10 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s19-e2/edges.bin
+Number of nodes: 43676, number of edges: 627958
+iter 100, avg kernel use 0.001034 s
+triangle count 11901269 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s19-e8/edges.bin
+Number of nodes: 524288, number of edges: 4194228
+iter 100, avg kernel use 0.005338 s
+triangle count 679 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s19-e8/edges.bin
+Number of nodes: 80353, number of edges: 2073126
+iter 100, avg kernel use 0.005082 s
+triangle count 92802479 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s19-e32/edges.bin
+Number of nodes: 524288, number of edges: 16776138
+iter 100, avg kernel use 0.018071 s
+triangle count 43372 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s19-e32/edges.bin
+Number of nodes: 132507, number of edges: 6381480
+iter 100, avg kernel use 0.028236 s
+triangle count 633985578 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s19-e128/edges.bin
+Number of nodes: 524288, number of edges: 67092278
+iter 10, avg kernel use 0.116980 s
+triangle count 2797313 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s19-e128/edges.bin
+Number of nodes: 200377, number of edges: 18461656
+iter 10, avg kernel use 0.142996 s
+triangle count 3894428503 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s21-e2/edges.bin
+Number of nodes: 1904584, number of edges: 4041554
+iter 100, avg kernel use 0.015617 s
+triangle count 8 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s21-e2/edges.bin
+Number of nodes: 142476, number of edges: 2598073
+iter 100, avg kernel use 0.005838 s
+triangle count 83094996 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s21-e8/edges.bin
+Number of nodes: 2097148, number of edges: 16777129
+iter 100, avg kernel use 0.021670 s
+triangle count 665 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s21-e8/edges.bin
+Number of nodes: 265938, number of edges: 8700534
+iter 100, avg kernel use 0.037341 s
+triangle count 668173755 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s21-e32/edges.bin
+Number of nodes: 2097152, number of edges: 67107783
+iter 100, avg kernel use 0.084424 s
+triangle count 43783 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s21-e32/edges.bin
+Number of nodes: 453141, number of edges: 27398849
+iter 10, avg kernel use 0.214094 s
+triangle count 4731352031 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s21-e128/edges.bin
+Number of nodes: 2097152, number of edges: 268418922
+iter 10, avg kernel use 0.546119 s
+triangle count 2800446 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s21-e128/edges.bin
+Number of nodes: 696428, number of edges: 81340207
+iter 10, avg kernel use 1.316769 s
+triangle count 29933787785 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s23-e2/edges.bin
+Number of nodes: 7616607, number of edges: 16165223
+iter 100, avg kernel use 0.088402 s
+triangle count 5 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s23-e2/edges.bin
+Number of nodes: 480155, number of edges: 10729168
+iter 100, avg kernel use 0.042358 s
+triangle count 589901473 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s23-e8/edges.bin
+Number of nodes: 8388589, number of edges: 67108765
+iter 10, avg kernel use 0.137722 s
+triangle count 697 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s23-e8/edges.bin
+Number of nodes: 906531, number of edges: 36311376
+iter 10, avg kernel use 0.273502 s
+triangle count 4757517828 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s23-e32/edges.bin
+Number of nodes: 8388608, number of edges: 268434412
+iter 10, avg kernel use 0.436095 s
+triangle count 43640 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s23-e32/edges.bin
+Number of nodes: 1534277, number of edges: 116419595
+iter 10, avg kernel use 1.868869 s
+triangle count 34951431203 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s23-e128/edges.bin
+Number of nodes: 8388608, number of edges: 1073725285
+iter 10, avg kernel use 2.334381 s
+triangle count 2804036 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s23-e128/edges.bin
+Number of nodes: 2365212, number of edges: 354236941
+iter 10, avg kernel use 17.972171 s
+triangle count 230099911400 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s18-e2/edges.bin
+Number of nodes: 238149, number of edges: 505258
+iter 100, avg kernel use 0.004605 s
+triangle count 13 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s18-e2/edges.bin
+Number of nodes: 23771, number of edges: 307656
+iter 100, avg kernel use 0.000499 s
+triangle count 4527007 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s20-e2/edges.bin
+Number of nodes: 951979, number of edges: 2020700
+iter 100, avg kernel use 0.008346 s
+triangle count 16 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s20-e2/edges.bin
+Number of nodes: 78647, number of edges: 1278848
+iter 100, avg kernel use 0.002376 s
+triangle count 31438157 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s22-e2/edges.bin
+Number of nodes: 3809218, number of edges: 8083437
+iter 100, avg kernel use 0.032750 s
+triangle count 9 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s22-e2/edges.bin
+Number of nodes: 264686, number of edges: 5284014
+iter 100, avg kernel use 0.015146 s
+triangle count 220772005 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s24-e2/edges.bin
+Number of nodes: 15235452, number of edges: 32333762
+iter 10, avg kernel use 0.408011 s
+triangle count 8 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s24-e2/edges.bin
+Number of nodes: 866174, number of edges: 21741992
+iter 10, avg kernel use 0.108540 s
+triangle count 1564565835 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s26-e2/edges.bin
+Number of nodes: 60923641, number of edges: 129319031
+iter 10, avg kernel use 2.816994 s
+triangle count 3 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s26-e2/edges.bin
+Number of nodes: 2953067, number of edges: 89202841
+iter 10, avg kernel use 0.828237 s
+triangle count 10922877920 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s17-e4/edges.bin
+Number of nodes: 130680, number of edges: 523927
+iter 100, avg kernel use 0.002051 s
+triangle count 75 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e4/edges.bin
+Number of nodes: 17972, number of edges: 274281
+iter 100, avg kernel use 0.000456 s
+triangle count 4775770 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s17-e16/edges.bin
+Number of nodes: 131072, number of edges: 2096876
+iter 100, avg kernel use 0.002285 s
+triangle count 5469 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e16/edges.bin
+Number of nodes: 31144, number of edges: 857266
+iter 100, avg kernel use 0.001847 s
+triangle count 33628155 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s17-e64/edges.bin
+Number of nodes: 131072, number of edges: 8384374
+iter 100, avg kernel use 0.009724 s
+triangle count 349232 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e64/edges.bin
+Number of nodes: 48409, number of edges: 2485801
+iter 100, avg kernel use 0.008204 s
+triangle count 208335394 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s17-e256/edges.bin
+Number of nodes: 131072, number of edges: 33488609
+iter 100, avg kernel use 0.094923 s
+triangle count 22250654 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e256/edges.bin
+Number of nodes: 68591, number of edges: 6722617
+iter 100, avg kernel use 0.038360 s
+triangle count 1141203304 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster0-s17-e1024/edges.bin
+Number of nodes: 131072, number of edges: 133173435
+iter 10, avg kernel use 1.191703 s
+triangle count 1399530378 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e1024/edges.bin
+Number of nodes: 87962, number of edges: 16955666
+iter 10, avg kernel use 0.157985 s
+triangle count 5484739961 
+

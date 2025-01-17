@@ -1,0 +1,400 @@
+==2024970== NVPROF is profiling process 2024970, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Web-NotreDame
+==2024970== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2024970== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Web-NotreDame
+==2024970== Profiling result:
+==2024970== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.274539,0.274539,0.274539
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",78.558927%,78.558927%,78.558927%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",26.134328%,26.134328%,26.134328%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.101716,1.101716,1.101716
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.357821,2.357821,2.357821
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",5802131,5802131,5802131
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",17732314,17732314,17732314
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",246622,246622,246622
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",56.667376%,56.667376%,56.667376%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",43.341904GB/s,43.341904GB/s,43.341904GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",358.328630GB/s,358.328630GB/s,358.328630GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",4.983654GB/s,4.983654GB/s,4.983654GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",468.990038GB/s,468.990038GB/s,468.990038GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.095574%,12.095574%,12.095574%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Low (2)","Low (2)","Low (2)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",4.050935%,4.050935%,4.050935%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",7520637,7520637,7520637
+==2024996== NVPROF is profiling process 2024996, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Com-Dblp
+==2024996== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2024996== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Com-Dblp
+==2024996== Profiling result:
+==2024996== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.338557,0.338557,0.338557
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",84.033902%,84.033902%,84.033902%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",14.485649%,14.485649%,14.485649%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.086095,1.086095,1.086095
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.673162,1.673162,1.673162
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",4406615,4406615,4406615
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",12781067,12781067,12781067
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",547121,547121,547121
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",41.642552%,41.642552%,41.642552%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",42.047265GB/s,42.047265GB/s,42.047265GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",365.234368GB/s,365.234368GB/s,365.234368GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",15.634641GB/s,15.634641GB/s,15.634641GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",503.697303GB/s,503.697303GB/s,503.697303GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",11.512406%,11.512406%,11.512406%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Low (3)","Low (3)","Low (3)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",2.289401%,2.289401%,2.289401%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",7638871,7638871,7638871
+==2025022== NVPROF is profiling process 2025022, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Amazon0601
+==2025022== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025022== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Amazon0601
+==2025022== Profiling result:
+==2025022== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.369391,0.369391,0.369391
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",80.748877%,80.748877%,80.748877%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",13.520871%,13.520871%,13.520871%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.079163,1.079163,1.079163
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.824455,1.824455,1.824455
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",8583743,8583743,8583743
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",26566391,26566391,26566391
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",3438762,3438762,3438762
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",43.069290%,43.069290%,43.069290%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",61.509645GB/s,61.509645GB/s,61.509645GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",540.783211GB/s,540.783211GB/s,540.783211GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",69.999149GB/s,69.999149GB/s,69.999149GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",698.919789GB/s,698.919789GB/s,698.919789GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",11.374178%,11.374178%,11.374178%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Mid (4)","Mid (4)","Mid (4)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",2.212162%,2.212162%,2.212162%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",14561275,14561275,14561275
+==2025048== NVPROF is profiling process 2025048, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=RoadNet-CA
+==2025048== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025048== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=RoadNet-CA
+==2025048== Profiling result:
+==2025048== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.371924,0.371924,0.371924
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",87.640063%,87.640063%,87.640063%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",29.693730%,29.693730%,29.693730%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.106808,1.106808,1.106808
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.111455,1.111455,1.111455
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",2750100,2750100,2750100
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",24325092,24325092,24325092
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",8818783,8818783,8818783
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",47.715618%,47.715618%,47.715618%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",42.249189GB/s,42.249189GB/s,42.249189GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",371.289880GB/s,371.289880GB/s,371.289880GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",134.606886GB/s,134.606886GB/s,134.606886GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",167.906341GB/s,167.906341GB/s,167.906341GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",11.379030%,11.379030%,11.379030%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Mid (5)","Mid (5)","Mid (5)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",1.105074%,1.105074%,1.105074%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",21885814,21885814,21885814
+==2025076== NVPROF is profiling process 2025076, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Wiki-Talk
+==2025076== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025076== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Wiki-Talk
+==2025076== Profiling result:
+==2025076== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.363895,0.363895,0.363895
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",93.848551%,93.848551%,93.848551%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",8.984708%,8.984708%,8.984708%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.103205,1.103205,1.103205
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.768287,1.768287,1.768287
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",243926078,243926078,243926078
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",291511500,291511500,291511500
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",10054861,10054861,10054861
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",67.577185%,67.577185%,67.577185%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",48.585743GB/s,48.585743GB/s,48.585743GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",393.683643GB/s,393.683643GB/s,393.683643GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",13.578999GB/s,13.578999GB/s,13.578999GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",1317.679846GB/s,1317.679846GB/s,1317.679846GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.341316%,12.341316%,12.341316%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Mid (4)","Mid (4)","Mid (4)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",3.714869%,3.714869%,3.714869%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",164855310,164855310,164855310
+==2025104== NVPROF is profiling process 2025104, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Imdb-2021
+==2025104== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025104== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Imdb-2021
+==2025104== Profiling result:
+==2025104== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.361938,0.361938,0.361938
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",84.781469%,84.781469%,84.781469%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",19.475032%,19.475032%,19.475032%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.082464,1.082464,1.082464
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.882234,2.882234,2.882234
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",55357652,55357652,55357652
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",128941156,128941156,128941156
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",16997366,16997366,16997366
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",49.615760%,49.615760%,49.615760%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",71.665313GB/s,71.665313GB/s,71.665313GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",593.777165GB/s,593.777165GB/s,593.777165GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",78.273285GB/s,78.273285GB/s,78.273285GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",1019.693346GB/s,1019.693346GB/s,1019.693346GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.069395%,12.069395%,12.069395%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Mid (5)","Mid (5)","Mid (5)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",3.681064%,3.681064%,3.681064%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",44736533,44736533,44736533
+==2025132== NVPROF is profiling process 2025132, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Web-BerkStan
+==2025132== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025132== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Web-BerkStan
+==2025132== Profiling result:
+==2025132== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.347056,0.347056,0.347056
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",75.612281%,75.612281%,75.612281%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",26.865030%,26.865030%,26.865030%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.096004,1.096004,1.096004
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.865944,2.865944,2.865944
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",35405645,35405645,35405645
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",108012260,108012260,108012260
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",4542380,4542380,4542380
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",56.022163%,56.022163%,56.022163%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",93.679152GB/s,93.679152GB/s,93.679152GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",746.657904GB/s,746.657904GB/s,746.657904GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",31.400176GB/s,31.400176GB/s,31.400176GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",978.996446GB/s,978.996446GB/s,978.996446GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.546462%,12.546462%,12.546462%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Mid (4)","Mid (4)","Mid (4)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",4.276997%,4.276997%,4.276997%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",37688192,37688192,37688192
+==2025169== NVPROF is profiling process 2025169, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=As-Skitter
+==2025169== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025169== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=As-Skitter
+==2025169== Profiling result:
+==2025169== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.362916,0.362916,0.362916
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",87.168277%,87.168277%,87.168277%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",15.332641%,15.332641%,15.332641%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.069377,1.069377,1.069377
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.797584,2.797584,2.797584
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",162555329,162555329,162555329
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",275465446,275465446,275465446
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",27377884,27377884,27377884
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",57.709719%,57.709719%,57.709719%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",63.769839GB/s,63.769839GB/s,63.769839GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",528.384979GB/s,528.384979GB/s,528.384979GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",52.514981GB/s,52.514981GB/s,52.514981GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",1247.224222GB/s,1247.224222GB/s,1247.224222GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.068821%,12.068821%,12.068821%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Mid (5)","Mid (5)","Mid (5)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",3.887423%,3.887423%,3.887423%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",98465477,98465477,98465477
+==2025200== NVPROF is profiling process 2025200, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Cit-Patents
+==2025200== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025200== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Cit-Patents
+==2025200== Profiling result:
+==2025200== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.370677,0.370677,0.370677
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",87.272644%,87.272644%,87.272644%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",13.682212%,13.682212%,13.682212%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.080244,1.080244,1.080244
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.806034,1.806034,1.806034
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",75398668,75398668,75398668
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",202405887,202405887,202405887
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",79403654,79403654,79403654
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",42.181412%,42.181412%,42.181412%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",49.039885GB/s,49.039885GB/s,49.039885GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",429.778065GB/s,429.778065GB/s,429.778065GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",168.601562GB/s,168.601562GB/s,168.601562GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",640.390338GB/s,640.390338GB/s,640.390338GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",11.410514%,11.410514%,11.410514%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Mid (5)","Mid (5)","Mid (5)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",2.333143%,2.333143%,2.333143%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",112072035,112072035,112072035
+==2025226== NVPROF is profiling process 2025226, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Soc-Pokec
+==2025226== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025226== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Soc-Pokec
+==2025226== Profiling result:
+==2025226== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.371132,0.371132,0.371132
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",84.142539%,84.142539%,84.142539%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",25.504139%,25.504139%,25.504139%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.079554,1.079554,1.079554
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",4.213327,4.213327,4.213327
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",250518381,250518381,250518381
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",659462005,659462005,659462005
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",153394597,153394597,153394597
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",53.498828%,53.498828%,53.498828%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",93.786609GB/s,93.786609GB/s,93.786609GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",775.896186GB/s,775.896186GB/s,775.896186GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",180.477847GB/s,180.477847GB/s,180.477847GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",1178.998971GB/s,1178.998971GB/s,1178.998971GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.087520%,12.087520%,12.087520%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","High (8)","High (8)","High (8)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",4.461539%,4.461539%,4.461539%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",156518133,156518133,156518133
+==2025264== NVPROF is profiling process 2025264, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Sx-Stackoverflow
+==2025264== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025264== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Sx-Stackoverflow
+==2025264== Profiling result:
+==2025264== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.369789,0.369789,0.369789
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",87.911491%,87.911491%,87.911491%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",22.796253%,22.796253%,22.796253%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.101745,1.101745,1.101745
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",5.486693,5.486693,5.486693
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",1765019569,1765019569,1765019569
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",3026581120,3026581120,3026581120
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",340840146,340840146,340840146
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",80.508675%,80.508675%,80.508675%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",79.103100GB/s,79.103100GB/s,79.103100GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",629.883938GB/s,629.883938GB/s,629.883938GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",70.934736GB/s,70.934736GB/s,70.934736GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",1469.324539GB/s,1469.324539GB/s,1469.324539GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.558361%,12.558361%,12.558361%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","High (7)","High (7)","High (7)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",5.556787%,5.556787%,5.556787%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",551622055,551622055,551622055
+==2025264== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2025300== NVPROF is profiling process 2025300, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Com-Lj
+==2025300== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025300== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Com-Lj
+==2025300== Profiling result:
+==2025300== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.359222,0.359222,0.359222
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",84.640403%,84.640403%,84.640403%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",22.637428%,22.637428%,22.637428%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.084193,1.084193,1.084193
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",4.056170,4.056170,4.056170
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",503652718,503652718,503652718
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",1157276356,1157276356,1157276356
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",245865263,245865263,245865263
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",65.822061%,65.822061%,65.822061%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",65.123784GB/s,65.123784GB/s,65.123784GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",532.228486GB/s,532.228486GB/s,532.228486GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",113.072816GB/s,113.072816GB/s,113.072816GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",926.514474GB/s,926.514474GB/s,926.514474GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.236058%,12.236058%,12.236058%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Mid (6)","Mid (6)","Mid (6)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",4.574036%,4.574036%,4.574036%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",285312578,285312578,285312578
+==2025331== NVPROF is profiling process 2025331, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Soc-LiveJ
+==2025331== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025331== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Soc-LiveJ
+==2025331== Profiling result:
+==2025331== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.356612,0.356612,0.356612
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",85.039988%,85.039988%,85.039988%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",23.039116%,23.039116%,23.039116%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.090906,1.090906,1.090906
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",4.406560,4.406560,4.406560
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",747411556,747411556,747411556
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",1655227843,1655227843,1655227843
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",341003820,341003820,341003820
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",72.854672%,72.854672%,72.854672%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",57.962320GB/s,57.962320GB/s,57.962320GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",469.037190GB/s,469.037190GB/s,469.037190GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",96.629279GB/s,96.629279GB/s,96.629279GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",847.167519GB/s,847.167519GB/s,847.167519GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.357724%,12.357724%,12.357724%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Mid (5)","Mid (5)","Mid (5)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",4.889835%,4.889835%,4.889835%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",375628134,375628134,375628134
+==2025331== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2025377== NVPROF is profiling process 2025377, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=k-mer-graph5
+==2025377== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=k-mer-graph5
+==2025377== Profiling result:
+No events/metrics were profiled.
+==2025414== NVPROF is profiling process 2025414, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Hollywood-2011
+==2025414== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025414== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Hollywood-2011
+==2025414== Profiling result:
+==2025414== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.370585,0.370585,0.370585
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",86.104043%,86.104043%,86.104043%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",29.849611%,29.849611%,29.849611%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.095544,1.095544,1.095544
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",12.154479,12.154479,12.154479
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",9752082970,9752082970,9752082970
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",39128144228,39128144228,39128144228
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",5023681496,5023681496,5023681496
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",90.637269%,90.637269%,90.637269%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",80.076506GB/s,80.076506GB/s,80.076506GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",551.553314GB/s,551.553314GB/s,551.553314GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",70.814199GB/s,70.814199GB/s,70.814199GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",549.864430GB/s,549.864430GB/s,549.864430GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",14.518362%,14.518362%,14.518362%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Mid (5)","Mid (5)","Mid (5)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",6.129206%,6.129206%,6.129206%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",3219236777,3219236777,3219236777
+==2025414== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2025500== NVPROF is profiling process 2025500, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Com-Orkut
+==2025500== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025500== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Com-Orkut
+==2025500== Profiling result:
+==2025500== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.368309,0.368309,0.368309
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",85.587217%,85.587217%,85.587217%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",30.226775%,30.226775%,30.226775%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.105516,1.105516,1.105516
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",8.025047,8.025047,8.025047
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",4247422911,4247422911,4247422911
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",9537158159,9537158159,9537158159
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",1772006476,1772006476,1772006476
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",84.064041%,84.064041%,84.064041%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",63.972044GB/s,63.972044GB/s,63.972043GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",501.806930GB/s,501.806930GB/s,501.806930GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",93.235859GB/s,93.235859GB/s,93.235859GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",893.929288GB/s,893.929288GB/s,893.929288GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.748338%,12.748338%,12.748338%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","High (7)","High (7)","High (7)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",6.402428%,6.402428%,6.402428%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",1188423985,1188423985,1188423985
+==2025500== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2025542== NVPROF is profiling process 2025542, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Enwiki-2024
+==2025542== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2025542== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Enwiki-2024
+==2025542== Profiling result:
+==2025542== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"achieved_occupancy","Achieved Occupancy",0.370815,0.370815,0.370815
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"branch_efficiency","Branch Efficiency",85.981149%,85.981149%,85.981149%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"warp_execution_efficiency","Warp Execution Efficiency",23.934382%,23.934382%,23.934382%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.078028,1.078028,1.078028
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",6.043397,6.043397,6.043397
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_transactions","Shared Load Transactions",6140678192,6140678192,6140678192
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_transactions","Global Load Transactions",10878585841,10878585841,10878585841
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_transactions","Device Memory Read Transactions",1801096206,1801096206,1801096206
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",78.124484%,78.124484%,78.124484%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_requested_throughput","Requested Global Load Throughput",79.322118GB/s,79.322118GB/s,79.322118GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_throughput","Global Load Throughput",639.268616GB/s,639.268616GB/s,639.268616GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_read_throughput","Device Memory Read Throughput",105.839518GB/s,105.839518GB/s,105.839518GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_load_throughput","Shared Memory Load Throughput",1443.401893GB/s,1443.401893GB/s,1443.401893GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"gld_efficiency","Global Memory Load Efficiency",12.408261%,12.408261%,12.408261%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"dram_utilization","Device Memory Utilization","Max (10)","Max (10)","Max (10)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"shared_efficiency","Shared Memory Efficiency",5.734741%,5.734741%,5.734741%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Bisson::triangleCountKernel(unsigned int, unsigned long*, unsigned int*, unsigned int*, long*, int*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",1800077895,1800077895,1800077895
+==2025542== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2025572== NVPROF is profiling process 2025572, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=k-mer-graph4
+==2025572== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=k-mer-graph4
+==2025572== Profiling result:
+No events/metrics were profiled.
+==2025659== NVPROF is profiling process 2025659, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Twitter7
+==2025659== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Twitter7
+==2025659== Profiling result:
+No events/metrics were profiled.
+==2025686== NVPROF is profiling process 2025686, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Com-Friendster
+==2025686== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Com-Friendster
+==2025686== Profiling result:
+No events/metrics were profiled.

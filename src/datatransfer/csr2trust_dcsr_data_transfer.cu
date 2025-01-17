@@ -15,6 +15,11 @@
 #include "spdlog/spdlog.h"
 
 void Csr2TrustDcsrDataTransfer::transfer() {
+
+    if (!check_init()) {
+        return;
+    }
+
     uint *d_degree_arr;
     vertex_t *d_id_arr;
     vertex_t *d_id_map_arr;
@@ -44,36 +49,39 @@ void Csr2TrustDcsrDataTransfer::transfer() {
     double t_start = wtime();
 
     int iterations = config_comm::cPreprocessingIterations;
+
     for (int k = 0; k < iterations; k++) {
         cuda_graph_comm::cal_degree<<<edge_grid_size, block_size>>>(edge_count, vertex_count, d_degree_arr, d_src_arr, d_adj_arr);
-        HRR(cudaDeviceSynchronize());
+        // HRR(cudaDeviceSynchronize());
 
         cuda_graph_comm::redirect_edge<<<edge_grid_size, block_size>>>(edge_count, vertex_count, d_degree_arr, d_src_arr, d_adj_arr);
-        HRR(cudaDeviceSynchronize());
+        // HRR(cudaDeviceSynchronize());
 
         HRR(cudaMemset(d_degree_arr, 0, size_degree_arr));
         cuda_graph_comm::cal_out_degree_by_src<<<edge_grid_size, block_size>>>(edge_count, vertex_count, d_degree_arr, d_src_arr);
-        HRR(cudaDeviceSynchronize());
+        // HRR(cudaDeviceSynchronize());
 
         cuda_graph_comm::record_id_and_part_graph_by_degree<<<vertex_grid_size, block_size>>>(edge_count, vertex_count, d_id_arr, d_degree_arr);
-        HRR(cudaDeviceSynchronize());
+        // HRR(cudaDeviceSynchronize());
 
         thrust::device_ptr<vertex_t> d_id_ptr((vertex_t *)d_id_arr);
         thrust::sort_by_key(d_degree_arr, d_degree_arr + vertex_count, d_id_ptr);
 
         cuda_graph_comm::map_id<<<vertex_grid_size, block_size>>>(edge_count, vertex_count, d_id_arr, d_id_map_arr);
-        HRR(cudaDeviceSynchronize());
+        // HRR(cudaDeviceSynchronize());
 
         cuda_graph_comm::reassign_id<<<edge_grid_size, block_size>>>(edge_count, vertex_count, d_id_map_arr, d_src_arr, d_adj_arr);
-        HRR(cudaDeviceSynchronize());
+        // HRR(cudaDeviceSynchronize());
 
         thrust::device_ptr<vertex_t> d_src_ptr((vertex_t *)d_src_arr);
         thrust::device_ptr<vertex_t> d_dst_ptr((vertex_t *)d_adj_arr);
         thrust::sort_by_key(d_src_ptr, d_src_ptr + edge_count, d_adj_arr);
 
         cuda_graph_comm::recal_offset<<<edge_grid_size, block_size>>>(edge_count, vertex_count, d_src_arr, d_offset_arr);
-        HRR(cudaDeviceSynchronize());
+        // HRR(cudaDeviceSynchronize());
     }
+    HRR(cudaDeviceSynchronize());
+
     double t_end = wtime();
 
     // algorithm, dataset, iterations, avg compute time/s,

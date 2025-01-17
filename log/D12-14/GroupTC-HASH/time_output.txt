@@ -1,0 +1,9 @@
+[2024-12-15 09:57:59.017] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.018635
+[2024-12-15 09:58:16.978] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.004780
+[2024-12-15 09:58:32.391] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.001314
+[2024-12-15 09:58:56.661] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	100	0.002839
+[2024-12-15 10:07:07.796] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901306664	10	6.237590
+[2024-12-15 10:09:52.205] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374542841	10	0.537023
+[2024-12-15 10:11:49.741] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907034653	10	0.876461
+[2024-12-15 10:12:32.731] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262056752	10	0.205680
+[2024-12-15 10:13:09.550] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	100	0.084836

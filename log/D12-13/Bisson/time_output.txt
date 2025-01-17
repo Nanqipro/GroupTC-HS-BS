@@ -1,0 +1,3 @@
+[2024-12-13 22:54:13.654] [Bisson_file_logger] [info] Bisson	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.507515
+[2024-12-15 11:36:52.295] [Bisson_file_logger] [info] Bisson	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	2.109386
+[2024-12-15 11:40:31.920] [Bisson_file_logger] [info] Bisson	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.006508

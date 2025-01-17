@@ -41,6 +41,8 @@ __global__ void reassign_id(uint edge_count, uint vertex_count, vertex_t* d_id_m
 
 __global__ void check_order(vertex_t* arr, uint len);
 
+__global__ void warm_up(int* data, size_t n);
+
 template <typename T>
 void check_array(std::string arr_name, T* d_arr, uint len, uint start, uint end);
 

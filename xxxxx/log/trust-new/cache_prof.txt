@@ -1,0 +1,23 @@
+==3614111== NVPROF is profiling process 3614111, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/ 0 1
+==3614111== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3614111== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/ 0 1
+==3614111== Profiling result:
+==3614111== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.997155,0.997155,0.997155
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",91.231704%,91.231704%,91.231704%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",94.549302%,94.549302%,94.549302%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.912862,1.912862,1.912862
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.995614,2.995614,2.995614
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",61903411588,61903411588,61903411588
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",39103707688,39103707688,39103707688
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",51668940600,51668940600,51668940600
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",29.658062%,29.658062%,29.658062%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",401.277731GB/s,401.277731GB/s,401.277731GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",587.493692GB/s,587.493692GB/s,587.493692GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",776.273619GB/s,776.273619GB/s,776.273619GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",3720.144815GB/s,3720.144815GB/s,3720.144815GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",68.303326%,68.303326%,68.303326%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",14.974328%,14.974328%,14.974328%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",13053653574,13053653574,13053653574
+==3614111== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.

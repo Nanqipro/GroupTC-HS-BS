@@ -1,0 +1,24 @@
+==2028794== NVPROF is profiling process 2028794, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc.ini -dataset=Imdb-2021
+==2028794== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2028794== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc.ini -dataset=Imdb-2021
+==2028794== Profiling result:
+==2028794== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"achieved_occupancy","Achieved Occupancy",0.982623,0.982623,0.982623
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"branch_efficiency","Branch Efficiency",76.614812%,76.614812%,76.614812%
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"warp_execution_efficiency","Warp Execution Efficiency",79.094913%,79.094913%,79.094913%
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.879439,1.879439,1.879439
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",6.165869,6.165869,6.165869
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"shared_load_transactions","Shared Load Transactions",24092742,24092742,24092742
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"gld_transactions","Global Load Transactions",80238735,80238735,80238735
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"dram_read_transactions","Device Memory Read Transactions",21037789,21037789,21037789
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",78.844301%,78.844301%,78.844301%
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"gld_requested_throughput","Requested Global Load Throughput",724.746616GB/s,724.746616GB/s,724.746616GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"gld_throughput","Global Load Throughput",2567.828593GB/s,2567.828593GB/s,2567.828593GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"dram_read_throughput","Device Memory Read Throughput",673.258821GB/s,673.258821GB/s,673.258821GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"shared_load_throughput","Shared Memory Load Throughput",3084.098063GB/s,3084.098063GB/s,3084.098063GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"gld_efficiency","Global Memory Load Efficiency",28.224104%,28.224104%,28.224104%
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"shared_efficiency","Shared Memory Efficiency",9.124848%,9.124848%,9.124848%
+"Tesla V100-DGXS-32GB (3)","tc::approach::GroupTC::grouptc(unsigned int*, unsigned int*, unsigned long*, unsigned int, unsigned int, __int64*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",13013369,13013369,13013369
+==2028794== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.

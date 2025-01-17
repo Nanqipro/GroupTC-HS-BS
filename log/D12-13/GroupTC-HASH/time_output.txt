@@ -1,0 +1,13 @@
+[2024-12-13 16:09:47.792] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.018632
+[2024-12-13 16:10:25.828] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.004779
+[2024-12-13 16:13:35.632] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.001314
+[2024-12-13 16:16:39.154] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	100	0.002839
+[2024-12-13 22:39:17.804] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901306749	10	6.237596
+[2024-12-13 22:44:51.217] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374543639	10	0.536813
+[2024-12-13 22:51:56.849] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907035197	10	0.876277
+[2024-12-13 22:53:47.749] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262056749	10	0.205650
+[2024-12-13 22:54:41.312] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	100	0.084836
+[2024-12-15 11:28:34.286] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-tpd	191659070207	10	2.425975
+[2024-12-15 11:30:26.804] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Uk-2005	21779357645	10	0.269723
+[2024-12-15 11:37:02.110] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.215123
+[2024-12-15 11:40:32.459] [GroupTC-HASH_file_logger] [info] GroupTC-HASH	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.001610

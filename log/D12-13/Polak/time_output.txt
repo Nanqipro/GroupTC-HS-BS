@@ -1,0 +1,13 @@
+[2024-12-13 16:08:29.087] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.021074
+[2024-12-13 16:10:02.117] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.006298
+[2024-12-13 16:10:35.558] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.005437
+[2024-12-13 16:13:49.908] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	100	0.010391
+[2024-12-13 21:11:33.686] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901310734	10	12.067041
+[2024-12-13 22:41:28.697] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374551054	10	1.192771
+[2024-12-13 22:45:43.576] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907041475	10	1.694093
+[2024-12-13 22:52:23.888] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262060053	10	0.266130
+[2024-12-13 22:53:56.593] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.234917
+[2024-12-15 10:45:45.473] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-tpd	191659070207	10	5.163269
+[2024-12-15 11:29:30.500] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Uk-2005	21779366056	10	0.400395
+[2024-12-15 11:35:53.217] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.660108
+[2024-12-15 11:40:27.066] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.001655

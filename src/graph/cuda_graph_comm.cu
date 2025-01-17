@@ -178,3 +178,10 @@ __global__ void cuda_graph_comm::check_order(vertex_t* arr, uint len) {
         // printf("xxxxxxxxxxxxxxx error order xxxxxxxxxxxxxxx\n");
     }
 }
+
+__global__ void cuda_graph_comm::warm_up(int* data, size_t n) {
+    size_t tid = blockIdx.x * blockDim.x + threadIdx.x;
+    for(size_t i = tid; i < n; i += blockDim.x * gridDim.x) {
+        data[i] = i;
+    }
+}

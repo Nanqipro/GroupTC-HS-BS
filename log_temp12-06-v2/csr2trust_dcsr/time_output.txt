@@ -1,7 +1,0 @@
-[2024-12-06 23:31:27.526] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	1	0.001428
-[2024-12-06 23:33:31.041] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	1	0.001263
-[2024-12-06 23:33:36.999] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	1	0.001282
-[2024-12-06 23:33:42.151] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	1	0.001332
-[2024-12-06 23:33:43.726] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	1	0.001212
-[2024-12-06 23:33:44.825] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	1	0.001212
-[2024-12-06 23:33:45.714] [csr2trust_dcsr_file_logger] [info] csr2trust_dcsr	/app/ZJ/dataset_TC/csr_dataset/Web-NotreDame	1	0.001265

@@ -1,0 +1,15 @@
+[2024-12-02 11:52:44.391] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e2	3966418	100	0.001631
+[2024-12-02 11:52:45.440] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e4	20219754	100	0.004289
+[2024-12-02 11:52:48.519] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e8	95652855	100	0.011979
+[2024-12-02 11:52:58.561] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e16	420642337	100	0.039588
+[2024-12-02 11:53:30.652] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e32	1726926306	100	0.120962
+[2024-12-02 11:54:42.405] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e64	6619001657	100	0.359578
+[2024-12-02 11:58:19.860] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e128	23750654538	100	1.100561
+[2024-12-02 12:09:11.415] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e256	79941782408	100	3.312223
+[2024-12-02 12:34:56.506] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s17-e32	135616399	100	0.007887
+[2024-12-02 12:35:01.503] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s18-e32	319298964	100	0.020418
+[2024-12-02 12:35:13.627] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s19-e32	745161019	100	0.044522
+[2024-12-02 12:35:36.547] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s20-e32	1726926306	100	0.120922
+[2024-12-02 12:36:12.672] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s21-e32	3964459518	100	0.301885
+[2024-12-02 12:37:46.349] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s22-e32	9055827800	100	0.786495
+[2024-12-02 12:41:53.349] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s23-e32	20579400628	100	2.085490

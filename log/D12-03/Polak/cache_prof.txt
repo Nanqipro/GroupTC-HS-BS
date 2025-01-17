@@ -1,0 +1,24 @@
+==2029212== NVPROF is profiling process 2029212, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-polak.ini -dataset=Imdb-2021
+==2029212== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2029212== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-polak.ini -dataset=Imdb-2021
+==2029212== Profiling result:
+==2029212== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.242733,0.242733,0.242733
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"branch_efficiency","Branch Efficiency",75.664499%,75.664499%,75.664499%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",55.391418%,55.391418%,55.391418%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",6.857668,6.857668,6.857668
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"shared_load_transactions","Shared Load Transactions",0,0,0
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"gld_transactions","Global Load Transactions",111027012,111027012,111027012
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",5979479,5979479,5979479
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",86.129546%,86.129546%,86.129546%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",379.213214GB/s,379.213214GB/s,379.213214GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"gld_throughput","Global Load Throughput",2215.477925GB/s,2215.477925GB/s,2215.477925GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",119.316944GB/s,119.316944GB/s,119.316944GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",17.116542%,17.116542%,17.116542%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"dram_utilization","Device Memory Utilization","Low (2)","Low (2)","Low (2)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"shared_utilization","Shared Memory Utilization","Idle (0)","Idle (0)","Idle (0)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"shared_efficiency","Shared Memory Efficiency",0.000000%,0.000000%,0.000000%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Polak::calculate_triangles(unsigned int, unsigned int*, unsigned int*, unsigned long*, __int64*, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",16190200,16190200,16190200

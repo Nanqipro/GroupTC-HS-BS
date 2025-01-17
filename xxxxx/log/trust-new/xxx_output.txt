@@ -1,0 +1,256 @@
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Caida/
+Number of nodes: 26475, number of edges: 53381
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 15709  nocomputefirstedge 42665
+iter 1, avg kernel use 0.065903 s
+triangle count 36365 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/P2p-Gnutella31/
+Number of nodes: 62586, number of edges: 147892
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 31477  nocomputefirstedge 117820
+iter 1, avg kernel use 0.070056 s
+triangle count 2024 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Email-EuAll/
+Number of nodes: 265214, number of edges: 364481
+warpfirstvertex 30  warpfirstedge 3620
+nocomputefirstvertex 35921  nocomputefirstedge 151239
+iter 1, avg kernel use 0.073543 s
+triangle count 266270 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Slashdot0922/
+Number of nodes: 82168, number of edges: 504230
+warpfirstvertex 1  warpfirstedge 103
+nocomputefirstvertex 51338  nocomputefirstedge 473703
+iter 1, avg kernel use 0.315968 s
+triangle count 602592 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-NotreDame/
+Number of nodes: 325729, number of edges: 1090108
+warpfirstvertex 487  warpfirstedge 62124
+nocomputefirstvertex 151666  nocomputefirstedge 919178
+iter 1, avg kernel use 0.088331 s
+triangle count 6343804 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Dblp/
+Number of nodes: 317080, number of edges: 1049866
+warpfirstvertex 14  warpfirstedge 1492
+nocomputefirstvertex 242509  nocomputefirstedge 978286
+iter 1, avg kernel use 0.083070 s
+triangle count 2224385 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Amazon0601/
+Number of nodes: 403394, number of edges: 2443408
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 377343  nocomputefirstedge 2422352
+iter 1, avg kernel use 0.096400 s
+triangle count 3986507 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/RoadNet-CA/
+Number of nodes: 1965206, number of edges: 2766607
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 856203  nocomputefirstedge 2008690
+iter 1, avg kernel use 0.090546 s
+triangle count 120676 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Wiki-Talk/
+Number of nodes: 2394385, number of edges: 4659565
+warpfirstvertex 1411  warpfirstedge 203303
+nocomputefirstvertex 621012  nocomputefirstedge 2889050
+iter 1, avg kernel use 0.170261 s
+triangle count 7537602 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-BerkStan/
+Number of nodes: 685230, number of edges: 6649470
+warpfirstvertex 1854  warpfirstedge 209701
+nocomputefirstvertex 608489  nocomputefirstedge 6581739
+iter 1, avg kernel use 0.161227 s
+triangle count 64690980 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Skitter/
+Number of nodes: 1696415, number of edges: 11095298
+warpfirstvertex 988  warpfirstedge 116554
+nocomputefirstvertex 1423165  nocomputefirstedge 10835748
+iter 1, avg kernel use 0.225063 s
+triangle count 28769868 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Cit-Patents/
+Number of nodes: 3774768, number of edges: 16518947
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 2944946  nocomputefirstedge 15759380
+iter 1, avg kernel use 0.218847 s
+triangle count 7515023 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Pokec/
+Number of nodes: 1632803, number of edges: 22301964
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 1462551  nocomputefirstedge 22132480
+iter 1, avg kernel use 0.414456 s
+triangle count 32557458 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Sx-Stackoverflow/
+Number of nodes: 2601977, number of edges: 28183518
+warpfirstvertex 37378  warpfirstedge 5563224
+nocomputefirstvertex 1947518  nocomputefirstedge 27553138
+iter 1, avg kernel use 1.364958 s
+triangle count 114206974 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Lj/
+Number of nodes: 3997962, number of edges: 34681189
+warpfirstvertex 9274  warpfirstedge 1381911
+nocomputefirstvertex 3132157  nocomputefirstedge 33825833
+iter 1, avg kernel use 0.795356 s
+triangle count 177820130 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-LiveJ/
+Number of nodes: 4847571, number of edges: 42851237
+warpfirstvertex 18936  warpfirstedge 2877477
+nocomputefirstvertex 3680794  nocomputefirstedge 41699178
+iter 1, avg kernel use 1.015699 s
+triangle count 285730264 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Orkut/
+Number of nodes: 3072441, number of edges: 117185083
+warpfirstvertex 121341  warpfirstedge 19743897
+nocomputefirstvertex 3003793  nocomputefirstedge 117116599
+iter 1, avg kernel use 4.087868 s
+triangle count 627584181 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Twitter7/
+Number of nodes: 41652230, number of edges: 1202513046
+warpfirstvertex 1892574  warpfirstedge 519381047
+nocomputefirstvertex 39679797  nocomputefirstedge 1200544649
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Caida/
+Number of nodes: 26475, number of edges: 53381
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 15709  nocomputefirstedge 42665
+iter 1, avg kernel use 0.071871 s
+triangle count 36365 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/P2p-Gnutella31/
+Number of nodes: 62586, number of edges: 147892
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 31477  nocomputefirstedge 117820
+iter 1, avg kernel use 0.071134 s
+triangle count 2024 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Email-EuAll/
+Number of nodes: 265214, number of edges: 364481
+warpfirstvertex 30  warpfirstedge 3620
+nocomputefirstvertex 35921  nocomputefirstedge 151239
+iter 1, avg kernel use 0.072273 s
+triangle count 266270 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Slashdot0922/
+Number of nodes: 82168, number of edges: 504230
+warpfirstvertex 1  warpfirstedge 103
+nocomputefirstvertex 51338  nocomputefirstedge 473703
+iter 1, avg kernel use 0.080710 s
+triangle count 602592 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-NotreDame/
+Number of nodes: 325729, number of edges: 1090108
+warpfirstvertex 487  warpfirstedge 62124
+nocomputefirstvertex 151666  nocomputefirstedge 919178
+iter 1, avg kernel use 0.083880 s
+triangle count 6343804 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Dblp/
+Number of nodes: 317080, number of edges: 1049866
+warpfirstvertex 14  warpfirstedge 1492
+nocomputefirstvertex 242509  nocomputefirstedge 978286
+iter 1, avg kernel use 0.088504 s
+triangle count 2224385 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Amazon0601/
+Number of nodes: 403394, number of edges: 2443408
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 377343  nocomputefirstedge 2422352
+iter 1, avg kernel use 0.096822 s
+triangle count 3986507 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/RoadNet-CA/
+Number of nodes: 1965206, number of edges: 2766607
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 856203  nocomputefirstedge 2008690
+iter 1, avg kernel use 0.092915 s
+triangle count 120676 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Wiki-Talk/
+Number of nodes: 2394385, number of edges: 4659565
+warpfirstvertex 1411  warpfirstedge 203303
+nocomputefirstvertex 621012  nocomputefirstedge 2889050
+iter 1, avg kernel use 0.187760 s
+triangle count 7537602 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-BerkStan/
+Number of nodes: 685230, number of edges: 6649470
+warpfirstvertex 1854  warpfirstedge 209701
+nocomputefirstvertex 608489  nocomputefirstedge 6581739
+iter 1, avg kernel use 0.176527 s
+triangle count 64690980 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Skitter/
+Number of nodes: 1696415, number of edges: 11095298
+warpfirstvertex 988  warpfirstedge 116554
+nocomputefirstvertex 1423165  nocomputefirstedge 10835748
+iter 1, avg kernel use 0.226546 s
+triangle count 28769868 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Cit-Patents/
+Number of nodes: 3774768, number of edges: 16518947
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 2944946  nocomputefirstedge 15759380
+iter 1, avg kernel use 0.218041 s
+triangle count 7515023 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Pokec/
+Number of nodes: 1632803, number of edges: 22301964
+warpfirstvertex 0  warpfirstedge 0
+nocomputefirstvertex 1462551  nocomputefirstedge 22132480
+iter 1, avg kernel use 0.411551 s
+triangle count 32557458 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Sx-Stackoverflow/
+Number of nodes: 2601977, number of edges: 28183518
+warpfirstvertex 37378  warpfirstedge 5563224
+nocomputefirstvertex 1947518  nocomputefirstedge 27553138
+iter 1, avg kernel use 1.280614 s
+triangle count 114206974 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Lj/
+Number of nodes: 3997962, number of edges: 34681189
+warpfirstvertex 9274  warpfirstedge 1381911
+nocomputefirstvertex 3132157  nocomputefirstedge 33825833
+iter 1, avg kernel use 0.642446 s
+triangle count 177820130 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-LiveJ/
+Number of nodes: 4847571, number of edges: 42851237
+warpfirstvertex 18936  warpfirstedge 2877477
+nocomputefirstvertex 3680794  nocomputefirstedge 41699178
+iter 1, avg kernel use 0.859455 s
+triangle count 285730264 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Orkut/
+Number of nodes: 3072441, number of edges: 117185083
+warpfirstvertex 121341  warpfirstedge 19743897
+nocomputefirstvertex 3003793  nocomputefirstedge 117116599
+iter 1, avg kernel use 3.941716 s
+triangle count 627584181 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Twitter7/
+Number of nodes: 41652230, number of edges: 1202513046
+warpfirstvertex 1892574  warpfirstedge 519381047
+nocomputefirstvertex 39679797  nocomputefirstedge 1200544649
+iter 1, avg kernel use 129.623414 s
+triangle count 34824916864 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/
+Number of nodes: 65608366, number of edges: 1806067135
+warpfirstvertex 4258072  warpfirstedge 636635446
+nocomputefirstvertex 51423086  nocomputefirstedge 1791937965
+iter 1, avg kernel use 93.887536 s
+triangle count 4173724142 
+

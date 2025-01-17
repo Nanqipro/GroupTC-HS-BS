@@ -1,0 +1,559 @@
+=======================Cuckoo+conflict>=10
+[2024-12-08 11:25:09.404] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000102
+[2024-12-08 11:25:09.419] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000045
+[2024-12-08 11:25:09.468] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	268076	100	0.000177
+[2024-12-08 11:25:09.517] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000318
+[2024-12-08 11:25:09.606] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000547
+[2024-12-08 11:25:09.669] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2223693	100	0.000348
+[2024-12-08 11:25:09.779] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000623
+[2024-12-08 11:25:09.942] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000387
+[2024-12-08 11:25:10.271] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9201651	100	0.001778
+[2024-12-08 11:25:10.694] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.001813
+[2024-12-08 11:25:11.149] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769669	100	0.002793
+[2024-12-08 11:25:11.957] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004953
+[2024-12-08 11:25:13.008] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007809
+[2024-12-08 11:25:15.655] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114219100	100	0.022676
+[2024-12-08 11:25:17.228] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177741234	100	0.010561
+[2024-12-08 11:25:19.618] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285725819	100	0.014783
+[2024-12-08 11:25:29.039] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627428050	100	0.079658
+[2024-12-08 11:26:14.407] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	33685527767	10	2.794619
+[2024-12-08 11:27:24.997] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4172810623	10	1.972622
+
+
+=======================Cuckoo
+[2024-12-08 11:29:48.176] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000099
+[2024-12-08 11:29:48.207] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000043
+[2024-12-08 11:29:48.446] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	268076	100	0.000178
+[2024-12-08 11:29:48.492] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000319
+[2024-12-08 11:29:48.579] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000560
+[2024-12-08 11:29:48.642] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2223664	100	0.000347
+[2024-12-08 11:29:48.749] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000634
+[2024-12-08 11:29:48.901] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000389
+[2024-12-08 11:29:49.232] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9201548	100	0.001767
+[2024-12-08 11:29:49.505] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.001810
+[2024-12-08 11:29:50.082] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769567	100	0.002784
+[2024-12-08 11:29:50.892] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004950
+[2024-12-08 11:29:52.009] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007803
+[2024-12-08 11:29:54.732] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114219130	100	0.022671
+[2024-12-08 11:29:56.335] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177740958	100	0.010559
+[2024-12-08 11:29:58.583] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285725587	100	0.014789
+[2024-12-08 11:35:05.432] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627416304	100	0.079712
+[2024-12-08 11:30:53.823] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	33682179353	10	2.809442
+[2024-12-08 11:32:05.243] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4172471182	10	1.973046
+
+
+=======================Cuckoo-high-degree
+[2024-12-08 11:39:58.217] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000022
+[2024-12-08 11:39:58.237] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000022
+[2024-12-08 11:39:58.271] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	28358	100	0.000069
+[2024-12-08 11:39:58.297] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2335	100	0.000067
+[2024-12-08 11:39:58.384] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3929961	100	0.000457
+[2024-12-08 11:39:58.424] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	78143	100	0.000066
+[2024-12-08 11:39:58.477] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000023
+[2024-12-08 11:39:58.590] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000020
+[2024-12-08 11:39:58.816] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4886907	100	0.000755
+[2024-12-08 11:39:58.985] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10965296	100	0.000719
+[2024-12-08 11:39:59.379] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2527797	100	0.000558
+[2024-12-08 11:39:59.692] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000036
+[2024-12-08 11:39:59.966] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000036
+[2024-12-08 11:40:01.097] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79116606	100	0.005709
+[2024-12-08 11:40:01.728] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79057554	100	0.001186
+[2024-12-08 11:40:02.744] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160094554	100	0.002055
+[2024-12-08 11:40:06.339] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235743568	100	0.023060
+[2024-12-08 11:40:44.640] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32654911562	10	2.104035
+[2024-12-08 11:41:44.586] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1904636772	10	0.891578
+
+=======================Cuckoo-high-degree+conflict>=10
+[2024-12-08 11:43:15.586] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000021
+[2024-12-08 11:43:15.606] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000020
+[2024-12-08 11:43:15.640] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	28358	100	0.000069
+[2024-12-08 11:43:15.669] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2335	100	0.000069
+[2024-12-08 11:43:15.750] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3929961	100	0.000443
+[2024-12-08 11:43:15.784] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	78151	100	0.000062
+[2024-12-08 11:43:15.829] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000022
+[2024-12-08 11:43:15.947] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000020
+[2024-12-08 11:43:16.172] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4887239	100	0.000707
+[2024-12-08 11:43:16.519] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10965296	100	0.000722
+[2024-12-08 11:43:16.754] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2527771	100	0.000561
+[2024-12-08 11:43:17.070] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000037
+[2024-12-08 11:43:17.347] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000037
+[2024-12-08 11:43:18.446] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79117101	100	0.005732
+[2024-12-08 11:43:19.240] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79061453	100	0.001191
+[2024-12-08 11:43:20.199] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160094926	100	0.002064
+[2024-12-08 11:43:23.868] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235755005	100	0.023121
+[2024-12-08 11:44:02.431] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32659937451	10	2.114139
+[2024-12-08 11:45:02.875] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1904988106	10	0.893045
+
+
+=======================Cuckoo-high-degree
+[2024-12-08 12:19:52.574] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000020
+[2024-12-08 12:19:52.587] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000020
+[2024-12-08 12:19:52.619] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	27595	100	0.000070
+[2024-12-08 12:19:52.642] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2335	100	0.000068
+[2024-12-08 12:19:52.721] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3929961	100	0.000462
+[2024-12-08 12:19:52.758] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	78168	100	0.000072
+[2024-12-08 12:19:52.809] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000023
+[2024-12-08 12:19:52.926] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000020
+[2024-12-08 12:19:53.161] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4887523	100	0.000738
+[2024-12-08 12:19:53.327] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10965296	100	0.000719
+[2024-12-08 12:19:53.554] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2527730	100	0.000559
+[2024-12-08 12:19:53.999] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000036
+[2024-12-08 12:19:54.274] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000036
+[2024-12-08 12:19:55.226] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79040005	100	0.005736
+[2024-12-08 12:19:55.848] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79056567	100	0.001194
+[2024-12-08 12:19:56.909] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160094259	100	0.002071
+[2024-12-08 12:20:00.620] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235741352	100	0.023136
+[2024-12-08 12:20:39.336] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32642193165	10	2.118914
+[2024-12-08 12:21:40.134] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1904636253	10	0.892894
+
+
+=======================Cuckoo-high-degree+conflict>=10
+[2024-12-08 12:22:53.636] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000023
+[2024-12-08 12:22:53.652] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000019
+[2024-12-08 12:22:53.690] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	27595	100	0.000069
+[2024-12-08 12:22:53.716] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2335	100	0.000067
+[2024-12-08 12:22:53.801] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3929961	100	0.000464
+[2024-12-08 12:22:53.837] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	78101	100	0.000072
+[2024-12-08 12:22:53.885] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000024
+[2024-12-08 12:22:54.003] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000020
+[2024-12-08 12:22:54.386] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4887209	100	0.000759
+[2024-12-08 12:22:54.552] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10965296	100	0.000722
+[2024-12-08 12:22:54.778] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2527855	100	0.000562
+[2024-12-08 12:22:55.091] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000036
+[2024-12-08 12:22:55.539] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000036
+[2024-12-08 12:22:56.494] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79044271	100	0.005749
+[2024-12-08 12:22:57.236] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79063728	100	0.001198
+[2024-12-08 12:22:58.366] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160094639	100	0.002077
+[2024-12-08 12:23:02.004] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235756731	100	0.023159
+[2024-12-08 12:23:40.606] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32645733284	10	2.119490
+[2024-12-08 12:24:40.966] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1904989668	10	0.893601
+
+
+=======================Cuckoo-high-degree+ 1hashtable
+[2024-12-08 12:47:30.434] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000018
+[2024-12-08 12:47:30.446] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000018
+[2024-12-08 12:47:30.481] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	27754	100	0.000064
+[2024-12-08 12:47:30.504] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2357	100	0.000064
+[2024-12-08 12:47:30.585] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3932216	100	0.000452
+[2024-12-08 12:47:30.624] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	78864	100	0.000062
+[2024-12-08 12:47:30.669] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000021
+[2024-12-08 12:47:30.963] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000019
+[2024-12-08 12:47:31.190] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4888997	100	0.000751
+[2024-12-08 12:47:31.365] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10974290	100	0.000716
+[2024-12-08 12:47:31.595] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2528434	100	0.000556
+[2024-12-08 12:47:31.913] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000032
+[2024-12-08 12:47:32.350] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000032
+[2024-12-08 12:47:33.285] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79067971	100	0.005567
+[2024-12-08 12:47:33.919] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79258532	100	0.001165
+[2024-12-08 12:47:35.050] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160175460	100	0.002012
+[2024-12-08 12:47:38.647] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235824388	100	0.022648
+[2024-12-08 12:48:16.937] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32662173598	10	2.103585
+[2024-12-08 12:49:17.616] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1906267205	10	0.878051
+
+
+=======================Cuckoo-high-degree+ 1hashtable+conflict>=10
+[2024-12-08 12:50:43.270] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000021
+[2024-12-08 12:50:43.282] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000017
+[2024-12-08 12:50:43.311] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	27754	100	0.000064
+[2024-12-08 12:50:43.331] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2357	100	0.000064
+[2024-12-08 12:50:43.408] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3932216	100	0.000459
+[2024-12-08 12:50:43.445] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	78864	100	0.000068
+[2024-12-08 12:50:43.491] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000022
+[2024-12-08 12:50:43.613] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000018
+[2024-12-08 12:50:43.840] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4889027	100	0.000752
+[2024-12-08 12:50:44.007] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10974290	100	0.000716
+[2024-12-08 12:50:44.235] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2528466	100	0.000555
+[2024-12-08 12:50:44.752] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000032
+[2024-12-08 12:50:45.040] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000032
+[2024-12-08 12:50:46.029] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79067775	100	0.005572
+[2024-12-08 12:50:46.663] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79258588	100	0.001167
+[2024-12-08 12:50:47.785] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160176106	100	0.002018
+[2024-12-08 12:50:51.386] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235835386	100	0.022665
+[2024-12-08 12:51:29.901] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32666300245	10	2.103456
+[2024-12-08 12:52:30.573] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1906624496	10	0.878142
+
+=======================Cuckoo-high-degree+ 1hashtable+conflict>=10 + 31,1023
+[2024-12-08 13:10:16.323] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000021
+[2024-12-08 13:10:16.345] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000018
+[2024-12-08 13:10:16.382] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	27983	100	0.000065
+[2024-12-08 13:10:16.406] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2335	100	0.000065
+[2024-12-08 13:10:16.493] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3940740	100	0.000460
+[2024-12-08 13:10:16.533] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	79423	100	0.000069
+[2024-12-08 13:10:16.584] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000022
+[2024-12-08 13:10:16.712] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000018
+[2024-12-08 13:10:16.942] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4950258	100	0.000752
+[2024-12-08 13:10:17.111] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10993589	100	0.000716
+[2024-12-08 13:10:17.526] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2535713	100	0.000556
+[2024-12-08 13:10:17.843] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000032
+[2024-12-08 13:10:18.127] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000032
+[2024-12-08 13:10:19.233] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79771614	100	0.005628
+[2024-12-08 13:10:20.025] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79520480	100	0.001170
+[2024-12-08 13:10:20.987] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160659572	100	0.002025
+[2024-12-08 13:10:24.554] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	237063507	100	0.022838
+[2024-12-08 13:11:03.328] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32732187671	10	2.119752
+[2024-12-08 13:12:03.262] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1914915623	10	0.882136
+
+
+=======================Cuckoo-high-degree+ 1hashtable + 31,1023
+
+[2024-12-08 13:14:08.608] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000019
+[2024-12-08 13:14:08.627] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000022
+[2024-12-08 13:14:08.657] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	27983	100	0.000064
+[2024-12-08 13:14:08.680] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2335	100	0.000064
+[2024-12-08 13:14:08.769] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3940740	100	0.000460
+[2024-12-08 13:14:08.805] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	79423	100	0.000068
+[2024-12-08 13:14:08.851] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000022
+[2024-12-08 13:14:08.979] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000019
+[2024-12-08 13:14:09.216] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4950236	100	0.000750
+[2024-12-08 13:14:09.384] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10993589	100	0.000716
+[2024-12-08 13:14:09.793] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2535723	100	0.000555
+[2024-12-08 13:14:10.107] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000032
+[2024-12-08 13:14:10.381] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000032
+[2024-12-08 13:14:11.361] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79769417	100	0.005592
+[2024-12-08 13:14:11.976] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79520340	100	0.001165
+[2024-12-08 13:14:12.951] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160659072	100	0.002011
+[2024-12-08 13:14:16.529] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	237049326	100	0.022763
+[2024-12-08 13:14:54.872] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32728225809	10	2.104044
+[2024-12-08 13:15:55.007] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1914556650	10	0.880475
+
+
+
+================naive + cuckoo combine, boundary = 1024 
+[2024-12-08 13:23:56.237] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000021
+[2024-12-08 13:23:56.257] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000020
+[2024-12-08 13:23:56.291] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	27595	100	0.000066
+[2024-12-08 13:23:56.314] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2335	100	0.000064
+[2024-12-08 13:23:56.395] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3929961	100	0.000466
+[2024-12-08 13:23:56.431] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	78864	100	0.000068
+[2024-12-08 13:23:56.480] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000022
+[2024-12-08 13:23:56.602] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000018
+[2024-12-08 13:23:56.835] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4888996	100	0.000777
+[2024-12-08 13:23:57.006] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10965296	100	0.000735
+[2024-12-08 13:23:57.397] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2528140	100	0.000569
+[2024-12-08 13:23:57.719] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000033
+[2024-12-08 13:23:57.998] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000032
+[2024-12-08 13:23:59.178] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79101465	100	0.006386
+[2024-12-08 13:24:00.009] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79146290	100	0.001383
+[2024-12-08 13:24:01.018] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160099271	100	0.002465
+[2024-12-08 13:24:04.936] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235915527	100	0.025194
+[2024-12-08 13:24:44.719] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32729468733	10	2.243680
+[2024-12-08 13:25:45.428] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1905905534	10	0.925237
+
+
+================cuckoo
+[2024-12-08 13:27:09.775] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000019
+[2024-12-08 13:27:09.796] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000020
+[2024-12-08 13:27:09.830] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	27754	100	0.000065
+[2024-12-08 13:27:09.863] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2357	100	0.000064
+[2024-12-08 13:27:10.137] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3932216	100	0.000459
+[2024-12-08 13:27:10.173] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	78864	100	0.000068
+[2024-12-08 13:27:10.220] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000022
+[2024-12-08 13:27:10.339] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000018
+[2024-12-08 13:27:10.566] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4888997	100	0.000746
+[2024-12-08 13:27:10.745] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10974290	100	0.000715
+[2024-12-08 13:27:10.972] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2528340	100	0.000553
+[2024-12-08 13:27:11.447] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000032
+[2024-12-08 13:27:11.724] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000032
+[2024-12-08 13:27:12.664] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79067451	100	0.005647
+[2024-12-08 13:27:13.279] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79258501	100	0.001155
+[2024-12-08 13:27:14.420] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160175137	100	0.002016
+[2024-12-08 13:27:18.205] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235821534	100	0.023094
+[2024-12-08 13:27:56.713] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32663955132	10	2.101027
+[2024-12-08 13:28:57.946] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1906268772	10	0.887240
+
+
+================cuckoo all
+[2024-12-08 13:30:37.765] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000077
+[2024-12-08 13:30:37.784] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000043
+[2024-12-08 13:30:37.834] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267472	100	0.000177
+[2024-12-08 13:30:37.884] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602614	100	0.000315
+[2024-12-08 13:30:38.005] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8912260	100	0.000524
+[2024-12-08 13:30:38.185] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000342
+[2024-12-08 13:30:38.292] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000628
+[2024-12-08 13:30:38.445] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000397
+[2024-12-08 13:30:38.793] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203509	100	0.001741
+[2024-12-08 13:30:39.071] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64699974	100	0.001809
+[2024-12-08 13:30:39.709] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769941	100	0.002781
+[2024-12-08 13:30:40.519] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004847
+[2024-12-08 13:30:41.746] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007764
+[2024-12-08 13:30:44.452] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114171798	100	0.022600
+[2024-12-08 13:30:46.041] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177932362	100	0.010504
+[2024-12-08 13:30:48.279] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285806533	100	0.014704
+[2024-12-08 13:30:57.698] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627493529	100	0.079686
+[2024-12-08 13:31:43.208] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	33695428427	10	2.808004
+[2024-12-08 13:32:54.642] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4174090875	10	1.970589
+
+
+[2024-12-08 13:52:23.273] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627490992	10	0.148225
+[2024-12-08 13:59:33.489] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627491936	100	0.079671
+[2024-12-08 14:13:28.048] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627407444	10	0.147018
+[2024-12-08 14:14:29.850] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627408939	100	0.080451
+[2024-12-08 14:36:31.628] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627407007	10	0.147115
+[2024-12-08 14:37:08.355] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627387205	10	0.212060
+[2024-12-08 14:38:25.303] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627391321	10	0.157284
+[2024-12-08 14:39:06.555] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627407519	10	0.157555
+[2024-12-08 14:48:14.810] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627406841	10	0.156782
+[2024-12-08 14:55:46.306] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	425181845	10	0.546024
+
+==============table conflict = 3
+[2024-12-08 15:25:44.672] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000076
+[2024-12-08 15:25:44.690] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000041
+[2024-12-08 15:25:44.737] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267472	100	0.000177
+[2024-12-08 15:25:44.786] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602614	100	0.000317
+[2024-12-08 15:25:44.887] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8912260	100	0.000576
+[2024-12-08 15:25:44.961] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000343
+[2024-12-08 15:25:45.076] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000630
+[2024-12-08 15:25:45.248] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000398
+[2024-12-08 15:25:45.594] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203155	100	0.001742
+[2024-12-08 15:25:45.979] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64699974	100	0.001809
+[2024-12-08 15:25:46.457] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769757	100	0.002780
+[2024-12-08 15:25:47.495] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004859
+[2024-12-08 15:25:48.612] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007758
+[2024-12-08 15:25:51.315] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114185394	100	0.022444
+[2024-12-08 15:25:53.106] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177932256	100	0.010494
+[2024-12-08 15:25:55.460] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285809640	100	0.014656
+[2024-12-08 15:26:05.049] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627508021	100	0.079030
+[2024-12-08 15:26:53.379] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	33686489222	10	2.785000
+[2024-12-08 15:28:08.523] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4174067670	10	1.959122
+
+
+==============table = 2*1024 , conflict = 3
+[2024-12-08 15:32:12.904] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000078
+[2024-12-08 15:32:12.924] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000042
+[2024-12-08 15:32:12.977] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267470	100	0.000177
+[2024-12-08 15:32:13.028] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602614	100	0.000316
+[2024-12-08 15:32:13.125] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8902647	100	0.000570
+[2024-12-08 15:32:13.199] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000342
+[2024-12-08 15:32:13.313] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000635
+[2024-12-08 15:32:13.476] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000382
+[2024-12-08 15:32:13.819] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9189140	100	0.001720
+[2024-12-08 15:32:14.233] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64676156	100	0.001787
+[2024-12-08 15:32:14.708] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28761157	100	0.002765
+[2024-12-08 15:32:15.721] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004839
+[2024-12-08 15:32:16.834] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007753
+[2024-12-08 15:32:19.522] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	113817177	100	0.022289
+[2024-12-08 15:32:21.164] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177668590	100	0.010425
+[2024-12-08 15:32:23.662] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285315641	100	0.014519
+[2024-12-08 15:32:33.270] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	626125350	100	0.078529
+
+
+==============grid size = 2048 
+[2024-12-08 15:50:27.264] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000076
+[2024-12-08 15:50:27.281] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000042
+[2024-12-08 15:50:27.332] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267472	100	0.000178
+[2024-12-08 15:50:27.381] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602614	100	0.000316
+[2024-12-08 15:50:27.471] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8912260	100	0.000551
+[2024-12-08 15:50:27.538] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000342
+[2024-12-08 15:50:27.645] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000619
+[2024-12-08 15:50:27.807] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000398
+[2024-12-08 15:50:28.169] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203148	100	0.001855
+[2024-12-08 15:50:28.501] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64699974	100	0.002195
+[2024-12-08 15:50:29.032] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769729	100	0.003219
+[2024-12-08 15:50:29.915] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004999
+[2024-12-08 15:50:31.042] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007899
+[2024-12-08 15:50:33.720] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114181500	100	0.021950
+[2024-12-08 15:50:35.368] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177932318	100	0.010477
+[2024-12-08 15:50:37.870] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285809308	100	0.014438
+[2024-12-08 15:50:47.270] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627508455	100	0.076774
+[2024-12-08 15:51:35.555] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	33687142041	10	2.748735
+[2024-12-08 15:52:50.945] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4174072512	10	1.910495
+
+
+[2024-12-08 16:46:56.789] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000078
+[2024-12-08 16:46:56.810] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000042
+[2024-12-08 16:46:56.859] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267472	100	0.000177
+[2024-12-08 16:46:56.909] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000315
+[2024-12-08 16:46:57.005] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8903986	100	0.000521
+[2024-12-08 16:46:57.070] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000341
+[2024-12-08 16:46:57.188] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000598
+[2024-12-08 16:46:57.348] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000383
+[2024-12-08 16:46:57.858] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9202564	100	0.001846
+[2024-12-08 16:46:58.190] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690994	100	0.002189
+[2024-12-08 16:46:58.708] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28765030	100	0.003202
+[2024-12-08 16:46:59.728] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.005001
+[2024-12-08 16:47:01.029] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007902
+[2024-12-08 16:47:03.847] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114071470	100	0.021878
+[2024-12-08 16:47:05.631] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177807720	100	0.010477
+[2024-12-08 16:47:08.122] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285676804	100	0.014407
+[2024-12-08 16:47:17.427] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627240489	100	0.076536
+[2024-12-08 16:48:05.517] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32616228293	10	2.727274
+[2024-12-08 16:49:20.527] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4171805738	10	1.905487
+
+[2024-12-08 17:33:59.527] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000086
+[2024-12-08 17:33:59.542] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000040
+[2024-12-08 17:33:59.589] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267472	100	0.000177
+[2024-12-08 17:33:59.640] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000317
+[2024-12-08 17:33:59.738] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8912260	100	0.000573
+[2024-12-08 17:33:59.806] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000341
+[2024-12-08 17:33:59.915] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000636
+[2024-12-08 17:34:00.089] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000385
+[2024-12-08 17:34:00.445] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9202829	100	0.001845
+[2024-12-08 17:34:00.915] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64691062	100	0.002186
+[2024-12-08 17:34:01.437] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28767952	100	0.003207
+[2024-12-08 17:34:02.489] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.005001
+[2024-12-08 17:34:03.624] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007905
+[2024-12-08 17:34:06.261] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114058205	100	0.021791
+[2024-12-08 17:34:08.022] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177787887	100	0.010425
+[2024-12-08 17:34:10.336] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285544213	100	0.014324
+[2024-12-08 17:34:19.638] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627238082	100	0.076276
+[2024-12-08 17:35:07.068] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32660859469	10	2.703020
+[2024-12-08 17:36:22.120] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4171776401	10	1.901195
+[2024-12-08 17:50:05.951] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000077
+[2024-12-08 17:50:05.973] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000042
+[2024-12-08 17:50:06.029] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267472	100	0.000178
+[2024-12-08 17:50:06.078] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000316
+[2024-12-08 17:50:06.180] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8912260	100	0.000544
+[2024-12-08 17:50:06.420] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000343
+[2024-12-08 17:50:06.531] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000603
+[2024-12-08 17:50:06.700] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000384
+[2024-12-08 17:50:07.055] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203066	100	0.001845
+[2024-12-08 17:50:07.383] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64691062	100	0.002187
+[2024-12-08 17:50:08.070] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28767854	100	0.003208
+[2024-12-08 17:50:08.943] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.005009
+[2024-12-08 17:50:10.077] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007902
+[2024-12-08 17:50:12.771] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114059905	100	0.021795
+[2024-12-08 17:50:14.403] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177789362	100	0.010430
+[2024-12-08 17:50:16.884] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285546752	100	0.014324
+[2024-12-08 17:50:26.230] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627238482	100	0.076288
+[2024-12-08 17:51:13.974] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32660759686	10	2.702958
+[2024-12-08 17:52:28.870] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4171759966	10	1.901815
+
+
+[2024-12-08 17:55:25.861] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000076
+[2024-12-08 17:55:25.879] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000043
+[2024-12-08 17:55:25.933] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267472	100	0.000178
+[2024-12-08 17:55:25.987] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000316
+[2024-12-08 17:55:26.083] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8912260	100	0.000520
+[2024-12-08 17:55:26.154] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000342
+[2024-12-08 17:55:26.268] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000599
+[2024-12-08 17:55:26.434] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000385
+[2024-12-08 17:55:26.938] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9202840	100	0.001844
+[2024-12-08 17:55:27.267] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64691062	100	0.002186
+[2024-12-08 17:55:27.783] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28767678	100	0.003206
+[2024-12-08 17:55:28.732] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.005001
+[2024-12-08 17:55:30.043] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007898
+[2024-12-08 17:55:32.836] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114060468	100	0.021802
+[2024-12-08 17:55:34.625] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177787894	100	0.010426
+[2024-12-08 17:55:36.963] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285549776	100	0.014321
+[2024-12-08 17:55:46.347] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627239423	100	0.076314
+[2024-12-08 17:56:34.204] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	32660238728	10	2.703055
+[2024-12-08 17:57:49.222] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4171767075	10	1.901592
+[2024-12-08 17:59:56.791] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627237807	100	0.076292
+[2024-12-08 18:00:21.472] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627235488	100	0.076283
+
+
+
+[2024-12-08 18:31:08.229] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	159921913	100	0.002275
+[2024-12-08 18:31:28.505] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235564718	100	0.022420
+[2024-12-08 18:31:52.002] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	159920857	100	0.002272
+[2024-12-08 18:37:38.176] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160158774	10	0.227733
+[2024-12-08 18:38:24.872] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160158681	100	0.006742
+[2024-12-08 18:41:43.734] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160158651	100	0.006748
+
+
+
+====================conflict = 3
+[2024-12-08 20:04:07.943] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000078
+[2024-12-08 20:04:07.967] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000041
+[2024-12-08 20:04:08.014] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267313	100	0.000178
+[2024-12-08 20:04:08.067] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000316
+[2024-12-08 20:04:08.159] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000524
+[2024-12-08 20:04:08.222] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000341
+[2024-12-08 20:04:08.332] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000597
+[2024-12-08 20:04:08.490] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000383
+[2024-12-08 20:04:08.831] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203519	100	0.001865
+[2024-12-08 20:04:09.343] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.002186
+[2024-12-08 20:04:09.834] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769868	100	0.003208
+[2024-12-08 20:04:10.651] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.005002
+[2024-12-08 20:04:11.712] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007900
+[2024-12-08 20:04:14.356] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114206974	100	0.022645
+[2024-12-08 20:04:15.925] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177820130	100	0.010560
+[2024-12-08 20:04:18.274] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285730264	100	0.014666
+[2024-12-08 20:04:27.627] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627584181	100	0.079065
+[2024-12-08 20:05:14.602] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	34824916864	10	2.937532
+[2024-12-08 20:06:25.642] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4173724142	10	1.957256
+
+====================conflict = 5
+[2024-12-08 20:08:26.918] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000078
+[2024-12-08 20:08:26.936] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000040
+[2024-12-08 20:08:26.980] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267313	100	0.000177
+[2024-12-08 20:08:27.031] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000313
+[2024-12-08 20:08:27.125] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000578
+[2024-12-08 20:08:27.188] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000341
+[2024-12-08 20:08:27.296] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000635
+[2024-12-08 20:08:27.446] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000383
+[2024-12-08 20:08:27.781] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203519	100	0.001867
+[2024-12-08 20:08:28.268] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.002186
+[2024-12-08 20:08:28.760] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769868	100	0.003206
+[2024-12-08 20:08:29.577] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.005000
+[2024-12-08 20:08:30.643] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007900
+[2024-12-08 20:08:33.291] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114206974	100	0.022654
+[2024-12-08 20:08:34.853] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177820130	100	0.010564
+[2024-12-08 20:08:37.206] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285730264	100	0.014666
+[2024-12-08 20:08:46.539] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627584181	100	0.079102
+[2024-12-08 20:09:33.348] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	34824916864	10	2.938242
+[2024-12-08 20:10:43.956] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4173724142	10	1.957644
+
+
+====================H0=1,H1=31,conflict = 3
+[2024-12-08 20:11:28.761] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000077
+[2024-12-08 20:11:28.784] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000041
+[2024-12-08 20:11:28.838] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267313	100	0.000178
+[2024-12-08 20:11:28.888] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000316
+[2024-12-08 20:11:29.171] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000577
+[2024-12-08 20:11:29.242] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000376
+[2024-12-08 20:11:29.357] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000688
+[2024-12-08 20:11:29.511] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000409
+[2024-12-08 20:11:29.851] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203519	100	0.001869
+[2024-12-08 20:11:30.165] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.002190
+[2024-12-08 20:11:30.840] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769868	100	0.003211
+[2024-12-08 20:11:31.659] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.004999
+[2024-12-08 20:11:32.775] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007895
+[2024-12-08 20:11:35.510] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114206974	100	0.022622
+[2024-12-08 20:11:37.168] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177820130	100	0.010563
+[2024-12-08 20:11:39.615] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285730264	100	0.014654
+[2024-12-08 20:11:48.932] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627584181	100	0.078958
+[2024-12-08 20:12:35.925] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	34824916864	10	2.930830
+[2024-12-08 20:13:47.107] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4173724142	10	1.954661
+
+
+====================H0=1,H1=31,conflict = 3, %
+[2024-12-08 20:14:29.771] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000095
+[2024-12-08 20:14:29.800] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000041
+[2024-12-08 20:14:30.042] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267313	100	0.000176
+[2024-12-08 20:14:30.090] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000315
+[2024-12-08 20:14:30.179] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000578
+[2024-12-08 20:14:30.242] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000341
+[2024-12-08 20:14:30.349] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000632
+[2024-12-08 20:14:30.500] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000384
+[2024-12-08 20:14:30.840] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203519	100	0.001874
+[2024-12-08 20:14:31.153] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.002189
+[2024-12-08 20:14:31.806] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769868	100	0.003214
+[2024-12-08 20:14:32.623] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.005001
+[2024-12-08 20:14:33.690] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.007907
+[2024-12-08 20:14:36.426] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114206974	100	0.022793
+[2024-12-08 20:14:38.043] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177820130	100	0.010604
+[2024-12-08 20:14:40.281] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285730264	100	0.014741
+[2024-12-08 20:14:49.654] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627584181	100	0.079489
+[2024-12-08 20:15:36.619] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	34824916864	10	2.951721
+[2024-12-08 20:16:47.487] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4173724142	10	1.965681
+
+
+====================H0=1,H1=31,conflict = 3
+[2024-12-08 20:18:03.516] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e2	3966418	100	0.001321
+[2024-12-08 20:18:03.938] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e4	20219754	100	0.003550
+[2024-12-08 20:18:04.987] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e8	95652855	100	0.009376
+[2024-12-08 20:18:08.348] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e16	420642337	100	0.030061
+[2024-12-08 20:18:18.419] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e32	1726926306	100	0.097472
+[2024-12-08 20:18:22.259] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e64	6619001657	10	0.307133
+[2024-12-08 20:18:32.765] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e128	23750654538	10	0.921662
+[2024-12-08 20:19:01.986] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e256	79941782408	10	2.713157
+
+[2024-12-08 20:20:00.797] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s17-e32	135616399	100	0.005468
+[2024-12-08 20:20:02.279] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s18-e32	319298964	100	0.013237
+[2024-12-08 20:20:06.085] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s19-e32	745161019	100	0.036415
+[2024-12-08 20:20:16.161] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s20-e32	1726926306	100	0.097467
+[2024-12-08 20:20:19.575] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s21-e32	3964459518	10	0.265606
+[2024-12-08 20:20:27.925] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s22-e32	9055827800	10	0.691413
+[2024-12-08 20:20:49.069] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s23-e32	20579400628	10	1.787764
+[2024-12-08 20:21:42.521] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s24-e32	46556649365	10	4.656065

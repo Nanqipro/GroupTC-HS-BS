@@ -1,0 +1,871 @@
+==3549369== NVPROF is profiling process 3549369, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Caida/ 0 1
+==3549369== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549369== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Caida/ 0 1
+==3549369== Profiling result:
+==3549369== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.499730,0.499730,0.499730
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",78.695136%,78.695136%,78.695136%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",80.817434%,80.817434%,80.817434%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",3.367744,3.367744,3.367744
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",9.537610,9.537610,9.537610
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",793875,793875,793875
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",154185,154185,154185
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",15350,15350,15350
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",72.713478%,72.713478%,72.713478%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",11.835587GB/s,11.835587GB/s,11.835587GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",32.486169GB/s,32.486169GB/s,32.486169GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",3.234184GB/s,3.234184GB/s,3.234184GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",669.065266GB/s,669.065266GB/s,669.065266GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",36.432694%,36.432694%,36.432694%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_utilization","Device Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",4.132743%,4.132743%,4.132743%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",16166,16166,16166
+==3549488== NVPROF is profiling process 3549488, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/P2p-Gnutella31/ 0 1
+==3549488== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549488== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/P2p-Gnutella31/ 0 1
+==3549488== Profiling result:
+==3549488== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.499648,0.499648,0.499648
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",74.468062%,74.468062%,74.468062%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",77.589865%,77.589865%,77.589865%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",3.993475,3.993475,3.993475
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",12.742107,12.742107,12.742107
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",1859354,1859354,1859354
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",370069,370069,370069
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",43020,43020,43020
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",33.281458%,33.281458%,33.281458%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",30.887592GB/s,30.887592GB/s,30.887592GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",114.708890GB/s,114.708890GB/s,114.708890GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",13.334747GB/s,13.334747GB/s,13.334747GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",2305.347742GB/s,2305.347742GB/s,2305.347742GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",26.926938%,26.926938%,26.926938%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_utilization","Device Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",4.846845%,4.846845%,4.846845%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",29043,29043,29043
+==3549525== NVPROF is profiling process 3549525, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Email-EuAll/ 0 1
+==3549525== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549525== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Email-EuAll/ 0 1
+==3549525== Profiling result:
+==3549525== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.499786,0.499786,0.499786
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",81.706630%,81.706630%,81.706630%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",84.520939%,84.520939%,84.520939%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.621967,2.621967,2.621967
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",6.057927,6.057927,6.057927
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",3110956,3110956,3110956
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",889958,889958,889958
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",41974,41974,41974
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",60.135964%,60.135964%,60.135964%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",69.397358GB/s,69.397358GB/s,69.397358GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",144.492832GB/s,144.492832GB/s,144.492832GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",6.814863GB/s,6.814863GB/s,6.814863GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",2020.368791GB/s,2020.368791GB/s,2020.368791GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",48.028236%,48.028236%,48.028236%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_utilization","Device Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",5.657428%,5.657428%,5.657428%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",146908,146908,146908
+==3549542== NVPROF is profiling process 3549542, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Slashdot0922/ 0 1
+==3549542== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549542== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Slashdot0922/ 0 1
+==3549542== Profiling result:
+==3549542== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.597987,0.597987,0.597987
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",83.956881%,83.956881%,83.956881%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",87.269310%,87.269310%,87.269310%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.020212,2.020212,2.020212
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",6.597724,6.597724,6.597724
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",9206628,9206628,9206628
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",3196848,3196848,3196848
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",175599,175599,175599
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",34.550391%,34.550391%,34.550391%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",175.074917GB/s,175.074917GB/s,175.074917GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",302.372986GB/s,302.372986GB/s,302.372986GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",16.608983GB/s,16.608983GB/s,16.608983GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",3483.225478GB/s,3483.225478GB/s,3483.225478GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",57.900317%,57.900317%,57.900317%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",7.929655%,7.929655%,7.929655%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",484538,484538,484538
+==3549542== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3549657== NVPROF is profiling process 3549657, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-NotreDame/ 0 1
+==3549657== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549657== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-NotreDame/ 0 1
+==3549657== Profiling result:
+==3549657== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.976549,0.976549,0.976549
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",75.772708%,75.772708%,75.772708%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",71.891974%,71.891974%,71.891974%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.824014,2.824014,2.824014
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",3.537264,3.537264,3.537264
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",14627501,14627501,14627501
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",4493202,4493202,4493202
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",1359717,1359717,1359717
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",83.615951%,83.615951%,83.615951%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",165.934732GB/s,165.934732GB/s,165.934732GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",320.388977GB/s,320.388977GB/s,320.388977GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",96.954986GB/s,96.954986GB/s,96.954986GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",4172.071573GB/s,4172.071573GB/s,4172.071573GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",51.791648%,51.791648%,51.791648%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",7.241463%,7.241463%,7.241463%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",1270248,1270248,1270248
+==3549657== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3549690== NVPROF is profiling process 3549690, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Dblp/ 0 1
+==3549690== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549690== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Dblp/ 0 1
+==3549690== Profiling result:
+==3549690== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.978742,0.978742,0.978742
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",77.019452%,77.019452%,77.019452%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",78.870572%,78.870572%,78.870572%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",3.180480,3.180480,3.180480
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",9.510264,9.510264,9.510264
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",16091771,16091771,16091771
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",3447252,3447252,3447252
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",3768427,3768427,3768427
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",35.389410%,35.389410%,35.389410%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",72.582104GB/s,72.582104GB/s,72.582104GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",221.047693GB/s,221.047693GB/s,221.047693GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",241.642356GB/s,241.642356GB/s,241.642356GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",4127.402190GB/s,4127.402190GB/s,4127.402190GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",32.835495%,32.835495%,32.835495%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",5.148509%,5.148509%,5.148509%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",362477,362477,362477
+==3549690== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3549721== NVPROF is profiling process 3549721, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Amazon0601/ 0 1
+==3549721== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549721== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Amazon0601/ 0 1
+==3549721== Profiling result:
+==3549721== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.992672,0.992672,0.992672
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",77.361075%,77.361075%,77.361075%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",78.852166%,78.852166%,78.852166%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",3.241808,3.241808,3.241808
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",9.958391,9.958391,9.958391
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",38851688,38851688,38851688
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",7435602,7435602,7435602
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",9592138,9592138,9592138
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",38.643444%,38.643444%,38.643444%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",104.078269GB/s,104.078269GB/s,104.078269GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",319.093812GB/s,319.093812GB/s,319.093812GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",411.640091GB/s,411.640091GB/s,411.640091GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",6669.175266GB/s,6669.175266GB/s,6669.175266GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",32.616824%,32.616824%,32.616824%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",5.097462%,5.097462%,5.097462%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",746667,746667,746667
+==3549721== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3549824== NVPROF is profiling process 3549824, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/RoadNet-CA/ 0 1
+==3549824== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549824== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/RoadNet-CA/ 0 1
+==3549824== Profiling result:
+==3549824== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.999053,0.999053,0.999053
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",75.507008%,75.507008%,75.507008%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",71.579480%,71.579480%,71.579480%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",3.138812,3.138812,3.138812
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",11.055856,11.055856,11.055856
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",24433793,24433793,24433793
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",3873010,3873010,3873010
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",2530956,2530956,2530956
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",59.117330%,59.117330%,59.117330%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",76.731587GB/s,76.731587GB/s,76.731587GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",263.003690GB/s,263.003690GB/s,263.003690GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",171.869107GB/s,171.869107GB/s,171.869107GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",6636.882147GB/s,6636.882147GB/s,6636.882147GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",29.175099%,29.175099%,29.175099%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",4.803942%,4.803942%,4.803942%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",350313,350313,350313
+==3549824== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3549842== NVPROF is profiling process 3549842, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Wiki-Talk/ 0 1
+==3549842== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549842== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Wiki-Talk/ 0 1
+==3549842== Profiling result:
+==3549842== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.993046,0.993046,0.993046
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",86.996264%,86.996264%,86.996264%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",90.695667%,90.695667%,90.695667%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.858977,1.858977,1.858977
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",4.704591,4.704591,4.704591
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",82335332,82335332,82335332
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",33822871,33822871,33822871
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",15982310,15982310,15982310
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",36.858494%,36.858494%,36.858494%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",422.615349GB/s,422.615349GB/s,422.615349GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",621.723757GB/s,621.723757GB/s,621.723757GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",293.782920GB/s,293.782920GB/s,293.782920GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",6053.871885GB/s,6053.871885GB/s,6053.871885GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",67.974779%,67.974779%,67.974779%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",10.699553%,10.699553%,10.699553%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",7189333,7189333,7189333
+==3549842== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3549863== NVPROF is profiling process 3549863, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-BerkStan/ 0 1
+==3549863== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549863== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-BerkStan/ 0 1
+==3549863== Profiling result:
+==3549863== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.993698,0.993698,0.993698
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",75.491787%,75.491787%,75.491787%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",69.910786%,69.910786%,69.910786%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.633141,2.633141,2.633141
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",3.574196,3.574196,3.574196
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",107139117,107139117,107139117
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",36773280,36773280,36773280
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",12202389,12202389,12202389
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",84.651629%,84.651629%,84.651629%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",250.129318GB/s,250.129318GB/s,250.129318GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",585.047517GB/s,585.047517GB/s,585.047517GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",194.134910GB/s,194.134910GB/s,194.134910GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",6818.154312GB/s,6818.154312GB/s,6818.154312GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",42.753676%,42.753676%,42.753676%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",8.394981%,8.394981%,8.394981%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",10288547,10288547,10288547
+==3549863== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3549960== NVPROF is profiling process 3549960, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Skitter/ 0 1
+==3549960== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549960== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Skitter/ 0 1
+==3549960== Profiling result:
+==3549960== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.994420,0.994420,0.994420
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",80.471298%,80.471298%,80.471298%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",80.548124%,80.548124%,80.548124%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.135323,2.135323,2.135323
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",5.013389,5.013389,5.013389
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",173372668,173372668,173372668
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",59748115,59748115,59748115
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",45517517,45517517,45517517
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",58.792535%,58.792535%,58.792535%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",334.526984GB/s,334.526984GB/s,334.526984GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",643.469026GB/s,643.469026GB/s,643.469026GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",490.209814GB/s,490.209814GB/s,490.209814GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",7468.683616GB/s,7468.683616GB/s,7468.683616GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",51.988048%,51.988048%,51.988048%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",8.987122%,8.987122%,8.987122%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",11917709,11917709,11917709
+==3549960== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3549979== NVPROF is profiling process 3549979, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Cit-Patents/ 0 1
+==3549979== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3549979== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Cit-Patents/ 0 1
+==3549979== Profiling result:
+==3549979== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.993375,0.993375,0.993375
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",78.626427%,78.626427%,78.626427%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",82.242382%,82.242382%,82.242382%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.972635,2.972635,2.972635
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",11.643953,11.643953,11.643953
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",206409030,206409030,206409030
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",60594934,60594934,60594934
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",113625201,113625201,113625201
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",22.000844%,22.000844%,22.000844%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",116.446006GB/s,116.446006GB/s,116.446006GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",372.590036GB/s,372.590036GB/s,372.590036GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",698.665960GB/s,698.665960GB/s,698.665960GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",5076.724591GB/s,5076.724591GB/s,5076.724591GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",31.253119%,31.253119%,31.253119%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",6.365086%,6.365086%,6.365086%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",5203983,5203983,5203983
+==3549979== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3550087== NVPROF is profiling process 3550087, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Pokec/ 0 1
+==3550087== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3550087== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Pokec/ 0 1
+==3550087== Profiling result:
+==3550087== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.994714,0.994714,0.994714
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",84.667876%,84.667876%,84.667876%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",89.262059%,89.262059%,89.262059%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.846542,1.846542,1.846542
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",7.138907,7.138907,7.138907
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",322574500,322574500,322574500
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",141231253,141231253,141231253
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",226374883,226374883,226374883
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",24.389943%,24.389943%,24.389943%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",291.613348GB/s,291.613348GB/s,291.613348GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",542.926303GB/s,542.926303GB/s,542.926303GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",870.238532GB/s,870.238532GB/s,870.238532GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",4960.210350GB/s,4960.210350GB/s,4960.210350GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",53.711406%,53.711406%,53.711406%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",10.497011%,10.497011%,10.497011%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",19783317,19783317,19783317
+==3550087== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3550206== NVPROF is profiling process 3550206, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Sx-Stackoverflow/ 0 1
+==3550206== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3550206== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Sx-Stackoverflow/ 0 1
+==3550206== Profiling result:
+==3550206== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.995382,0.995382,0.995382
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",90.455127%,90.455127%,90.455127%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",93.980021%,93.980021%,93.980021%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.853726,1.853726,1.853726
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",3.551612,3.551612,3.551612
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",1019190550,1019190550,1019190550
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",529637761,529637761,529637761
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",617762536,617762536,617762536
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",25.589539%,25.589539%,25.589539%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",474.650919GB/s,474.650919GB/s,474.650919GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",676.282314GB/s,676.282314GB/s,676.282314GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",788.806819GB/s,788.806819GB/s,788.806819GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",5205.524187GB/s,5205.524187GB/s,5205.524187GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",70.185322%,70.185322%,70.185322%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",13.560888%,13.560888%,13.560888%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",149126006,149126006,149126006
+==3550206== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3550333== NVPROF is profiling process 3550333, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Lj/ 0 1
+==3550333== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3550333== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Lj/ 0 1
+==3550333== Profiling result:
+==3550333== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.995198,0.995198,0.995198
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",84.210571%,84.210571%,84.210571%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",87.102799%,87.102799%,87.102799%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.914984,1.914984,1.914984
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",4.701368,4.701368,4.701368
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",538957058,538957058,538957058
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",251308572,251308572,251308572
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",290674325,290674325,290674325
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",42.069126%,42.069126%,42.069126%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",381.340954GB/s,381.340954GB/s,381.340954GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",699.340667GB/s,699.340667GB/s,699.340667GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",808.887555GB/s,808.887555GB/s,808.887555GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",5999.231708GB/s,5999.231708GB/s,5999.231708GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",54.528640%,54.528640%,54.528640%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",11.757167%,11.757167%,11.757167%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",53454350,53454350,53454350
+==3550333== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3550532== NVPROF is profiling process 3550532, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-LiveJ/ 0 1
+==3550532== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3550532== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-LiveJ/ 0 1
+==3550532== Profiling result:
+==3550532== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.995084,0.995084,0.995084
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",84.883511%,84.883511%,84.883511%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",87.943079%,87.943079%,87.943079%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.903306,1.903306,1.903306
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",4.180970,4.180970,4.180970
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",709550216,709550216,709550216
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",353858283,353858283,353858283
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",390773706,390773706,390773706
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",41.424329%,41.424329%,41.424329%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",390.602426GB/s,390.602426GB/s,390.602426GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",697.028085GB/s,697.028085GB/s,697.028085GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",769.743880GB/s,769.743880GB/s,769.743880GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",5590.672332GB/s,5590.672332GB/s,5590.672332GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",56.038262%,56.038262%,56.038262%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",12.504876%,12.504876%,12.504876%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",84635454,84635454,84635454
+==3550532== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3550634== NVPROF is profiling process 3550634, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Orkut/ 0 1
+==3550634== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3550634== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Orkut/ 0 1
+==3550634== Profiling result:
+==3550634== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.996120,0.996120,0.996120
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",89.453190%,89.453190%,89.453190%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",93.164170%,93.164170%,93.164170%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.857486,1.857486,1.857486
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",3.553508,3.553508,3.553508
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",3131739077,3131739077,3131739077
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",1732040287,1732040287,1732040287
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",2231324575,2231324575,2231324575
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",29.281315%,29.281315%,29.281315%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",419.171280GB/s,419.171280GB/s,419.171280GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",631.166291GB/s,631.166291GB/s,631.166291GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",813.108602GB/s,813.108602GB/s,813.108602GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",4564.901067GB/s,4564.901067GB/s,4564.901067GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",66.412178%,66.412178%,66.412178%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",13.996152%,13.996152%,13.996152%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",487416976,487416976,487416976
+==3550634== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3550867== NVPROF is profiling process 3550867, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Twitter7/ 0 1
+==3550867== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3550867== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Twitter7/ 0 1
+==3550867== Profiling result:
+No events/metrics were profiled.
+==3551690== NVPROF is profiling process 3551690, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/ 0 1
+==3551690== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/ 0 1
+==3551690== Profiling result:
+No events/metrics were profiled.
+==3605513== NVPROF is profiling process 3605513, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Caida/ 0 1
+==3605513== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3605513== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Caida/ 0 1
+==3605513== Profiling result:
+==3605513== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.499716,0.499716,0.499716
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",78.702132%,78.702132%,78.702132%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",80.840187%,80.840187%,80.840187%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",3.386521,3.386521,3.386521
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",9.538504,9.538504,9.538504
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",798904,798904,798904
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",154209,154209,154209
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",15392,15392,15392
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",72.699569%,72.699569%,72.699569%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",14.076597GB/s,14.076597GB/s,14.076597GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",38.643109GB/s,38.643109GB/s,38.643109GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",3.857069GB/s,3.857069GB/s,3.857069GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",800.786841GB/s,800.786841GB/s,800.786841GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",36.427186%,36.427186%,36.427186%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_utilization","Device Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",4.092165%,4.092165%,4.092165%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",16167,16167,16167
+==3605533== NVPROF is profiling process 3605533, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/P2p-Gnutella31/ 0 1
+==3605533== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3605533== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/P2p-Gnutella31/ 0 1
+==3605533== Profiling result:
+==3605533== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.499646,0.499646,0.499646
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",74.469221%,74.469221%,74.469221%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",77.597868%,77.597868%,77.597868%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",3.995615,3.995615,3.995615
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",12.736391,12.736391,12.736391
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",1860542,1860542,1860542
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",369903,369903,369903
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",43074,43074,43074
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",33.282876%,33.282876%,33.282876%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",36.548961GB/s,36.548961GB/s,36.548961GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",135.672933GB/s,135.672933GB/s,135.672932GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",15.798671GB/s,15.798671GB/s,15.798671GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",2729.636572GB/s,2729.636572GB/s,2729.636572GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",26.939022%,26.939022%,26.939022%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_utilization","Device Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",4.840274%,4.840274%,4.840274%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",29043,29043,29043
+==3605666== NVPROF is profiling process 3605666, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Email-EuAll/ 0 1
+==3605666== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3605666== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Email-EuAll/ 0 1
+==3605666== Profiling result:
+==3605666== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.499786,0.499786,0.499786
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",81.703845%,81.703845%,81.703845%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",84.527071%,84.527071%,84.527071%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.621378,2.621378,2.621378
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",6.060649,6.060649,6.060649
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",3109864,3109864,3109864
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",890279,890279,890279
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",41930,41930,41930
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",60.353388%,60.353388%,60.353388%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",70.649380GB/s,70.649380GB/s,70.649380GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",147.152779GB/s,147.152779GB/s,147.152779GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",6.930542GB/s,6.930542GB/s,6.930542GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",2056.097602GB/s,2056.097602GB/s,2056.097602GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",48.010904%,48.010904%,48.010904%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_utilization","Device Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",5.658780%,5.658780%,5.658780%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",146895,146895,146895
+==3605739== NVPROF is profiling process 3605739, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Slashdot0922/ 0 1
+==3605739== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3605739== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Slashdot0922/ 0 1
+==3605739== Profiling result:
+==3605739== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.597695,0.597695,0.597695
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",83.952955%,83.952955%,83.952955%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",87.278594%,87.278594%,87.278594%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.019969,2.019969,2.019969
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",6.599635,6.599635,6.599635
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",9202474,9202474,9202474
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",3197457,3197457,3197457
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",176025,176025,176025
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",34.581662%,34.581662%,34.581662%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",180.512449GB/s,180.512449GB/s,180.512449GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",311.824330GB/s,311.824330GB/s,311.824330GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",17.166416GB/s,17.166416GB/s,17.166416GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",3589.796880GB/s,3589.796880GB/s,3589.796880GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",57.889148%,57.889148%,57.889148%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",7.933640%,7.933640%,7.933640%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",484490,484490,484490
+==3605739== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3605763== NVPROF is profiling process 3605763, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-NotreDame/ 0 1
+==3605763== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3605763== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-NotreDame/ 0 1
+==3605763== Profiling result:
+==3605763== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.978526,0.978526,0.978526
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",75.772664%,75.772664%,75.772664%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",71.911216%,71.911216%,71.911216%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.821953,2.821953,2.821953
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",3.544650,3.544650,3.544650
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",14610412,14610412,14610412
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",4497441,4497441,4497441
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",1379257,1379257,1379257
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",83.648392%,83.648392%,83.648392%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",170.050937GB/s,170.050937GB/s,170.050937GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",328.547374GB/s,328.547374GB/s,328.547374GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",100.757579GB/s,100.757579GB/s,100.757579GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",4269.283348GB/s,4269.283348GB/s,4269.283348GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",51.758422%,51.758422%,51.758422%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",7.253942%,7.253942%,7.253942%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",1268797,1268797,1268797
+==3605763== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3605863== NVPROF is profiling process 3605863, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Dblp/ 0 1
+==3605863== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3605863== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Dblp/ 0 1
+==3605863== Profiling result:
+==3605863== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.978623,0.978623,0.978623
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",77.019346%,77.019346%,77.019346%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",78.885227%,78.885227%,78.885227%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",3.187139,3.187139,3.187139
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",9.508449,9.508449,9.508449
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",16120945,16120945,16120945
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",3447174,3447174,3447174
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",3774302,3774302,3774302
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",35.326149%,35.326149%,35.326149%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",74.622226GB/s,74.622226GB/s,74.622226GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",227.264522GB/s,227.264522GB/s,227.264522GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",248.831344GB/s,248.831344GB/s,248.831344GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",4251.272330GB/s,4251.272330GB/s,4251.272330GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",32.834965%,32.834965%,32.834965%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",5.137009%,5.137009%,5.137009%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",362538,362538,362538
+==3605863== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3605885== NVPROF is profiling process 3605885, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Amazon0601/ 0 1
+==3605885== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3605885== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Amazon0601/ 0 1
+==3605885== Profiling result:
+==3605885== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.988611,0.988611,0.988611
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",77.370123%,77.370123%,77.370123%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",78.843604%,78.843604%,78.843604%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",3.246752,3.246752,3.246752
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",9.957002,9.957002,9.957002
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",38944660,38944660,38944660
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",7435511,7435511,7435511
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",9493343,9493343,9493343
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",38.658149%,38.658149%,38.658149%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",103.955286GB/s,103.955286GB/s,103.955286GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",318.712662GB/s,318.712662GB/s,318.712662GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",406.918720GB/s,406.918720GB/s,406.918720GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",6677.231071GB/s,6677.231071GB/s,6677.231071GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",32.617244%,32.617244%,32.617244%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",5.077300%,5.077300%,5.077300%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",746762,746762,746762
+==3605885== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3605902== NVPROF is profiling process 3605902, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/RoadNet-CA/ 0 1
+==3605902== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3605902== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/RoadNet-CA/ 0 1
+==3605902== Profiling result:
+==3605902== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.999161,0.999161,0.999161
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",75.507890%,75.507890%,75.507890%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",71.579300%,71.579300%,71.579300%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",3.143351,3.143351,3.143351
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",11.057817,11.057817,11.057817
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",24470324,24470324,24470324
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",3873719,3873719,3873719
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",2527221,2527221,2527221
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",59.006553%,59.006553%,59.006553%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",76.819290GB/s,76.819290GB/s,76.819290GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",263.352470GB/s,263.352470GB/s,263.352470GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",171.811609GB/s,171.811609GB/s,171.811609GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",6654.401394GB/s,6654.401394GB/s,6654.401394GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",29.169762%,29.169762%,29.169762%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",4.794516%,4.794516%,4.794516%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",350315,350315,350315
+==3605902== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3605996== NVPROF is profiling process 3605996, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Wiki-Talk/ 0 1
+==3605996== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3605996== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Wiki-Talk/ 0 1
+==3605996== Profiling result:
+==3605996== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.994424,0.994424,0.994424
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",86.997011%,86.997011%,86.997011%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",90.692773%,90.692773%,90.692773%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.860123,1.860123,1.860123
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",4.704039,4.704039,4.704039
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",82392073,82392073,82392073
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",33819083,33819083,33819083
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",15842274,15842274,15842274
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",36.880863%,36.880863%,36.880863%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",368.371499GB/s,368.371499GB/s,368.371499GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",541.863193GB/s,541.863193GB/s,541.863193GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",253.831400GB/s,253.831400GB/s,253.831400GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",5280.478101GB/s,5280.478101GB/s,5280.478101GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",67.982381%,67.982381%,67.982381%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",10.690338%,10.690338%,10.690338%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",7189371,7189371,7189371
+==3605996== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3606034== NVPROF is profiling process 3606034, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-BerkStan/ 0 1
+==3606034== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3606034== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-BerkStan/ 0 1
+==3606034== Profiling result:
+==3606034== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.992279,0.992279,0.992279
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",75.496080%,75.496080%,75.496080%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",69.911881%,69.911881%,69.911881%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.631437,2.631437,2.631437
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",3.574636,3.574636,3.574636
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",107059221,107059221,107059221
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",36785343,36785343,36785343
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",12137929,12137929,12137929
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",84.622795%,84.622795%,84.622795%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",254.005012GB/s,254.005012GB/s,254.005012GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",594.306166GB/s,594.306166GB/s,594.306166GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",196.101095GB/s,196.101095GB/s,196.101095GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",6918.620291GB/s,6918.620291GB/s,6918.620291GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",42.739757%,42.739757%,42.739757%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",8.404597%,8.404597%,8.404597%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",10290654,10290654,10290654
+==3606034== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3606056== NVPROF is profiling process 3606056, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Skitter/ 0 1
+==3606056== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3606056== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Skitter/ 0 1
+==3606056== Profiling result:
+==3606056== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.993668,0.993668,0.993668
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",80.470735%,80.470735%,80.470735%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",80.552071%,80.552071%,80.552071%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.136052,2.136052,2.136052
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",5.012569,5.012569,5.012569
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",173420425,173420425,173420425
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",59748713,59748713,59748713
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",45519908,45519908,45519908
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",58.794737%,58.794737%,58.794737%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",333.567273GB/s,333.567273GB/s,333.567273GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",641.631660GB/s,641.631660GB/s,641.631660GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",488.830849GB/s,488.830849GB/s,488.830849GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",7449.334355GB/s,7449.334355GB/s,7449.334355GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",51.987346%,51.987346%,51.987346%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",8.983879%,8.983879%,8.983879%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",11919779,11919779,11919779
+==3606056== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3606164== NVPROF is profiling process 3606164, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Cit-Patents/ 0 1
+==3606164== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3606164== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Cit-Patents/ 0 1
+==3606164== Profiling result:
+==3606164== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.994789,0.994789,0.994789
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",78.626910%,78.626910%,78.626910%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",82.242126%,82.242126%,82.242126%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.971546,2.971546,2.971546
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",11.643936,11.643936,11.643936
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",206344035,206344035,206344035
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",60595068,60595068,60595068
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",113411151,113411151,113411151
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",22.032737%,22.032737%,22.032737%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",116.781167GB/s,116.781167GB/s,116.781167GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",373.663326GB/s,373.663326GB/s,373.663326GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",699.357048GB/s,699.357048GB/s,699.357048GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",5089.734262GB/s,5089.734262GB/s,5089.734262GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",31.253045%,31.253045%,31.253045%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",6.366873%,6.366873%,6.366873%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",5204002,5204002,5204002
+==3606164== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3606184== NVPROF is profiling process 3606184, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Pokec/ 0 1
+==3606184== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3606184== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Pokec/ 0 1
+==3606184== Profiling result:
+==3606184== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.994436,0.994436,0.994436
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",84.667637%,84.667637%,84.667637%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",89.262310%,89.262310%,89.262310%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.845756,1.845756,1.845756
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",7.139116,7.139116,7.139116
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",322423824,322423824,322423824
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",141235767,141235767,141235767
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",226841613,226841613,226841613
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",24.375339%,24.375339%,24.375339%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",291.930212GB/s,291.930212GB/s,291.930212GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",543.533500GB/s,543.533500GB/s,543.533500GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",872.980113GB/s,872.980113GB/s,872.980113GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",4963.279578GB/s,4963.279578GB/s,4963.279578GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",53.709700%,53.709700%,53.709700%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",10.502361%,10.502361%,10.502361%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",19783369,19783369,19783369
+==3606184== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3606299== NVPROF is profiling process 3606299, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Sx-Stackoverflow/ 0 1
+==3606299== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3606299== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Sx-Stackoverflow/ 0 1
+==3606299== Profiling result:
+==3606299== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.995672,0.995672,0.995672
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",90.455057%,90.455057%,90.455057%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",93.980353%,93.980353%,93.980353%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.854137,1.854137,1.854137
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",3.551557,3.551557,3.551557
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",1019403967,1019403967,1019403967
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",529628570,529628570,529628570
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",618671055,618671055,618671055
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",25.580996%,25.580996%,25.580996%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",474.407687GB/s,474.407687GB/s,474.407687GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",675.924016GB/s,675.924016GB/s,675.924016GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",789.562058GB/s,789.562058GB/s,789.562058GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",5203.946025GB/s,5203.946025GB/s,5203.946025GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",70.186541%,70.186541%,70.186541%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",13.557582%,13.557582%,13.557582%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",149125725,149125725,149125725
+==3606299== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3606494== NVPROF is profiling process 3606494, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Lj/ 0 1
+==3606494== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3606494== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Lj/ 0 1
+==3606494== Profiling result:
+==3606494== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.994499,0.994499,0.994499
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",84.211899%,84.211899%,84.211899%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",87.102725%,87.102725%,87.102725%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.915886,1.915886,1.915886
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",4.701232,4.701232,4.701232
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",539196026,539196026,539196026
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",251300583,251300583,251300583
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",288279784,288279784,288279784
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",42.032044%,42.032044%,42.032044%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",381.179012GB/s,381.179012GB/s,381.179012GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",699.011599GB/s,699.011599GB/s,699.011599GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",801.872047GB/s,801.872047GB/s,801.872047GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",5999.258291GB/s,5999.258291GB/s,5999.258291GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",54.531143%,54.531143%,54.531143%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",11.752405%,11.752405%,11.752405%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",53454195,53454195,53454195
+==3606494== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3606519== NVPROF is profiling process 3606519, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-LiveJ/ 0 1
+==3606519== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3606519== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-LiveJ/ 0 1
+==3606519== Profiling result:
+==3606519== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.994747,0.994747,0.994747
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",84.882579%,84.882579%,84.882579%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",87.946128%,87.946128%,87.946128%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.904973,1.904973,1.904973
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",4.181163,4.181163,4.181163
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",710154570,710154570,710154570
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",353858799,353858799,353858799
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",390037546,390037546,390037546
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",41.448940%,41.448940%,41.448940%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",390.438250GB/s,390.438250GB/s,390.438250GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",696.733225GB/s,696.733225GB/s,696.733225GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",767.967669GB/s,767.967669GB/s,767.967669GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",5593.058982GB/s,5593.058982GB/s,5593.058982GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",56.038414%,56.038414%,56.038414%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",12.495208%,12.495208%,12.495208%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",84631662,84631662,84631662
+==3606519== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3606725== NVPROF is profiling process 3606725, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Orkut/ 0 1
+==3606725== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3606725== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Orkut/ 0 1
+==3606725== Profiling result:
+==3606725== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.996057,0.996057,0.996057
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",89.453177%,89.453177%,89.453177%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",93.164240%,93.164240%,93.164240%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.857479,1.857479,1.857479
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",3.553464,3.553464,3.553464
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",3131724588,3131724588,3131724588
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",1732012137,1732012137,1732012137
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",2231066949,2231066949,2231066949
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",29.288073%,29.288073%,29.288073%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",419.288693GB/s,419.288693GB/s,419.288693GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",631.332804GB/s,631.332804GB/s,631.332804GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",813.242427GB/s,813.242427GB/s,813.242427GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",4566.158455GB/s,4566.158455GB/s,4566.158455GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",66.413259%,66.413259%,66.413259%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",13.995974%,13.995974%,13.995974%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",487415084,487415084,487415084
+==3606725== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==3606944== NVPROF is profiling process 3606944, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Twitter7/ 0 1
+==3606944== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3606944== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Twitter7/ 0 1
+==3606944== Profiling result:
+==3606944== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.999153,0.999153,0.999153
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",95.841210%,95.841210%,95.841210%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",97.113333%,97.113333%,97.113333%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.264413,2.264413,2.264413
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",3.614791,3.614791,3.614791
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",116020435345,116020435345,116020435345
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",59543285720,59543285720,59543285720
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",80297044625,80297044625,80297044625
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",21.609366%,21.609366%,21.609366%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",458.742528GB/s,458.742528GB/s,458.742528GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",592.000165GB/s,592.000165GB/s,592.000165GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",798.341293GB/s,798.341293GB/s,798.341292GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",4614.062933GB/s,4614.062933GB/s,4614.062933GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",77.490270%,77.490270%,77.490270%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",17.415649%,17.415649%,17.415649%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",16472122993,16472122993,16472122993
+==3606944== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==3614111== NVPROF is profiling process 3614111, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/ 0 1
+==3614111== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==3614111== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST-new/trust-new /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/ 0 1
+==3614111== Profiling result:
+==3614111== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"achieved_occupancy","Achieved Occupancy",0.997155,0.997155,0.997155
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"branch_efficiency","Branch Efficiency",91.231704%,91.231704%,91.231704%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"warp_execution_efficiency","Warp Execution Efficiency",94.549302%,94.549302%,94.549302%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.912862,1.912862,1.912862
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.995614,2.995614,2.995614
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_transactions","Shared Load Transactions",61903411588,61903411588,61903411588
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_transactions","Global Load Transactions",39103707688,39103707688,39103707688
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_transactions","Device Memory Read Transactions",51668940600,51668940600,51668940600
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",29.658062%,29.658062%,29.658062%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_requested_throughput","Requested Global Load Throughput",401.277731GB/s,401.277731GB/s,401.277731GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_throughput","Global Load Throughput",587.493692GB/s,587.493692GB/s,587.493692GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"dram_read_throughput","Device Memory Read Throughput",776.273619GB/s,776.273619GB/s,776.273619GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_load_throughput","Shared Memory Load Throughput",3720.144815GB/s,3720.144815GB/s,3720.144815GB/s
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"gld_efficiency","Global Memory Load Efficiency",68.303326%,68.303326%,68.303326%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"shared_efficiency","Shared Memory Efficiency",14.974328%,14.974328%,14.974328%
+"Tesla V100-DGXS-32GB (0)","trust_block(int*, int*, long*, int, int, int*, __int64*, int, int*, int, int, int, int, int)",1,"global_load_requests","Total number of global load requests from Multiprocessor",13053653574,13053653574,13053653574
+==3614111== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.

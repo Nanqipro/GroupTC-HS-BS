@@ -1,6 +1,3 @@
-# github_TC
-Experimental code and data from Senior Brother Jiang Bo.
-
 # TC-compare-0115
 Performance comparison of triangular counting algorithms on gpu
 

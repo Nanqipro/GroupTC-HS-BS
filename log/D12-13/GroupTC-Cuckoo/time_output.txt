@@ -1,0 +1,13 @@
+[2024-12-13 16:09:44.673] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.017444
+[2024-12-13 16:10:25.042] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.004574
+[2024-12-13 16:13:34.777] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.001334
+[2024-12-13 16:16:37.581] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	100	0.002734
+[2024-12-13 22:38:15.015] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901307039	10	5.814044
+[2024-12-13 22:44:45.603] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374543275	10	0.444720
+[2024-12-13 22:51:47.788] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907034649	10	0.758350
+[2024-12-13 22:53:45.037] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262056761	10	0.181493
+[2024-12-13 22:54:32.787] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	100	0.079008
+[2024-12-15 11:28:09.834] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-tpd	191659070207	10	2.286311
+[2024-12-15 11:30:23.865] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Uk-2005	21779357912	10	0.235430
+[2024-12-15 11:36:59.956] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.186769
+[2024-12-15 11:40:32.296] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.001091

@@ -21,7 +21,25 @@ bool DataTransfer::edge_less(edge &a, edge &b) { return a.u < b.u || (a.u == b.u
 
 bool DataTransfer::edge_greather(edge &a, edge &b) { return a.u > b.u || (a.u == b.u && a.v > b.v); }
 
-DataTransfer::DataTransfer(std::string file, CPUGraph *graph) : input_file(file), d_graph(*graph) { h_graph = graph; }
+DataTransfer::DataTransfer(std::string file, CPUGraph *graph) {
+    init(file, graph);
+}
+
+DataTransfer::DataTransfer() {}
+
+void DataTransfer::init(std::string file, CPUGraph *graph) {
+    input_file = file;
+    h_graph = graph;
+    d_graph.init(*graph);
+}
+
+bool DataTransfer::check_init() {
+    if (input_file.empty()) {
+        spdlog::error("Input file is empty, please init the data transfer first.");
+        return false;
+    }
+    return true;
+}
 
 int DataTransfer::compute_max_degree() {
     index_t *offset_arr = (index_t *)malloc(sizeof(index_t) * (h_graph->vertex_count + 1));

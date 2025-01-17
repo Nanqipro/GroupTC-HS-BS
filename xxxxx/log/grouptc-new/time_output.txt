@@ -1,0 +1,207 @@
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/As-Caida/
+Number of nodes: 26475, number of edges: 53381
+iter 100, avg kernel use 0.000047 s
+triangle count 32315 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/P2p-Gnutella31/
+Number of nodes: 62586, number of edges: 147892
+iter 100, avg kernel use 0.000051 s
+triangle count 99803 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Email-EuAll/
+Number of nodes: 265214, number of edges: 364481
+iter 100, avg kernel use 0.000065 s
+triangle count 401806 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Soc-Slashdot0922/
+Number of nodes: 82168, number of edges: 504230
+iter 100, avg kernel use 0.000094 s
+triangle count 2791213 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Web-NotreDame/
+Number of nodes: 325729, number of edges: 1090108
+iter 100, avg kernel use 0.000151 s
+triangle count 4767885 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Com-Dblp/
+Number of nodes: 317080, number of edges: 1049866
+iter 100, avg kernel use 0.000121 s
+triangle count 1572635 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Amazon0601/
+Number of nodes: 403394, number of edges: 2443408
+iter 100, avg kernel use 0.000213 s
+triangle count 4221985 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/RoadNet-CA/
+Number of nodes: 1965206, number of edges: 2766607
+iter 100, avg kernel use 0.000230 s
+triangle count 580708 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Wiki-Talk/
+Number of nodes: 2394385, number of edges: 4659565
+iter 100, avg kernel use 0.000398 s
+triangle count 18793776 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Web-BerkStan/
+Number of nodes: 685230, number of edges: 6649470
+iter 100, avg kernel use 0.000580 s
+triangle count 35197150 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/As-Skitter/
+Number of nodes: 1696415, number of edges: 11095298
+iter 100, avg kernel use 0.000800 s
+triangle count 42452705 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Cit-Patents/
+Number of nodes: 3774768, number of edges: 16518947
+iter 100, avg kernel use 0.002304 s
+triangle count 25232503 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Soc-Pokec/
+Number of nodes: 1632803, number of edges: 22301964
+iter 100, avg kernel use 0.002889 s
+triangle count 145930165 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Sx-Stackoverflow/
+Number of nodes: 2601977, number of edges: 28183518
+iter 100, avg kernel use 0.003968 s
+triangle count 439567078 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Com-Lj/
+Number of nodes: 3997962, number of edges: 34681189
+iter 100, avg kernel use 0.004705 s
+triangle count 249057569 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Soc-LiveJ/
+Number of nodes: 4847571, number of edges: 42851237
+iter 100, avg kernel use 0.006446 s
+triangle count 374510078 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Com-Orkut/
+Number of nodes: 3072441, number of edges: 117185083
+iter 100, avg kernel use 0.035348 s
+triangle count 2310369602 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Twitter7/
+Number of nodes: 41652230, number of edges: 1202513046
+iter 10, avg kernel use 0.889564 s
+triangle count 76973970136 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Com-Friendster/
+Number of nodes: 65608366, number of edges: 1806067135
+iter 10, avg kernel use 0.815733 s
+triangle count 46678763798 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s17-e2/
+Number of nodes: 128675, number of edges: 262142
+iter 100, avg kernel use 0.000069 s
+triangle count 95436 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s17-e2/
+Number of nodes: 21683, number of edges: 158891
+iter 100, avg kernel use 0.000062 s
+triangle count 1479783 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s17-e8/
+Number of nodes: 131072, number of edges: 1048510
+iter 100, avg kernel use 0.000113 s
+triangle count 2390135 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s17-e8/
+Number of nodes: 35500, number of edges: 500665
+iter 100, avg kernel use 0.000122 s
+triangle count 10756721 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s17-e32/
+Number of nodes: 131072, number of edges: 4193279
+iter 100, avg kernel use 0.000598 s
+triangle count 43712962 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s17-e32/
+Number of nodes: 53054, number of edges: 1487801
+iter 100, avg kernel use 0.000422 s
+triangle count 66153338 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s17-e128/
+Number of nodes: 131072, number of edges: 16760551
+iter 100, avg kernel use 0.009332 s
+triangle count 713040327 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s17-e128/
+Number of nodes: 72256, number of edges: 4134130
+iter 100, avg kernel use 0.002163 s
+triangle count 396113797 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s19-e2/
+Number of nodes: 514785, number of edges: 1048573
+iter 100, avg kernel use 0.000116 s
+triangle count 382680 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s19-e2/
+Number of nodes: 72188, number of edges: 655780
+iter 100, avg kernel use 0.000162 s
+triangle count 11667917 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s19-e8/
+Number of nodes: 524288, number of edges: 4194228
+iter 100, avg kernel use 0.000390 s
+triangle count 9557664 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s19-e8/
+Number of nodes: 120642, number of edges: 2112913
+iter 100, avg kernel use 0.000500 s
+triangle count 75444464 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s19-e32/
+Number of nodes: 524288, number of edges: 16776138
+iter 100, avg kernel use 0.003817 s
+triangle count 174890248 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s19-e32/
+Number of nodes: 182799, number of edges: 6431451
+iter 100, avg kernel use 0.002884 s
+triangle count 515223452 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s19-e128/
+Number of nodes: 524288, number of edges: 67092278
+iter 100, avg kernel use 0.048415 s
+triangle count 2856186763 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s19-e128/
+Number of nodes: 253787, number of edges: 18514901
+iter 100, avg kernel use 0.019427 s
+triangle count 2957735336 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s21-e2/
+Number of nodes: 2058719, number of edges: 4194296
+iter 100, avg kernel use 0.000498 s
+triangle count 1534055 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s21-e2/
+Number of nodes: 242701, number of edges: 2696068
+iter 100, avg kernel use 0.000534 s
+triangle count 76487440 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s21-e8/
+Number of nodes: 2097152, number of edges: 16777133
+iter 100, avg kernel use 0.003364 s
+triangle count 38249870 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s21-e8/
+Number of nodes: 406995, number of edges: 8839909
+iter 100, avg kernel use 0.003110 s
+triangle count 564185211 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s21-e32/
+Number of nodes: 2097152, number of edges: 67107783
+iter 100, avg kernel use 0.022362 s
+triangle count 699534460 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster3-s21-e32/
+Number of nodes: 627011, number of edges: 27571684
+iter 100, avg kernel use 0.029691 s
+triangle count 4167765951 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/cluster0-s21-e128/
+Number of nodes: 2097152, number of edges: 268418922

@@ -1,0 +1,4 @@
+==2025686== NVPROF is profiling process 2025686, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Com-Friendster
+==2025686== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-bisson.ini -dataset=Com-Friendster
+==2025686== Profiling result:
+No events/metrics were profiled.

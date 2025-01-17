@@ -65,8 +65,6 @@ __device__ int tc::approach::GroupTC_OPT::bin_search_with_offset_and_less_branch
     return ret < len && arr[ret] == val;
 }
 
-
-
 template <const int GroupTC_OPT_SUBWARP_SIZE, const int GroupTC_OPT_WARP_STEP>
 __global__ void tc::approach::GroupTC_OPT::grouptc_with_reduce(vertex_t* src_list, vertex_t* adj_list, index_t* beg_pos, uint edge_count,
                                                                uint vertex_count, unsigned long long* GLOBAL_COUNT) {
@@ -88,15 +86,12 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_reduce(vertex_t* src_lis
             int temp;
 
             int tb_start, tb_len, ele_start, ele_len;
-            // 消融实验1
             tb_start = i + tid + 1;
             // tb_start = beg_pos[src];
             tb_len = beg_pos[src + 1] - tb_start;
             ele_start = beg_pos[dst];
             ele_len = beg_pos[dst + 1] - ele_start;
 
-            // 消融实验2
-            // 对比实验
             if (tb_len * 2 < ele_len) {
                 temp = tb_start;
                 tb_start = ele_start;
@@ -133,15 +128,12 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_reduce(vertex_t* src_lis
                 }
             }
 
-            // 消融实验3
             if (now < end) {
-                // P_counter += tc::approach::GroupTC_OPT::bin_search_less_branch(
-                //     adj_list + (sh_tb_start[now]), sh_tb_len[now], adj_list[sh_ele_start[now] + workid]);
-                
                 offset = last_now == now ? offset : 0;
                 P_counter += tc::approach::GroupTC_OPT::bin_search_with_offset_and_less_branch(
                     adj_list + (sh_tb_start[now] + offset), sh_tb_len[now] - offset, adj_list[sh_ele_start[now] + workid], offset);
-
+                // P_counter += tc::approach::GroupTC_OPT::bin_search_less_branch(
+                //     adj_list + (sh_tb_start[now]), sh_tb_len[now], adj_list[sh_ele_start[now] + workid]);
                 last_now = now;
             }
             workid += GroupTC_OPT_SUBWARP_SIZE;
@@ -178,16 +170,12 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_atomic(vertex_t* src_lis
             int temp;
 
             int tb_start, tb_len, ele_start, ele_len;
-
-            //消融实验1
             tb_start = i + tid + 1;
             // tb_start = beg_pos[src];
             tb_len = beg_pos[src + 1] - tb_start;
             ele_start = beg_pos[dst];
             ele_len = beg_pos[dst + 1] - ele_start;
 
-
-            // 消融实验2
             if (tb_len * 2 < ele_len) {
                 temp = tb_start;
                 tb_start = ele_start;
@@ -223,15 +211,11 @@ __global__ void tc::approach::GroupTC_OPT::grouptc_with_atomic(vertex_t* src_lis
                     neighbor_degree = sh_ele_len[now];
                 }
             }
-            // 消融实验3
+
             if (now < end) {
-                P_counter += tc::approach::GroupTC_OPT::bin_search_less_branch(
-                    adj_list + (sh_tb_start[now]), sh_tb_len[now], adj_list[sh_ele_start[now] + workid]);
-
-                // offset = last_now == now ? offset : 0;
-                // P_counter += tc::approach::GroupTC_OPT::bin_search_with_offset_and_less_branch(
-                //     adj_list + (sh_tb_start[now] + offset), sh_tb_len[now] - offset, adj_list[sh_ele_start[now] + workid], offset);
-
+                offset = last_now == now ? offset : 0;
+                P_counter += tc::approach::GroupTC_OPT::bin_search_with_offset_and_less_branch(
+                    adj_list + (sh_tb_start[now] + offset), sh_tb_len[now] - offset, adj_list[sh_ele_start[now] + workid], offset);
                 last_now = now;
             }
             workid += GroupTC_OPT_SUBWARP_SIZE;
@@ -269,7 +253,6 @@ void tc::approach::GroupTC_OPT::gpu_run_with_reduce(INIReader& config, GPUGraph&
     uint vertex_count = gpu_graph.vertex_count;
     uint edge_count = gpu_graph.edge_count;
     int grid_size = max(NumberOfMPs() * 8, edge_count / GroupTC_OPT_BLOCK_BUCKETNUM / 20);
-    // int grid_size = edge_count / GroupTC_OPT_BLOCK_BUCKETNUM / 20;
 
     double t_start, total_kernel_use = 0;
     uint64_t count;
@@ -307,8 +290,12 @@ void tc::approach::GroupTC_OPT::gpu_run_with_reduce(INIReader& config, GPUGraph&
     }
 
     // algorithm, dataset, iteration_count, avg compute time/s,
-    spdlog::get("GroupTC-OPT_file_logger")
-        ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}\t{5}\t{6}", "GroupTC-OPT", gpu_graph.input_dir, count, iteration_count, total_kernel_use / iteration_count,vertex_count,edge_count);
+    auto logger = spdlog::get("GroupTC-OPT_file_logger");
+    if (logger) {
+        logger->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}", "GroupTC-OPT", gpu_graph.input_dir, count, iteration_count, total_kernel_use / iteration_count);
+    } else {
+        spdlog::warn("Logger 'GroupTC-OPT_file_logger' is not initialized.");
+    }
 
     spdlog::info("iter {0}, avg kernel use {1:.6f} s", iteration_count, total_kernel_use / iteration_count);
     spdlog::info("Triangle count {:d}", count);

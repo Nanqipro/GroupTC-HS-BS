@@ -1,0 +1,9 @@
+[2024-12-15 09:57:47.136] [GroupTC_file_logger] [info] GroupTC	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.015019
+[2024-12-15 09:58:13.817] [GroupTC_file_logger] [info] GroupTC	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.004570
+[2024-12-15 09:58:27.421] [GroupTC_file_logger] [info] GroupTC	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.004680
+[2024-12-15 09:58:47.871] [GroupTC_file_logger] [info] GroupTC	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	100	0.008615
+[2024-12-15 10:03:29.005] [GroupTC_file_logger] [info] GroupTC	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901310734	10	11.289303
+[2024-12-15 10:09:31.099] [GroupTC_file_logger] [info] GroupTC	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374551054	10	1.009952
+[2024-12-15 10:11:15.878] [GroupTC_file_logger] [info] GroupTC	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907041475	10	1.493630
+[2024-12-15 10:12:22.226] [GroupTC_file_logger] [info] GroupTC	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262060053	10	0.224405
+[2024-12-15 10:12:42.927] [GroupTC_file_logger] [info] GroupTC	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.104446

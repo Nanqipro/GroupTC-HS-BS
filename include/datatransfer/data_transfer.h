@@ -26,15 +26,21 @@ class DataTransfer {
 
     static bool edge_greather(edge& a, edge& b);
 
-    static void cpu_graph_comparasion(CPUGraph& graph_1, CPUGraph& graph_2){};
+    static void cpu_graph_comparasion(CPUGraph& graph_1, CPUGraph& graph_2) {};
 
-    static void gpu_graph_comparasion(GPUGraph& gpu_graph_1, GPUGraph& gpu_graph_2){};
+    static void gpu_graph_comparasion(GPUGraph& gpu_graph_1, GPUGraph& gpu_graph_2) {};
 
     DataTransfer(std::string file, CPUGraph* graph);
 
-    ~DataTransfer(){};
+    DataTransfer();
 
-    virtual void transfer(){};
+    void init(std::string file, CPUGraph* graph);
+
+    bool check_init();
+
+    ~DataTransfer() {};
+
+    virtual void transfer() {};
 
     int compute_max_degree();
 };

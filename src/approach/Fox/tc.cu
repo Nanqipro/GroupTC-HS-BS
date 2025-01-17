@@ -230,8 +230,12 @@ void tc::approach::Fox::gpu_run(INIReader &config, GPUGraph &gpu_graph, std::str
     double t_end = wtime();
 
     // algorithm, dataset, iterations, avg compute time/s,
-    spdlog::get("Fox_preprocessing_file_logger")
-        ->info("{0}\t{1}\t{2}\t{3:.6f}", "Fox", gpu_graph.input_dir, iterations, (t_end - t_start) / iterations);
+    auto preprocessing_logger = spdlog::get("Fox_preprocessing_file_logger");
+    if (preprocessing_logger) {
+        preprocessing_logger->info("{0}\t{1}\t{2}\t{3:.6f}", "Fox", gpu_graph.input_dir, iterations, (t_end - t_start) / iterations);
+    } else {
+        spdlog::warn("Logger 'Fox_preprocessing_file_logger' is not initialized.");
+    }
 
     double total_kernel_use = 0;
     double startKernel, ee;
@@ -288,8 +292,12 @@ void tc::approach::Fox::gpu_run(INIReader &config, GPUGraph &gpu_graph, std::str
     }
 
     // algorithm, dataset, triangle_count, iteration_count, avg kernel time/s
-    spdlog::get("Fox_file_logger")
-        ->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}", "Fox", gpu_graph.input_dir, triangleCount, iteration_count, total_kernel_use / iteration_count);
+    auto logger = spdlog::get("Fox_file_logger");
+    if (logger) {
+        logger->info("{0}\t{1}\t{2}\t{3}\t{4:.6f}", "Fox", gpu_graph.input_dir, triangleCount, iteration_count, total_kernel_use / iteration_count);
+    } else {
+        spdlog::warn("Logger 'Fox_file_logger' is not initialized.");
+    }
 
     spdlog::info("Iter {0}, avg kernel use {1:.6f} s", iteration_count, total_kernel_use / iteration_count);
     spdlog::info("Triangle count {:d}", triangleCount);

@@ -1,0 +1,13 @@
+[2024-12-13 16:08:37.069] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.079794
+[2024-12-13 16:10:04.382] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.022629
+[2024-12-13 16:10:38.654] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.030933
+[2024-12-13 16:13:55.213] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	100	0.053017
+[2024-12-13 21:13:41.125] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901310734	10	12.743378
+[2024-12-13 22:41:42.528] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374551054	10	1.382637
+[2024-12-13 22:46:04.747] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907041475	10	2.116461
+[2024-12-13 22:52:28.517] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262060053	10	0.462578
+[2024-12-13 22:53:57.878] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.128314
+[2024-12-15 10:46:36.128] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-tpd	191659070207	10	5.065282
+[2024-12-15 11:29:36.006] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Uk-2005	21779366056	10	0.550290
+[2024-12-15 11:35:56.989] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.376996
+[2024-12-15 11:40:27.545] [TriCore_file_logger] [info] TriCore	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.004786

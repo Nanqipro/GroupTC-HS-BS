@@ -1,0 +1,13 @@
+[2024-12-13 16:08:59.672] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	1	2.047479
+[2024-12-13 16:10:13.388] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1	0.542774
+[2024-12-13 16:10:56.559] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	1	1.226542
+[2024-12-13 16:14:15.264] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	1	2.170666
+[2024-12-13 22:29:54.640] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	1	0.750270
+[2024-12-13 22:44:00.733] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	1	0.432270
+[2024-12-13 22:50:17.574] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	1	0.547237
+[2024-12-13 22:53:05.771] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	1	1.123678
+[2024-12-13 22:54:05.480] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	1	0.082060
+[2024-12-15 11:24:47.385] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-tpd	1	0.340013
+[2024-12-15 11:30:03.439] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Uk-2005	1	0.403360
+[2024-12-15 11:36:25.652] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	1	0.019190
+[2024-12-15 11:40:30.181] [Hu_preprocessing_file_logger] [info] Hu	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	1	0.012355

@@ -1,0 +1,95 @@
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/As-Caida/
+Number of nodes: 26475, number of edges: 53381
+iter 1, avg kernel use 0.058336 s
+triangle count 36365 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/P2p-Gnutella31/
+Number of nodes: 62586, number of edges: 147892
+iter 1, avg kernel use 0.082758 s
+triangle count 2024 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Email-EuAll/
+Number of nodes: 265214, number of edges: 364481
+iter 1, avg kernel use 0.214518 s
+triangle count 267313 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Soc-Slashdot0922/
+Number of nodes: 82168, number of edges: 504230
+iter 1, avg kernel use 0.072162 s
+triangle count 602592 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Web-NotreDame/
+Number of nodes: 325729, number of edges: 1090108
+iter 1, avg kernel use 0.076626 s
+triangle count 8910005 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Com-Dblp/
+Number of nodes: 317080, number of edges: 1049866
+iter 1, avg kernel use 0.072057 s
+triangle count 2224385 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Amazon0601/
+Number of nodes: 403394, number of edges: 2443408
+iter 1, avg kernel use 0.080080 s
+triangle count 3986507 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/RoadNet-CA/
+Number of nodes: 1965206, number of edges: 2766607
+iter 1, avg kernel use 0.077527 s
+triangle count 120676 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Wiki-Talk/
+Number of nodes: 2394385, number of edges: 4659565
+iter 1, avg kernel use 0.281315 s
+triangle count 9203519 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Web-BerkStan/
+Number of nodes: 685230, number of edges: 6649470
+iter 1, avg kernel use 0.145485 s
+triangle count 64690980 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/As-Skitter/
+Number of nodes: 1696415, number of edges: 11095298
+iter 1, avg kernel use 0.169486 s
+triangle count 28769868 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Cit-Patents/
+Number of nodes: 3774768, number of edges: 16518947
+iter 1, avg kernel use 0.169004 s
+triangle count 7515023 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Soc-Pokec/
+Number of nodes: 1632803, number of edges: 22301964
+iter 1, avg kernel use 0.364317 s
+triangle count 32557458 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Sx-Stackoverflow/
+Number of nodes: 2601977, number of edges: 28183518
+iter 1, avg kernel use 1.119236 s
+triangle count 114206974 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Com-Lj/
+Number of nodes: 3997962, number of edges: 34681189
+iter 1, avg kernel use 0.693034 s
+triangle count 177820130 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Soc-LiveJ/
+Number of nodes: 4847571, number of edges: 42851237
+iter 1, avg kernel use 0.822547 s
+triangle count 285730264 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Com-Orkut/
+Number of nodes: 3072441, number of edges: 117185083
+iter 1, avg kernel use 4.553848 s
+triangle count 627584181 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Twitter7/
+Number of nodes: 41652230, number of edges: 1202513046
+iter 1, avg kernel use 154.526387 s
+triangle count 34824916864 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/rid_dcsr_dataset/Com-Friendster/
+Number of nodes: 65608366, number of edges: 1806067135
+iter 1, avg kernel use 89.183116 s
+triangle count 4173724142 
+

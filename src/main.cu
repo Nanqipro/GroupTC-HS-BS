@@ -1,8 +1,9 @@
 #include <unistd.h>
+
 #include <string>
+
 #include "main.h"
 
-// 主线函数
 int main(int argc, char** argv) {
     std::string program_dir = get_program_dir();
     std::string config_file = program_dir + "/../config/config.ini";
@@ -35,9 +36,6 @@ int main(int argc, char** argv) {
     std::string log_file_path = config.Get("comm", "log_file_path", "UNKNOWN");
     std::string str_datasets_1 = config.Get("comm", "datasets_1", "");
     std::string str_datasets_2 = config.Get("comm", "datasets_2", "");
-    std::string str_datasets_3 = config.Get("comm", "datasets_3", "");
-    std::string str_datasets_4 = config.Get("comm", "datasets_4", "");
-    std::string str_datasets_5 = config.Get("comm", "datasets_5", "");
     std::string log_level_str = config.Get("comm", "log_level", "info");
     spdlog::level::level_enum log_level = switch_log_level(log_level_str);
     spdlog::set_level(log_level);
@@ -49,16 +47,11 @@ int main(int argc, char** argv) {
     spdlog::info("Use device {}", device);
 
     // init loggers
-    init_loggers(log_file_path);
+    init_loggers(log_file_path, config);
 
     std::vector<std::string> datasets_1 = get_datasets(str_datasets_1);
     std::vector<std::string> datasets_2 = get_datasets(str_datasets_2);
-    std::vector<std::string> datasets_3 = get_datasets(str_datasets_3);
-    std::vector<std::string> datasets_4 = get_datasets(str_datasets_4);
-    std::vector<std::string> datasets_5 = get_datasets(str_datasets_5);
-
-    // std::vector<std::string> datasets = merge_vectors(datasets_1, datasets_2);
-    std::vector<std::string> datasets = merge_vectors_5(datasets_1, datasets_2,datasets_3,datasets_4,datasets_5);
+    std::vector<std::string> datasets = merge_vectors(datasets_1, datasets_2);
 
     for (auto dataset : datasets) {
         std::string input_file = dataset_file_path + dataset;
@@ -68,12 +61,30 @@ int main(int argc, char** argv) {
 
         // read dataset
         CPUGraph cpu_graph(input_file);
+        if (cpu_graph.vertex_count <= 0 || cpu_graph.edge_count <= 0) {
+            spdlog::warn("Invalid graph data, process next graph ...");
+            continue;
+        }
 
         if (cpu_graph.edge_count > constant_comm::kMaxGraphEdgeCount) {
             spdlog::info("Input graph is too large! Process next graph ...");
             continue;
         }
 
+        // GPU warm up
+        {
+            int* d_warmup;
+            size_t warmup_size = 1024 * 1024 * 1024;  // 1GB
+            HRR(cudaMalloc((void**)&d_warmup, warmup_size));
+            HRR(cudaMemset(d_warmup, 0, warmup_size));
+
+            dim3 grid(1024), block(1024);
+            cuda_graph_comm::warm_up<<<grid, block>>>(d_warmup, warmup_size / sizeof(int));
+
+            HRR(cudaDeviceSynchronize());
+            HRR(cudaFree(d_warmup));
+        }
+        
         // preprocess datasets and run algorithms
         {
             Csr2DcsrDataTransfer cddt(input_file, &cpu_graph);
@@ -85,11 +96,7 @@ int main(int argc, char** argv) {
             tc::approach::H_INDEX::start_up(config, dcsr, argc, argv);
             tc::approach::Green::start_up(config, dcsr, argc, argv);
             tc::approach::Hu::start_up(config, dcsr, argc, argv);
-            // tc::approach::TC_Check::start_up(config, dcsr, argc, argv);
-            // tc::approach::GroupTC::start_up(config, dcsr, argc, argv);
-
-            // no optimization
-            // tc::approach::GroupTC_OPT::start_up(config, dcsr, argc, argv);
+            // tc::approach::GroupTC_BS::start_up(config, dcsr, argc, argv);
             tc::approach::Fox::start_up(config, dcsr, argc, argv);
         }
 
@@ -100,8 +107,6 @@ int main(int argc, char** argv) {
 
             tc::approach::Bisson::start_up(config, riddcsr, argc, argv);
             tc::approach::GroupTC::start_up(config, riddcsr, argc, argv);
-            tc::approach::TC_Check::start_up(config, riddcsr, argc, argv);
-            // have preprocess optimization
             tc::approach::GroupTC_OPT::start_up(config, riddcsr, argc, argv);
         }
 
@@ -110,74 +115,14 @@ int main(int argc, char** argv) {
             ctdt.transfer();
             GPUGraph& trustdcsr = ctdt.d_graph;
 
-            tc::approach::GroupTC_HASH::start_up(config, trustdcsr, argc, argv);
+            tc::approach::GroupTC_Cuckoo::start_up(config, trustdcsr, argc, argv);
             tc::approach::TRUST::start_up(config, trustdcsr, argc, argv);
         }
-
         flush_loggers();
     }
 
     spdlog::info("All input graphs have been processed, the program ends.");
 
-    return 0;
-}
-
-// 支线函数
-int main1(int argc, char** argv) {
-    std::string config_file = "../config/config.ini";
-    if (argc > 1) {
-        config_file = argv[1];
-    }
-
-    INIReader config(config_file);
-    if (config.ParseError() < 0) {
-        spdlog::error("Can't load {}", config_file);
-        return 1;
-    }
-    // comm config
-    std::string input_file = config.Get("comm", "dataset", "UNKNOWN");
-    std::string log_level_str = config.Get("comm", "log_level", "info");
-    int device = config.GetInteger("comm", "device", 0);
-    HRR(cudaSetDevice(device));
-
-    size_t free_byte, total_byte;
-    // HRR(cudaMemGetInfo(&free_byte, &total_byte));
-    // spdlog::info("{:.2f}", float(total_byte) / MEMORY_G);
-    // spdlog::info("{:.2f}", float(free_byte) / MEMORY_G);
-    // spdlog::info("{:.2f}", float(total_byte - free_byte) / MEMORY_G);
-
-    spdlog::level::level_enum log_level = switch_log_level(log_level_str);
-    spdlog::set_level(log_level);
-    CPUGraph cpu_graph(input_file);
-    // GPUGraph gpu_graph(cpu_graph);
-
-    HRR(cudaMemGetInfo(&free_byte, &total_byte));
-    spdlog::info("{:.2f}", float(total_byte) / MEMORY_G);
-    spdlog::info("{:.2f}", float(free_byte) / MEMORY_G);
-    spdlog::info("{:.2f}", float(total_byte - free_byte) / MEMORY_G);
-
-    index_t* arr;
-    index_t* key_arr;
-    uint edge_count = cpu_graph.edge_count;
-    size_t max_sort_len = 1e9 * 1.3;
-    spdlog::info("{0} {1} {2}", edge_count, max_sort_len, (size_t)sizeof(index_t) * max_sort_len);
-    HRR(cudaMalloc(&arr, (size_t)sizeof(index_t) * max_sort_len));
-    HRR(cudaMalloc(&key_arr, (size_t)sizeof(index_t) * max_sort_len));
-    // HRR(cudaMemcpy(arr, cpu_graph.adj_list, sizeof(index_t) * 5e8, cudaMemcpyHostToDevice));
-
-    HRR(cudaMemGetInfo(&free_byte, &total_byte));
-    spdlog::info("{:.2f}", float(total_byte - free_byte) / MEMORY_G);
-
-    thrust::device_ptr<index_t> sort_ptr((index_t*)arr);
-    thrust::device_ptr<index_t> key_ptr((index_t*)key_arr);
-    // thrust::sort_by_key(key_ptr, key_ptr + max_sort_len, sort_ptr);
-    thrust::sort(sort_ptr, sort_ptr + max_sort_len);
-
-    // // spdlog::info("sort big arr start.");
-    // // cuda_graph_comm::sort_big_arr(arr, edge_count);
-    // // spdlog::info("sort big arr end.");
-
-    // HRR(cudaFree(arr));
     return 0;
 }
 
@@ -223,39 +168,39 @@ std::vector<std::string> merge_vectors(const std::vector<std::string>& vec1, con
     return merged_vec;
 }
 
-std::vector<std::string> merge_vectors_5(const std::vector<std::string>& vec1, const std::vector<std::string>& vec2, const std::vector<std::string>& vec3, const std::vector<std::string>& vec4, const std::vector<std::string>& vec5) {
-    std::vector<std::string> merged_vec;
-
-    merged_vec.insert(merged_vec.end(), vec1.begin(), vec1.end());
-    merged_vec.insert(merged_vec.end(), vec2.begin(), vec2.end());
-    merged_vec.insert(merged_vec.end(), vec3.begin(), vec3.end());
-    merged_vec.insert(merged_vec.end(), vec4.begin(), vec4.end());
-    merged_vec.insert(merged_vec.end(), vec5.begin(), vec5.end());
-
-    return merged_vec;
-}
-
-
-void init_loggers(std::string log_file_path) {
+void init_loggers(std::string log_file_path, INIReader& config) {
     try {
-        init_file_logger("csr2dcsr_file_logger", log_file_path + "csr2dcsr/time_output.txt", spdlog::level::info);
-        init_file_logger("csr2rid_dcsr_file_logger", log_file_path + "csr2rid_dcsr/time_output.txt", spdlog::level::info);
-        init_file_logger("csr2trust_dcsr_file_logger", log_file_path + "csr2trust_dcsr/time_output.txt", spdlog::level::info);
+        // 定义所有logger名称和对应的文件路径
+        auto make_logger_pair = [&](std::string name, bool is_preprocessing = false) {
+            if (!config.GetBoolean("comm", name, true)) {
+                return std::make_pair(std::string(""), std::string(""));
+            }
+            if (is_preprocessing) {
+                return std::make_pair(name + "_preprocessing_file_logger", name + "/preprocessing_time_output.txt");
+            } else {
+                return std::make_pair(name + "_file_logger", name + "/time_output.txt");
+            }
+        };
 
-        init_file_logger("Fox_preprocessing_file_logger", log_file_path + "Fox/preprocessing_time_output.txt", spdlog::level::info);
-        init_file_logger("Hu_preprocessing_file_logger", log_file_path + "Hu/preprocessing_time_output.txt", spdlog::level::info);
+        const std::vector<std::pair<std::string, std::string>> loggers = {
+            // CSR转换相关logger
+            make_logger_pair("csr2dcsr"), make_logger_pair("csr2rid_dcsr"), make_logger_pair("csr2trust_dcsr"),
 
-        init_file_logger("Bisson_file_logger", log_file_path + "Bisson/time_output.txt", spdlog::level::info);
-        init_file_logger("Fox_file_logger", log_file_path + "Fox/time_output.txt", spdlog::level::info);
-        init_file_logger("Green_file_logger", log_file_path + "Green/time_output.txt", spdlog::level::info);
-        init_file_logger("GroupTC_file_logger", log_file_path + "GroupTC/time_output.txt", spdlog::level::info);
-        init_file_logger("GroupTC-HASH_file_logger", log_file_path + "GroupTC-HASH/time_output.txt", spdlog::level::info);
-        init_file_logger("GroupTC-OPT_file_logger", log_file_path + "GroupTC-OPT/time_output.txt", spdlog::level::info);
-        init_file_logger("H-INDEX_file_logger", log_file_path + "H-INDEX/time_output.txt", spdlog::level::info);
-        init_file_logger("Hu_file_logger", log_file_path + "Hu/time_output.txt", spdlog::level::info);
-        init_file_logger("Polak_file_logger", log_file_path + "Polak/time_output.txt", spdlog::level::info);
-        init_file_logger("TriCore_file_logger", log_file_path + "TriCore/time_output.txt", spdlog::level::info);
-        init_file_logger("TRUST_file_logger", log_file_path + "TRUST/time_output.txt", spdlog::level::info);
+            // 预处理相关logger
+            make_logger_pair("Fox", true), make_logger_pair("Hu", true),
+
+            // 算法性能相关logger
+            make_logger_pair("Bisson"), make_logger_pair("Fox"), make_logger_pair("Green"), make_logger_pair("GroupTC"),
+            make_logger_pair("GroupTC-HASH"), make_logger_pair("GroupTC-OPT"), make_logger_pair("H-INDEX"), make_logger_pair("Hu"),
+            make_logger_pair("Polak"), make_logger_pair("TriCore"), make_logger_pair("TRUST"), make_logger_pair("GroupTC-HASH-V2"),
+            make_logger_pair("GroupTC-Cuckoo"), make_logger_pair("GroupTC-HS")};
+
+        // 批量初始化所有logger
+        for (const auto& logger : loggers) {
+            if (logger.first != "") {
+                init_file_logger(logger.first, log_file_path + logger.second, spdlog::level::info);
+            }
+        }
 
     } catch (const spdlog::spdlog_ex& ex) {
         spdlog::error("Log init failed: {}", ex.what());
@@ -268,42 +213,15 @@ void init_file_logger(std::string logger_name, std::string file, spdlog::level::
 }
 
 void flush_loggers() {
-    spdlog::get("csr2dcsr_file_logger")->flush();
-    spdlog::get("csr2rid_dcsr_file_logger")->flush();
-    spdlog::get("csr2trust_dcsr_file_logger")->flush();
-
-    spdlog::get("Fox_preprocessing_file_logger")->flush();
-    spdlog::get("Hu_preprocessing_file_logger")->flush();
-
-    spdlog::get("Bisson_file_logger")->flush();
-    spdlog::get("Fox_file_logger")->flush();
-    spdlog::get("Green_file_logger")->flush();
-    spdlog::get("GroupTC_file_logger")->flush();
-    spdlog::get("GroupTC-HASH_file_logger")->flush();
-    spdlog::get("GroupTC-OPT_file_logger")->flush();
-    spdlog::get("H-INDEX_file_logger")->flush();
-    spdlog::get("Hu_file_logger")->flush();
-    spdlog::get("Polak_file_logger")->flush();
-    spdlog::get("TriCore_file_logger")->flush();
-    spdlog::get("TRUST_file_logger")->flush();
+    // 获取所有已注册的logger并刷新
+    spdlog::apply_all([](std::shared_ptr<spdlog::logger> logger) { logger->flush(); });
 }
 
 spdlog::level::level_enum switch_log_level(std::string log_level_str) {
-    if (log_level_str == "trace") {
-        return spdlog::level::trace;
-    } else if (log_level_str == "debug") {
-        return spdlog::level::debug;
-    } else if (log_level_str == "info") {
-        return spdlog::level::info;
-    } else if (log_level_str == "warn") {
-        return spdlog::level::warn;
-    } else if (log_level_str == "err") {
-        return spdlog::level::err;
-    } else if (log_level_str == "critical") {
-        return spdlog::level::critical;
-    } else if (log_level_str == "off") {
-        return spdlog::level::off;
-    } else {
-        return spdlog::level::info;
-    }
+    static const std::unordered_map<std::string, spdlog::level::level_enum> level_map = {
+        {"trace", spdlog::level::trace}, {"debug", spdlog::level::debug},       {"info", spdlog::level::info}, {"warn", spdlog::level::warn},
+        {"err", spdlog::level::err},     {"critical", spdlog::level::critical}, {"off", spdlog::level::off}};
+
+    auto it = level_map.find(log_level_str);
+    return it != level_map.end() ? it->second : spdlog::level::info;
 }

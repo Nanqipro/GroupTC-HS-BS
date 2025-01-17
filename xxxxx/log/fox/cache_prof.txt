@@ -1,0 +1,25 @@
+==106196== NVPROF is profiling process 106196, command: /home/LiJB/cuda_project/TC-compare-V100/approach/Fox/fox -f /home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e1024/edges.bin 0 1 1
+==106196== Some kernel(s) will be replayed on device 1 in order to collect all events/metrics.
+==106196== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/Fox/fox -f /home/LiJB/cuda_project/TC-compare-V100/data/hu_dataset/cluster3-s17-e1024/edges.bin 0 1 1
+==106196== Profiling result:
+==106196== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"achieved_occupancy","Achieved Occupancy",0.467541,0.499990,0.485181
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"branch_efficiency","Branch Efficiency",78.606007%,98.534448%,88.093887%
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"warp_execution_efficiency","Warp Execution Efficiency",69.362001%,97.767730%,87.879573%
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.000097,1.000220,1.000163
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"gld_transactions_per_request","Global Load Transactions Per Request",2.612912,13.281779,7.855511
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"shared_load_transactions","Shared Load Transactions",640062,640141,640104
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"gld_transactions","Global Load Transactions",331822,13449190110,2308057155
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"dram_read_transactions","Device Memory Read Transactions",215207,3001279276,513179903
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"global_hit_rate","Global Hit Rate in unified l1/tex",27.287053%,84.073401%,52.020620%
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"gld_requested_throughput","Requested Global Load Throughput",6.150350GB/s,339.614478GB/s,281.884851GB/s
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"gld_throughput","Global Load Throughput",41.153686GB/s,1304.724012GB/s,1294.606134GB/s
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"dram_read_throughput","Device Memory Read Throughput",26.690700GB/s,585.767891GB/s,287.846360GB/s
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"shared_load_throughput","Shared Memory Load Throughput",254.365445MB/s,317.530613GB/s,1.436157GB/s
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"gld_efficiency","Global Memory Load Efficiency",14.718287%,28.215091%,18.792920%
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",5,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"shared_efficiency","Shared Memory Efficiency",6.248506%,6.249697%,6.249295%
+"Tesla V100-SXM2-16GB (1)","binSearchKernel(void)",6,"global_load_requests","Total number of global load requests from Multiprocessor",30744,3287486246,569302557
+==106196== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==106196== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.

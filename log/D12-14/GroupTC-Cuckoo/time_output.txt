@@ -1,0 +1,9 @@
+[2024-12-15 09:57:55.922] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.017452
+[2024-12-15 09:58:16.187] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.004577
+[2024-12-15 09:58:31.525] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.001335
+[2024-12-15 09:58:55.108] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	100	0.002741
+[2024-12-15 10:06:05.027] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901306852	10	5.811966
+[2024-12-15 10:09:46.598] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374542765	10	0.444761
+[2024-12-15 10:11:40.689] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907034638	10	0.758235
+[2024-12-15 10:12:30.019] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262056959	10	0.181432
+[2024-12-15 10:13:01.026] [GroupTC-Cuckoo_file_logger] [info] GroupTC-Cuckoo	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	100	0.079034

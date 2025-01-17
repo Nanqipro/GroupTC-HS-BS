@@ -1,0 +1,67 @@
+large degree vertex
+[2025-01-11 16:27:56.243] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3929961	100	0.000463
+[2025-01-11 16:27:56.307] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	78864	100	0.000079
+[2025-01-11 16:27:56.389] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000035
+[2025-01-11 16:27:56.543] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000032
+[2025-01-11 16:27:56.801] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4888996	100	0.000748
+[2025-01-11 16:27:56.946] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	9434	100	0.000066
+[2025-01-11 16:27:57.143] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10965296	100	0.000723
+[2025-01-11 16:27:57.402] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2528140	100	0.000571
+[2025-01-11 16:27:57.751] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000035
+[2025-01-11 16:27:58.056] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000032
+[2025-01-11 16:27:59.142] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79101465	100	0.006728
+[2025-01-11 16:27:59.819] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79146290	100	0.001404
+[2025-01-11 16:28:00.866] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160099271	100	0.002536
+[2025-01-11 16:28:05.136] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	0	100	0.000032
+[2025-01-11 16:28:08.166] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	6227043176	10	0.170486
+[2025-01-11 16:28:12.156] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235915527	100	0.026290
+[2025-01-11 16:28:15.519] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	129536805	100	0.012803
+[2025-01-11 16:28:32.272] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	0	100	0.000032
+[2025-01-11 16:29:15.525] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	33792616344	10	2.554271
+[2025-01-11 16:30:16.439] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1905905534	10	0.937438
+
+
+small degree vertex
+[2025-01-11 16:31:39.084] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	4980044	100	0.000446
+[2025-01-11 16:31:39.195] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2145521	100	0.000521
+[2025-01-11 16:31:39.357] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000901
+[2025-01-11 16:31:39.592] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000944
+[2025-01-11 16:31:40.158] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4314523	100	0.003855
+[2025-01-11 16:31:40.496] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13642846	100	0.002103
+[2025-01-11 16:31:40.802] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	53725684	100	0.001828
+[2025-01-11 16:31:41.449] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	26241728	100	0.004463
+[2025-01-11 16:31:42.594] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.007981
+[2025-01-11 16:31:44.160] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.012619
+[2025-01-11 16:31:47.942] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	35105509	100	0.033668
+[2025-01-11 16:31:50.256] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	98673840	100	0.017688
+[2025-01-11 16:31:53.372] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	125630993	100	0.023158
+[2025-01-11 16:31:59.970] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.022628
+[2025-01-11 16:32:02.337] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	846908379	10	0.103470
+[2025-01-11 16:32:13.221] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	391668654	100	0.095123
+[2025-01-11 16:32:16.514] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	415206584	10	0.120853
+[2025-01-11 16:32:42.251] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.090212
+[2025-01-11 16:33:10.448] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	1032300520	10	1.052215
+[2025-01-11 16:34:19.795] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	2267818608	10	1.756583
+
+
+all vertex
+[2025-01-11 16:35:53.260] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000583
+[2025-01-11 16:35:53.364] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000489
+[2025-01-11 16:35:53.503] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000661
+[2025-01-11 16:35:53.716] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000738
+[2025-01-11 16:35:54.162] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203519	100	0.002597
+[2025-01-11 16:35:54.443] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.001531
+[2025-01-11 16:35:54.721] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.001534
+[2025-01-11 16:35:55.259] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769868	100	0.003309
+[2025-01-11 16:35:56.173] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.005648
+[2025-01-11 16:35:57.377] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.008968
+[2025-01-11 16:36:00.672] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114206974	100	0.028765
+[2025-01-11 16:36:02.517] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177820130	100	0.013042
+[2025-01-11 16:36:05.139] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285730264	100	0.018134
+[2025-01-11 16:36:11.066] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.015994
+[2025-01-11 16:36:14.831] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.242970
+[2025-01-11 16:36:25.585] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627584181	100	0.093669
+[2025-01-11 16:36:37.430] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	100	0.097316
+[2025-01-11 16:37:00.677] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.064596
+[2025-01-11 16:37:51.270] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	34824916864	10	3.286147
+[2025-01-11 16:39:04.919] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4173724142	10	2.226639

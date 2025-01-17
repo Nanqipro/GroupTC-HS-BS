@@ -1,0 +1,190 @@
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Caida/
+Number of nodes: 26475, number of edges: 53381
+iter 100, avg kernel use 0.000066 s
+triangle count 36365 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/P2p-Gnutella31/
+Number of nodes: 62586, number of edges: 147892
+iter 100, avg kernel use 0.000063 s
+triangle count 2024 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Email-EuAll/
+Number of nodes: 265214, number of edges: 364481
+iter 100, avg kernel use 0.000143 s
+triangle count 239717 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Slashdot0922/
+Number of nodes: 82168, number of edges: 504230
+iter 100, avg kernel use 0.000318 s
+triangle count 600257 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-NotreDame/
+Number of nodes: 325729, number of edges: 1090108
+iter 100, avg kernel use 0.000569 s
+triangle count 4970077 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Dblp/
+Number of nodes: 317080, number of edges: 1049866
+iter 100, avg kernel use 0.000514 s
+triangle count 2145521 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Amazon0601/
+Number of nodes: 403394, number of edges: 2443408
+iter 100, avg kernel use 0.000653 s
+triangle count 3986507 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/RoadNet-CA/
+Number of nodes: 1965206, number of edges: 2766607
+iter 100, avg kernel use 0.000740 s
+triangle count 120676 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Wiki-Talk/
+Number of nodes: 2394385, number of edges: 4659565
+iter 100, avg kernel use 0.001759 s
+triangle count 4313292 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-BerkStan/
+Number of nodes: 685230, number of edges: 6649470
+iter 100, avg kernel use 0.001347 s
+triangle count 53725343 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Skitter/
+Number of nodes: 1696415, number of edges: 11095298
+iter 100, avg kernel use 0.003167 s
+triangle count 26243258 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Cit-Patents/
+Number of nodes: 3774768, number of edges: 16518947
+iter 100, avg kernel use 0.004310 s
+triangle count 7515023 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Pokec/
+Number of nodes: 1632803, number of edges: 22301964
+iter 100, avg kernel use 0.008209 s
+triangle count 32557458 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Sx-Stackoverflow/
+Number of nodes: 2601977, number of edges: 28183518
+iter 100, avg kernel use 0.020114 s
+triangle count 35103885 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Lj/
+Number of nodes: 3997962, number of edges: 34681189
+iter 100, avg kernel use 0.012898 s
+triangle count 98653041 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-LiveJ/
+Number of nodes: 4847571, number of edges: 42851237
+iter 100, avg kernel use 0.016880 s
+triangle count 125638046 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Orkut/
+Number of nodes: 3072441, number of edges: 117185083
+iter 100, avg kernel use 0.069375 s
+triangle count 391662383 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Twitter7/
+Number of nodes: 41652230, number of edges: 1202513046
+iter 10, avg kernel use 0.652058 s
+triangle count 1032356048 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/
+Number of nodes: 65608366, number of edges: 1806067135
+iter 10, avg kernel use 1.129006 s
+triangle count 2267910263 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Caida/
+Number of nodes: 26475, number of edges: 53381
+iter 100, avg kernel use 0.000119 s
+triangle count 36365 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/P2p-Gnutella31/
+Number of nodes: 62586, number of edges: 147892
+iter 100, avg kernel use 0.000520 s
+triangle count 2024 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Email-EuAll/
+Number of nodes: 265214, number of edges: 364481
+iter 100, avg kernel use 0.002252 s
+triangle count 239683 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Slashdot0922/
+Number of nodes: 82168, number of edges: 504230
+iter 100, avg kernel use 0.003263 s
+triangle count 600257 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-NotreDame/
+Number of nodes: 325729, number of edges: 1090108
+iter 100, avg kernel use 0.004040 s
+triangle count 4980035 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Dblp/
+Number of nodes: 317080, number of edges: 1049866
+iter 100, avg kernel use 0.004362 s
+triangle count 2145521 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Amazon0601/
+Number of nodes: 403394, number of edges: 2443408
+iter 100, avg kernel use 0.004724 s
+triangle count 3986507 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/RoadNet-CA/
+Number of nodes: 1965206, number of edges: 2766607
+iter 100, avg kernel use 0.002137 s
+triangle count 120676 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Wiki-Talk/
+Number of nodes: 2394385, number of edges: 4659565
+iter 100, avg kernel use 0.007290 s
+triangle count 4313095 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Web-BerkStan/
+Number of nodes: 685230, number of edges: 6649470
+iter 100, avg kernel use 0.009954 s
+triangle count 53725684 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/As-Skitter/
+Number of nodes: 1696415, number of edges: 11095298
+iter 100, avg kernel use 0.010107 s
+triangle count 26237867 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Cit-Patents/
+Number of nodes: 3774768, number of edges: 16518947
+iter 100, avg kernel use 0.011016 s
+triangle count 7515023 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-Pokec/
+Number of nodes: 1632803, number of edges: 22301964
+iter 100, avg kernel use 0.020766 s
+triangle count 32557458 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Sx-Stackoverflow/
+Number of nodes: 2601977, number of edges: 28183518
+iter 100, avg kernel use 0.065123 s
+triangle count 35093355 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Lj/
+Number of nodes: 3997962, number of edges: 34681189
+iter 100, avg kernel use 0.031996 s
+triangle count 98648782 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Soc-LiveJ/
+Number of nodes: 4847571, number of edges: 42851237
+iter 100, avg kernel use 0.041353 s
+triangle count 125588958 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Orkut/
+Number of nodes: 3072441, number of edges: 117185083
+iter 10, avg kernel use 0.184616 s
+triangle count 391506621 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Twitter7/
+Number of nodes: 41652230, number of edges: 1202513046
+iter 10, avg kernel use 2.199297 s
+triangle count 1032356048 
+
+dataset	/home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/
+Number of nodes: 65608366, number of edges: 1806067135
+iter 10, avg kernel use 3.658957 s
+triangle count 2267910263 
+

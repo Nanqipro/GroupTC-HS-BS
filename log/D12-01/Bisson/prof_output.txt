@@ -1,0 +1,76 @@
+==1340963== NVPROF is profiling process 1340963, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=As-Caida
+==1340963== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=As-Caida
+==1340963== Profiling result:
+No events/metrics were profiled.
+==1340988== NVPROF is profiling process 1340988, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=P2p-Gnutella31
+==1340988== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=P2p-Gnutella31
+==1340988== Profiling result:
+No events/metrics were profiled.
+==1341028== NVPROF is profiling process 1341028, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Email-EuAll
+==1341028== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Email-EuAll
+==1341028== Profiling result:
+No events/metrics were profiled.
+==1341054== NVPROF is profiling process 1341054, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Soc-Slashdot0922
+==1341054== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Soc-Slashdot0922
+==1341054== Profiling result:
+No events/metrics were profiled.
+==1341091== NVPROF is profiling process 1341091, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Web-NotreDame
+==1341091== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Web-NotreDame
+==1341091== Profiling result:
+No events/metrics were profiled.
+==1341116== NVPROF is profiling process 1341116, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Com-Dblp
+==1341116== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Com-Dblp
+==1341116== Profiling result:
+No events/metrics were profiled.
+==1341141== NVPROF is profiling process 1341141, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Amazon0601
+==1341141== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Amazon0601
+==1341141== Profiling result:
+No events/metrics were profiled.
+==1341166== NVPROF is profiling process 1341166, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=RoadNet-CA
+==1341166== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=RoadNet-CA
+==1341166== Profiling result:
+No events/metrics were profiled.
+==1341207== NVPROF is profiling process 1341207, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Wiki-Talk
+==1341207== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Wiki-Talk
+==1341207== Profiling result:
+No events/metrics were profiled.
+==1341232== NVPROF is profiling process 1341232, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Web-BerkStan
+==1341232== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Web-BerkStan
+==1341232== Profiling result:
+No events/metrics were profiled.
+==1341270== NVPROF is profiling process 1341270, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=As-Skitter
+==1341270== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=As-Skitter
+==1341270== Profiling result:
+No events/metrics were profiled.
+==1341297== NVPROF is profiling process 1341297, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Cit-Patents
+==1341297== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Cit-Patents
+==1341297== Profiling result:
+No events/metrics were profiled.
+==1341322== NVPROF is profiling process 1341322, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Soc-Pokec
+==1341322== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Soc-Pokec
+==1341322== Profiling result:
+No events/metrics were profiled.
+==1341347== NVPROF is profiling process 1341347, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Sx-Stackoverflow
+==1341347== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Sx-Stackoverflow
+==1341347== Profiling result:
+No events/metrics were profiled.
+==1341372== NVPROF is profiling process 1341372, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Com-Lj
+==1341372== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Com-Lj
+==1341372== Profiling result:
+No events/metrics were profiled.
+==1341397== NVPROF is profiling process 1341397, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Soc-LiveJ
+==1341397== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Soc-LiveJ
+==1341397== Profiling result:
+No events/metrics were profiled.
+==1341424== NVPROF is profiling process 1341424, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Com-Orkut
+==1341424== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Com-Orkut
+==1341424== Profiling result:
+No events/metrics were profiled.
+==1341449== NVPROF is profiling process 1341449, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Twitter7
+==1341449== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Twitter7
+==1341449== Profiling result:
+No events/metrics were profiled.
+==1341490== NVPROF is profiling process 1341490, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Com-Friendster
+==1341490== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Com-Friendster
+==1341490== Profiling result:
+No events/metrics were profiled.

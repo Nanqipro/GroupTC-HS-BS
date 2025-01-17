@@ -1,0 +1,5 @@
+==2677== NVPROF is profiling process 2677, command: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST/trust /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/ 0 1
+==2677== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==2677== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/approach/TRUST/trust /home/LiJB/cuda_project/TC-compare-V100/data/trust_dataset/Com-Friendster/ 0 1
+==2677== Profiling result:
+No events/metrics were profiled.

@@ -14,5 +14,7 @@ class Csr2DcsrDataTransfer : public DataTransfer {
    public:
     Csr2DcsrDataTransfer(std::string file, CPUGraph* graph) : DataTransfer(file, graph){};
 
+    Csr2DcsrDataTransfer() {};
+
     void transfer();
 };

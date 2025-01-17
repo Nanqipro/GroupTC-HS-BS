@@ -25,5 +25,6 @@ class GPUGraph {
    public:
     GPUGraph(){};
     GPUGraph(CPUGraph& h_graph);
+    void init(CPUGraph& h_graph);
     ~GPUGraph();
 };

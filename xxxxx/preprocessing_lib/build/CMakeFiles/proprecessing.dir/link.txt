@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../libs/libproprecessing.a CMakeFiles/proprecessing.dir/src/graph.cpp.o CMakeFiles/proprecessing.dir/src/csr2dcsr_data_transfer.cu.o CMakeFiles/proprecessing.dir/src/csr2rid_dcsr_data_transfer.cu.o CMakeFiles/proprecessing.dir/src/csr2trust_dcsr_data_transfer.cu.o CMakeFiles/proprecessing.dir/src/cuda_graph_comm.cu.o CMakeFiles/proprecessing.dir/src/data_transfer.cu.o CMakeFiles/proprecessing.dir/src/gpu_graph.cu.o CMakeFiles/proprecessing.dir/src/main.cu.o
+/usr/bin/ranlib ../libs/libproprecessing.a

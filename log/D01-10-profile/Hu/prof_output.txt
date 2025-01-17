@@ -1,0 +1,478 @@
+==2032976== NVPROF is profiling process 2032976, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Web-NotreDame
+==2032976== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2032976== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Web-NotreDame
+==2032976== Profiling result:
+==2032976== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.820261,0.820261,0.820261
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",83.489960%,83.489960%,83.489960%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",78.411499%,78.411499%,78.411499%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.339880,1.339880,1.339880
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.146335,2.146335,2.146335
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",3464874,3464874,3464874
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",98502631,98502631,98502631
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",2819267,2819267,2819267
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",97.969080%,97.969080%,97.969080%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",122.568552GB/s,122.568552GB/s,122.568552GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",326.696933GB/s,326.696933GB/s,326.696933GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",9.350470GB/s,9.350470GB/s,9.350470GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",45.966842GB/s,45.966842GB/s,45.966842GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",37.517509%,37.517509%,37.517509%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",7.034676%,7.034676%,7.034676%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",45893414,45893414,45893414
+==2032976== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033002== NVPROF is profiling process 2033002, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Com-Dblp
+==2033002== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033002== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Com-Dblp
+==2033002== Profiling result:
+==2033002== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.816404,0.816404,0.816404
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",80.722020%,80.722020%,80.722020%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",74.955222%,74.955222%,74.955222%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.147271,1.147271,1.147271
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.095470,2.095470,2.095470
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",1703149,1703149,1703149
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",119934896,119934896,119934896
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",6337595,6337595,6337595
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",95.429213%,95.429213%,95.429213%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",584.846911GB/s,584.846911GB/s,584.846911GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",2286.650231GB/s,2286.650231GB/s,2286.650231GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",120.831080GB/s,120.831080GB/s,120.831080GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",129.887337GB/s,129.887337GB/s,129.887337GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",25.576579%,25.576579%,25.576579%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",2.776812%,2.776812%,2.776812%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",57235324,57235324,57235324
+==2033002== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033028== NVPROF is profiling process 2033028, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Amazon0601
+==2033028== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033028== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Amazon0601
+==2033028== Profiling result:
+==2033028== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.841738,0.841738,0.841738
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",80.158016%,80.158016%,80.158016%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",72.857781%,72.857781%,72.857781%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.119096,1.119096,1.119096
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.068892,2.068892,2.068892
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",2811687,2811687,2811687
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",245165564,245165564,245165564
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",16135188,16135188,16135188
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",96.289103%,96.289103%,96.289103%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",597.118659GB/s,597.118659GB/s,597.118659GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",2430.457859GB/s,2430.457859GB/s,2430.457859GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",159.956781GB/s,159.956781GB/s,159.956781GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",111.495051GB/s,111.495051GB/s,111.495051GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",24.568155%,24.568155%,24.568155%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",2.239389%,2.239389%,2.239389%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",118500873,118500873,118500873
+==2033028== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033054== NVPROF is profiling process 2033054, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=RoadNet-CA
+==2033054== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033054== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=RoadNet-CA
+==2033054== Profiling result:
+==2033054== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.672593,0.672593,0.672593
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",79.276741%,79.276741%,79.276741%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",70.224537%,70.224537%,70.224537%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.169087,1.169087,1.169087
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",3.226304,3.226304,3.226304
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",1407476,1407476,1407476
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",931847708,931847708,931847708
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",8129601,8129601,8129601
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",97.366246%,97.366246%,97.366246%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",1323.496344GB/s,1323.496344GB/s,1323.496344GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",3577.387812GB/s,3577.387812GB/s,3577.387812GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",31.209752GB/s,31.209752GB/s,31.209752GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",21.613349GB/s,21.613349GB/s,21.613349GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",36.996166%,36.996166%,36.996166%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",1.424036%,1.424036%,1.424036%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",288828199,288828199,288828199
+==2033054== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033084== NVPROF is profiling process 2033084, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Wiki-Talk
+==2033084== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033084== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Wiki-Talk
+==2033084== Profiling result:
+==2033084== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.927214,0.927214,0.927214
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",91.057082%,91.057082%,91.057082%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",86.284555%,86.284555%,86.284555%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.211783,1.211783,1.211783
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.333194,1.333194,1.333194
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",38735984,38735984,38735984
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",289982544,289982544,289982544
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",30052575,30052575,30052575
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",84.899721%,84.899721%,84.899721%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",389.791035GB/s,389.791035GB/s,389.791035GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",1418.427389GB/s,1418.427389GB/s,1418.427389GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",146.999867GB/s,146.999867GB/s,146.999867GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",757.896388GB/s,757.896388GB/s,757.896388GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",27.480507%,27.480507%,27.480507%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",6.282510%,6.282510%,6.282510%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",217509649,217509649,217509649
+==2033084== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033110== NVPROF is profiling process 2033110, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Imdb-2021
+==2033110== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033110== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Imdb-2021
+==2033110== Profiling result:
+==2033110== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.866161,0.866161,0.866161
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",82.427672%,82.427672%,82.427672%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",79.643747%,79.643747%,79.643747%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.241470,1.241470,1.241470
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.901031,1.901031,1.901031
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",21242892,21242892,21242892
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",397864089,397864089,397864089
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",35338550,35338550,35338550
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",94.952270%,94.952270%,94.952270%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",329.272048GB/s,329.272048GB/s,329.272048GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",1130.642806GB/s,1130.642806GB/s,1130.642806GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",100.424438GB/s,100.424438GB/s,100.424438GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",241.470630GB/s,241.470630GB/s,241.470630GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",29.122553%,29.122553%,29.122553%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",5.798796%,5.798796%,5.798796%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",209288611,209288611,209288611
+==2033110== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033136== NVPROF is profiling process 2033136, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Web-BerkStan
+==2033136== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033136== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Web-BerkStan
+==2033136== Profiling result:
+==2033136== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.917634,0.917634,0.917634
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",84.824153%,84.824153%,84.824153%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",80.559758%,80.559758%,80.559758%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.369289,1.369289,1.369289
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.029931,2.029931,2.029931
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",21881562,21881562,21881562
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",488927274,488927274,488927274
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",26778031,26778031,26778031
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",97.586943%,97.586943%,97.586943%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",429.621577GB/s,429.621577GB/s,429.621577GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",1487.442808GB/s,1487.442808GB/s,1487.442808GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",81.465673GB/s,81.465673GB/s,81.465673GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",266.277410GB/s,266.277410GB/s,266.277410GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",28.883233%,28.883233%,28.883233%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",7.345019%,7.345019%,7.345019%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",240859015,240859015,240859015
+==2033136== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033162== NVPROF is profiling process 2033162, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=As-Skitter
+==2033162== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033162== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=As-Skitter
+==2033162== Profiling result:
+==2033162== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.897139,0.897139,0.897139
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",85.021466%,85.021466%,85.021466%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",81.585060%,81.585060%,81.585060%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.221773,1.221773,1.221773
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.729225,1.729225,1.729225
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",44618567,44618567,44618567
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",717523541,717523541,717523541
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",87584223,87584223,87584223
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",93.090188%,93.090188%,93.090188%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",235.604930GB/s,235.604930GB/s,235.604930GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",903.776417GB/s,903.776417GB/s,903.776417GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",110.319106GB/s,110.319106GB/s,110.319106GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",224.802150GB/s,224.802150GB/s,224.802150GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",26.068940%,26.068940%,26.068940%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",5.375295%,5.375295%,5.375295%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",414939287,414939287,414939287
+==2033162== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033190== NVPROF is profiling process 2033190, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Cit-Patents
+==2033190== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033190== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Cit-Patents
+==2033190== Profiling result:
+==2033190== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.952209,0.952209,0.952209
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",78.230374%,78.230374%,78.230374%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",73.253607%,73.253607%,73.253607%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.145664,1.145664,1.145664
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",2.565186,2.565186,2.565186
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",15647053,15647053,15647053
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",1619206392,1619206392,1619206392
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",702143380,702143380,702143380
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",86.890113%,86.890113%,86.890113%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",476.216153GB/s,476.216153GB/s,476.216153GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",1986.368647GB/s,1986.368647GB/s,1986.368647GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",861.357516GB/s,861.357516GB/s,861.357516GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",76.780368GB/s,76.780368GB/s,76.780368GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",23.974208%,23.974208%,23.974208%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",2.394796%,2.394796%,2.394796%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",631223846,631223846,631223846
+==2033190== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033216== NVPROF is profiling process 2033216, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Soc-Pokec
+==2033216== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033216== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Soc-Pokec
+==2033216== Profiling result:
+==2033216== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.950524,0.950524,0.950524
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",89.861588%,89.861588%,89.861588%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",87.219945%,87.219945%,87.219945%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.255680,1.255680,1.255680
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.508166,1.508166,1.508166
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",122050391,122050391,122050391
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",1197181436,1197181436,1197181436
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",488268210,488268210,488268210
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",87.310982%,87.310982%,87.310982%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",267.149101GB/s,267.149101GB/s,267.149101GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",1222.557973GB/s,1222.557973GB/s,1222.557973GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",498.617983GB/s,498.617983GB/s,498.617983GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",498.549924GB/s,498.549924GB/s,498.549924GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",21.851651%,21.851651%,21.851651%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",7.570996%,7.570996%,7.570996%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",793799268,793799268,793799268
+==2033216== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033245== NVPROF is profiling process 2033245, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Sx-Stackoverflow
+==2033245== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033245== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Sx-Stackoverflow
+==2033245== Profiling result:
+==2033245== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.960144,0.960144,0.960144
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",91.950648%,91.950648%,91.950648%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",91.282737%,91.282737%,91.282737%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.257170,1.257170,1.257170
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.335253,1.335253,1.335253
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",749327844,749327844,749327844
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",1908970645,1908970645,1908970645
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",1474636804,1474636804,1474636804
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",72.415296%,72.415296%,72.415296%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",308.693328GB/s,308.693328GB/s,308.693328GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",993.703263GB/s,993.703263GB/s,993.703263GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",767.613378GB/s,767.613378GB/s,767.613378GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",1560.232528GB/s,1560.232528GB/s,1560.232528GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",31.064941%,31.064941%,31.064941%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",9.070083%,9.070083%,9.070083%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",1429670152,1429670152,1429670152
+==2033245== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033272== NVPROF is profiling process 2033272, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Com-Lj
+==2033272== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033272== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Com-Lj
+==2033272== Profiling result:
+==2033272== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.945019,0.945019,0.945019
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",88.025601%,88.025601%,88.025601%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",85.713116%,85.713116%,85.713116%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.288532,1.288532,1.288532
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.536819,1.536819,1.536819
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",238329705,238329705,238329705
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",1981294557,1981294557,1981294557
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",830743007,830743007,830743007
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",87.571888%,87.571888%,87.571888%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",310.976179GB/s,310.976179GB/s,310.976179GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",1303.396282GB/s,1303.396282GB/s,1303.396282GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",546.504982GB/s,546.504982GB/s,546.504982GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",627.141583GB/s,627.141583GB/s,627.141583GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",23.858913%,23.858913%,23.858913%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",8.109018%,8.109018%,8.109018%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",1289217818,1289217818,1289217818
+==2033272== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033298== NVPROF is profiling process 2033298, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Soc-LiveJ
+==2033298== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033298== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Soc-LiveJ
+==2033298== Profiling result:
+==2033298== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.947012,0.947012,0.947012
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",88.528644%,88.528644%,88.528644%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",86.497066%,86.497066%,86.497066%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.317059,1.317059,1.317059
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.512529,1.512529,1.512529
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",375500523,375500523,375500523
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",2468420553,2468420553,2468420553
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",1221554836,1221554836,1221554836
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",85.436711%,85.436711%,85.436711%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",289.754463GB/s,289.754463GB/s,289.754463GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",1174.293765GB/s,1174.293765GB/s,1174.293765GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",581.126350GB/s,581.126350GB/s,581.126350GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",714.542621GB/s,714.542621GB/s,714.542621GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",24.674785%,24.674785%,24.674785%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",8.797009%,8.797009%,8.797009%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",1631982712,1631982712,1631982712
+==2033298== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033324== NVPROF is profiling process 2033324, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=k-mer-graph5
+==2033324== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033324== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=k-mer-graph5
+==2033324== Profiling result:
+==2033324== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.910063,0.910063,0.910063
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",70.703024%,70.703024%,70.703024%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",56.612868%,56.612868%,56.612868%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.937520,1.937520,1.937520
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",9.341388,9.341388,9.341388
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",5344747,5344747,5344747
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",32855431056,32855431056,32855431056
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",30728570856,30728570856,30728570856
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",27.835549%,27.835549%,27.835549%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",383.855457GB/s,383.855457GB/s,383.855457GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",1270.264705GB/s,1270.264705GB/s,1270.264705GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",1188.035516GB/s,1188.035516GB/s,1188.035516GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",846.397090MB/s,846.397090MB/s,846.397089MB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",30.218541%,30.218541%,30.218541%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",1.134307%,1.134307%,1.134307%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",3517189557,3517189557,3517189557
+==2033324== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2033324== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033352== NVPROF is profiling process 2033352, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Hollywood-2011
+==2033352== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033352== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Hollywood-2011
+==2033352== Profiling result:
+==2033352== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.969086,0.969086,0.969086
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",93.862629%,93.862629%,93.862629%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",95.189345%,95.189345%,95.189345%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.247427,1.247427,1.247427
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.439645,1.439645,1.439645
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",11641512999,11641512999,11641512999
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",14015810485,14015810485,14015810485
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",12324852326,12324852326,12324852326
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",53.669035%,53.669035%,53.669035%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",305.680989GB/s,305.680989GB/s,305.680989GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",774.998563GB/s,774.998563GB/s,774.998563GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",681.497716GB/s,681.497716GB/s,681.497716GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",2574.850981GB/s,2574.850981GB/s,2574.850981GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",39.442781%,39.442781%,39.442781%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",9.331197%,9.331197%,9.331197%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",9735602238,9735602238,9735602238
+==2033352== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2033352== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033440== NVPROF is profiling process 2033440, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Com-Orkut
+==2033440== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033440== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Com-Orkut
+==2033440== Profiling result:
+==2033440== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.974972,0.974972,0.974972
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",92.188104%,92.188104%,92.188104%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",91.383447%,91.383447%,91.383447%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.319588,1.319588,1.319588
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.372076,1.372076,1.372076
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",2710528555,2710528555,2710528555
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",7139273061,7139273061,7139273061
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",6229230028,6229230028,6229230028
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",72.666228%,72.666228%,72.666228%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",255.895846GB/s,255.895846GB/s,255.895846GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",909.836101GB/s,909.836101GB/s,909.836101GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",793.859307GB/s,793.859307GB/s,793.859307GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",1381.729883GB/s,1381.729883GB/s,1381.729883GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",28.125488%,28.125488%,28.125488%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",10.006149%,10.006149%,10.006149%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",5203261857,5203261857,5203261857
+==2033440== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2033440== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033468== NVPROF is profiling process 2033468, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Enwiki-2024
+==2033468== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033468== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Enwiki-2024
+==2033468== Profiling result:
+==2033468== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.979311,0.979311,0.979311
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",91.633446%,91.633446%,91.633446%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",90.182204%,90.182204%,90.182204%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.264077,1.264077,1.264077
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.351566,1.351566,1.351566
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",2677069414,2677069414,2677069414
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",9124950313,9124950313,9124950313
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",5694440740,5694440740,5694440740
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",72.909513%,72.909513%,72.909513%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",274.314526GB/s,274.314526GB/s,274.314526GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",1005.195741GB/s,1005.195741GB/s,1005.195741GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",627.294110GB/s,627.294110GB/s,627.294110GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",1179.613557GB/s,1179.613557GB/s,1179.613557GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",27.289663%,27.289663%,27.289663%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",7.975361%,7.975361%,7.975361%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",6751389791,6751389791,6751389791
+==2033468== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2033468== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033504== NVPROF is profiling process 2033504, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=k-mer-graph4
+==2033504== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033504== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=k-mer-graph4
+==2033504== Profiling result:
+==2033504== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.961262,0.961262,0.961262
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",68.933897%,68.933897%,68.933897%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",53.872422%,53.872422%,53.872422%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.098984,2.098984,2.098984
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",9.316819,9.316819,9.316819
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",19718195,19718195,19718195
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",121994163265,121994163265,121994163265
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",119501936522,119501936522,119501936522
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",20.217180%,20.217180%,20.217180%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",390.580917GB/s,390.580917GB/s,390.580917GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",1200.985866GB/s,1200.985866GB/s,1200.985866GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",1176.450847GB/s,1176.450847GB/s,1176.450847GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",795.107680MB/s,795.107680MB/s,795.107679MB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",32.521691%,32.521691%,32.521691%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",1.147916%,1.147916%,1.147916%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",13093971809,13093971809,13093971809
+==2033504== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2033504== Warning: One or more events or metrics can't be profiled. Rerun with "--print-gpu-trace" for detail.
+==2033540== NVPROF is profiling process 2033540, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Twitter7
+==2033540== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033540== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Twitter7
+==2033540== Profiling result:
+==2033540== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.993345,0.993345,0.993345
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",93.458708%,93.458708%,93.458708%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",88.986169%,88.986169%,88.986169%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.247227,1.247227,1.247227
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.520914,1.520914,1.520914
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",136437783892,136437783892,136437783892
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",163028989437,163028989437,163028989437
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",206349699576,206349699576,206349699576
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",47.851527%,47.851527%,47.851527%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",260.205384GB/s,260.205384GB/s,260.205384GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",683.939705GB/s,683.939705GB/s,683.939705GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",865.678878GB/s,865.678878GB/s,865.678878GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",2289.536798GB/s,2289.536798GB/s,2289.536798GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",38.045077%,38.045077%,38.045077%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",9.430291%,9.430291%,9.430291%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",107191452109,107191452109,107191452109
+==2033540== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.
+==2033833== NVPROF is profiling process 2033833, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Com-Friendster
+==2033833== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2033833== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-hu.ini -dataset=Com-Friendster
+==2033833== Profiling result:
+==2033833== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"achieved_occupancy","Achieved Occupancy",0.996108,0.996108,0.996108
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"branch_efficiency","Branch Efficiency",92.065765%,92.065765%,92.065765%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"warp_execution_efficiency","Warp Execution Efficiency",91.978328%,91.978328%,91.978328%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.296187,1.296187,1.296187
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions_per_request","Global Load Transactions Per Request",1.388460,1.388460,1.388460
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_transactions","Shared Load Transactions",64057376775,64057376775,64057376775
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_transactions","Global Load Transactions",131170574506,131170574506,131170574506
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_transactions","Device Memory Read Transactions",157108338345,157108338345,157108338345
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",63.191579%,63.191579%,63.191579%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_requested_throughput","Requested Global Load Throughput",220.859461GB/s,220.859461GB/s,220.859461GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_throughput","Global Load Throughput",705.970829GB/s,705.970829GB/s,705.970829GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"dram_read_throughput","Device Memory Read Throughput",845.570008GB/s,845.570008GB/s,845.570008GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_load_throughput","Shared Memory Load Throughput",1379.048297GB/s,1379.048297GB/s,1379.048297GB/s
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"gld_efficiency","Global Memory Load Efficiency",31.284502%,31.284502%,31.284502%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"shared_efficiency","Shared Memory Efficiency",10.388113%,10.388113%,10.388113%
+"Tesla V100-DGXS-32GB (3)","tc::approach::Hu::triangleCountKernel(unsigned long*, unsigned int*, unsigned int*, int*, long*)",1,"global_load_requests","Total number of global load requests from Multiprocessor",94471964493,94471964493,94471964493
+==2033833== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.

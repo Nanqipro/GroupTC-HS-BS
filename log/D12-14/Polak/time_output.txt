@@ -1,0 +1,9 @@
+[2024-12-15 09:57:41.295] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.021065
+[2024-12-15 09:58:12.228] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.006297
+[2024-12-15 09:58:24.221] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.005436
+[2024-12-15 09:58:42.216] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	100	0.010393
+[2024-12-15 10:01:21.661] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901310734	10	12.066560
+[2024-12-15 10:09:18.573] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374551054	10	1.192465
+[2024-12-15 10:10:44.272] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907041475	10	1.688809
+[2024-12-15 10:12:16.508] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262060053	10	0.266113
+[2024-12-15 10:12:41.488] [Polak_file_logger] [info] Polak	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.234912

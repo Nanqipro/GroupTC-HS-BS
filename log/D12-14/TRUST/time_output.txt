@@ -1,0 +1,122 @@
+[2024-12-15 09:58:09.646] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.064347
+[2024-12-15 09:58:19.662] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.015994
+[2024-12-15 09:58:34.133] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.001431
+[2024-12-15 09:58:59.738] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	100	0.002600
+[2024-12-15 10:08:58.824] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901310734	10	4.939854
+[2024-12-15 10:10:01.858] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374551054	10	0.418487
+[2024-12-15 10:12:05.299] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907041475	10	0.685706
+[2024-12-15 10:12:37.415] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262060053	10	0.148358
+[2024-12-15 10:13:27.320] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	100	0.097182
+
+
+large degree
+[2024-12-15 15:49:16.293] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	0	100	0.000043
+[2024-12-15 15:49:16.316] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	0	100	0.000037
+[2024-12-15 15:49:16.350] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	27595	100	0.000076
+[2024-12-15 15:49:16.377] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	2335	100	0.000073
+[2024-12-15 15:49:16.472] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	3929961	100	0.000420
+[2024-12-15 15:49:16.513] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	78864	100	0.000072
+[2024-12-15 15:49:16.563] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000034
+[2024-12-15 15:49:16.680] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000032
+[2024-12-15 15:49:16.906] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4888996	100	0.000747
+[2024-12-15 15:49:17.073] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	10965296	100	0.000723
+[2024-12-15 15:49:17.304] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	2528140	100	0.000572
+[2024-12-15 15:49:17.623] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.000032
+[2024-12-15 15:49:17.901] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.000032
+[2024-12-15 15:49:18.958] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	79101465	100	0.006731
+[2024-12-15 15:49:19.609] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	79146290	100	0.001404
+[2024-12-15 15:49:20.614] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	160099271	100	0.002536
+[2024-12-15 15:49:24.526] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	235915527	100	0.026277
+[2024-12-15 15:50:07.345] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	33792616344	10	2.554270
+[2024-12-15 15:51:07.888] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	1905905534	10	0.937407
+[2024-12-15 15:51:25.016] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	0	100	0.000037
+[2024-12-15 15:51:29.582] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	0	100	0.000032
+[2024-12-15 15:51:39.669] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	0	100	0.000049
+[2024-12-15 15:51:57.540] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	0	100	0.000083
+[2024-12-15 15:52:01.180] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	129536805	100	0.012796
+[2024-12-15 15:52:04.163] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	6227043176	10	0.170405
+[2024-12-15 15:52:04.319] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	9434	100	0.000065
+
+
+small degree all
+[2024-12-15 21:08:55.940] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	4980044	100	0.000447
+[2024-12-15 21:08:56.033] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2145521	100	0.000545
+[2024-12-15 21:08:56.170] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000927
+[2024-12-15 21:08:56.393] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000947
+[2024-12-15 21:08:56.933] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	4314523	100	0.003855
+[2024-12-15 21:08:57.242] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13642846	100	0.002104
+[2024-12-15 21:08:57.518] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	53725684	100	0.001828
+[2024-12-15 21:08:58.140] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	26241728	100	0.004463
+[2024-12-15 21:08:59.259] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.007988
+[2024-12-15 21:09:00.802] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.012615
+[2024-12-15 21:09:04.562] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	35105509	100	0.033661
+[2024-12-15 21:09:06.844] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	98673840	100	0.017684
+[2024-12-15 21:09:09.925] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	125630993	100	0.023156
+[2024-12-15 21:09:16.440] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.022634
+[2024-12-15 21:09:18.742] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	846908379	10	0.103444
+[2024-12-15 21:09:29.568] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	391668654	100	0.095104
+[2024-12-15 21:09:32.803] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	415206584	10	0.120827
+[2024-12-15 21:09:58.190] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.090053
+[2024-12-15 21:10:26.108] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	1032300520	10	1.051950
+[2024-12-15 21:11:34.823] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	2267818608	10	1.756548
+[2024-12-15 21:17:29.294] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e2	3379767	100	0.002319
+[2024-12-15 21:17:30.139] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e4	7093994	100	0.005784
+[2024-12-15 21:17:31.872] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e8	8973742	100	0.011566
+[2024-12-15 21:17:36.544] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e16	27226855	100	0.031946
+[2024-12-15 21:17:47.245] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e32	56151843	100	0.070977
+[2024-12-15 21:17:54.035] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e64	52305514	10	0.100072
+[2024-12-15 21:18:06.198] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e128	88837046	10	0.186245
+[2024-12-15 21:18:14.304] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e256	190604472	10	0.393066
+[2024-12-15 21:18:23.894] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e512	109397622	10	0.364667
+[2024-12-15 21:18:45.127] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e1024	367178057	10	0.929523
+[2024-12-15 21:18:46.479] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s17-e32	10728625	100	0.007718
+[2024-12-15 21:18:48.961] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s18-e32	24675747	100	0.018753
+[2024-12-15 21:18:52.467] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s19-e32	18652012	100	0.023512
+[2024-12-15 21:19:03.179] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s20-e32	56151843	100	0.070968
+[2024-12-15 21:19:10.332] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s21-e32	37765420	10	0.101233
+[2024-12-15 21:19:16.332] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s22-e32	94881666	10	0.290815
+[2024-12-15 21:19:33.488] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s23-e32	273455101	10	0.898997
+[2024-12-15 21:20:00.707] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s24-e32	157645735	10	1.270402
+
+
+small degree build
+[2024-12-15 21:13:08.660] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	0	100	0.000156
+[2024-12-15 21:13:08.738] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	0	100	0.000234
+[2024-12-15 21:13:08.835] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	0	100	0.000321
+[2024-12-15 21:13:09.037] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	0	100	0.000650
+[2024-12-15 21:13:09.257] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	0	100	0.000481
+[2024-12-15 21:13:09.444] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	0	100	0.000649
+[2024-12-15 21:13:09.613] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	0	100	0.000475
+[2024-12-15 21:13:09.932] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	0	100	0.001073
+[2024-12-15 21:13:10.517] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	0	100	0.002183
+[2024-12-15 21:13:10.983] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	0	100	0.001119
+[2024-12-15 21:13:11.587] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	0	100	0.001447
+[2024-12-15 21:13:12.420] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	0	100	0.002337
+[2024-12-15 21:13:13.581] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	0	100	0.002736
+[2024-12-15 21:13:19.643] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	0	100	0.014088
+[2024-12-15 21:13:21.183] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	0	100	0.001295
+[2024-12-15 21:13:22.956] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	0	100	0.002275
+[2024-12-15 21:13:25.864] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	0	100	0.005060
+[2024-12-15 21:13:49.606] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	0	100	0.056883
+[2024-12-15 21:14:11.851] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	0	100	0.028434
+[2024-12-15 21:15:09.383] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	0	100	0.036080
+[2024-12-15 21:15:48.152] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e2	0	100	0.000219
+[2024-12-15 21:15:48.279] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e4	0	100	0.000293
+[2024-12-15 21:15:48.438] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e8	0	100	0.000335
+[2024-12-15 21:15:48.684] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e16	0	100	0.000387
+[2024-12-15 21:15:49.106] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e32	0	100	0.000458
+[2024-12-15 21:15:49.824] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e64	0	100	0.000473
+[2024-12-15 21:15:51.066] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e128	0	100	0.000477
+[2024-12-15 21:15:53.281] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e256	0	100	0.000513
+[2024-12-15 21:15:57.265] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e512	0	100	0.000427
+[2024-12-15 21:16:04.385] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster2-s20-e1024	0	100	0.000451
+[2024-12-15 21:16:04.792] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s17-e32	0	100	0.000086
+[2024-12-15 21:16:04.897] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s18-e32	0	100	0.000145
+[2024-12-15 21:16:05.088] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s19-e32	0	100	0.000239
+[2024-12-15 21:16:05.502] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s20-e32	0	100	0.000457
+[2024-12-15 21:16:06.299] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s21-e32	0	100	0.000784
+[2024-12-15 21:16:07.985] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s22-e32	0	100	0.001554
+[2024-12-15 21:16:11.648] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s23-e32	0	100	0.003102
+[2024-12-15 21:16:19.020] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/cluster4-s24-e32	0	100	0.005473
+
+

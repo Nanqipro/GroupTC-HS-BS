@@ -1,0 +1,13 @@
+[2024-12-13 16:08:57.618] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	10	1.919758
+[2024-12-13 16:10:12.843] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	10	0.504621
+[2024-12-13 16:10:55.328] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	10	0.939600
+[2024-12-13 16:14:13.086] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	10	1.653359
+[2024-12-13 22:29:53.880] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901310734	10	77.959214
+[2024-12-13 22:44:00.293] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374551054	10	2.921705
+[2024-12-13 22:50:17.016] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907041475	10	4.841915
+[2024-12-13 22:53:04.640] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262060053	10	2.238117
+[2024-12-13 22:54:05.396] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.384939
+[2024-12-15 11:24:47.041] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-tpd	191659070207	10	54.001881
+[2024-12-15 11:30:03.030] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Uk-2005	21779366056	10	1.606385
+[2024-12-15 11:36:25.632] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.677289
+[2024-12-15 11:40:30.168] [Green_file_logger] [info] Green	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.022288

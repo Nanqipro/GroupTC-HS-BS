@@ -1,0 +1,23 @@
+==2027514== NVPROF is profiling process 2027514, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-green.ini -dataset=Com-Friendster
+==2027514== Some kernel(s) will be replayed on device 3 in order to collect all events/metrics.
+==2027514== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-green.ini -dataset=Com-Friendster
+==2027514== Profiling result:
+==2027514== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"achieved_occupancy","Achieved Occupancy",0.499974,0.499974,0.499974
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"branch_efficiency","Branch Efficiency",72.157923%,72.157923%,72.157923%
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"warp_execution_efficiency","Warp Execution Efficiency",78.271619%,78.271619%,78.271619%
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",2.332175,2.332175,2.332175
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"gld_transactions_per_request","Global Load Transactions Per Request",0.886859,0.886859,0.886859
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"shared_load_transactions","Shared Load Transactions",10295204575,10295204575,10295204575
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"gld_transactions","Global Load Transactions",76857926036,76857926036,76857926036
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"dram_read_transactions","Device Memory Read Transactions",58545164919,58545164919,58545164919
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"global_hit_rate","Global Hit Rate in unified l1/tex",22.737306%,22.737306%,22.737306%
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"gld_requested_throughput","Requested Global Load Throughput",2197.750186GB/s,2197.750186GB/s,2197.750186GB/s
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"gld_throughput","Global Load Throughput",413.363659GB/s,413.363659GB/s,413.363659GB/s
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"dram_read_throughput","Device Memory Read Throughput",314.872452GB/s,314.872452GB/s,314.872452GB/s
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"shared_load_throughput","Shared Memory Load Throughput",221.482086GB/s,221.482086GB/s,221.482086GB/s
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"gld_efficiency","Global Memory Load Efficiency",531.674746%,531.674746%,531.674746%
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"shared_efficiency","Shared Memory Efficiency",86.414216%,86.414216%,86.414216%
+"Tesla V100-DGXS-32GB (3)","void count_all_trianglesGPU<long, unsigned int=512>(long, long const *, long const *, long*, long, long, long)",1,"global_load_requests","Total number of global load requests from Multiprocessor",86663119571,86663119571,86663119571
+==2027514== Warning: One or more events or metrics overflowed. Rerun with "--print-gpu-trace" for detail.

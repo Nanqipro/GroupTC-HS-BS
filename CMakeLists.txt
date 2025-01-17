@@ -1,11 +1,7 @@
 cmake_minimum_required(VERSION 3.11)
 
-# 指定 CUDA 编译器和主机编译器版本
 set(CMAKE_CUDA_COMPILER "/usr/local/cuda-11.4/bin/nvcc")
-set(CMAKE_CUDA_HOST_COMPILER "/usr/bin/gcc-9")  # 添加此行指定主机编译器
-
-# 设置 CUDA 架构
-set(CMAKE_CUDA_ARCHITECTURES 70)
+set(CMAKE_CUDA_ARCHITECTURES  70)
 set(CUDA_INCLUDE_DIRS "/usr/local/cuda-11.4/include")
 set(CUDA_LIBRARIES "/usr/local/cuda-11.4/lib64")
 
@@ -14,17 +10,19 @@ message(STATUS "PROJECT_DIRS: " ${CMAKE_CURRENT_SOURCE_DIR})
 message(STATUS "CUDA_INCLUDE_DIRS: " ${CUDA_INCLUDE_DIRS})
 message(STATUS "CUDA_LIBRARIES: " ${CUDA_LIBRARIES})
 
-# 设置 C++ 标准
 set(CMAKE_CXX_STANDARD 14)
-
-# 设置编译标志
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -O3")
-set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} -std=c++14 -O3 -allow-unsupported-compiler")  # 修改此行，添加 -allow-unsupported-compiler
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}-std=c++14 -O3")
+set(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS} -std=c++14 -O3")
 
-message(STATUS "CUDA_NVCC_FLAGS: " ${CMAKE_CUDA_FLAGS})
+message(STATUS "CUDA_NVCC_FLAGS: " ${CUDA_NVCC_FLAGS})
+# set(CMAKE_C_COMPILER "/usr/bin/gcc-11")
+# set(CMAKE_CXX_COMPILER "/usr/bin/g++-11")
+# set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY  "${CMAKE_SOURCE_DIR}/libs/")
+
 
 project(TC-Compare LANGUAGES CXX CUDA)
+
 
 set(spdlog_DIR "/home/LiJB/cuda_project/spdlog/build")
 
@@ -39,15 +37,28 @@ include_directories(
     "3rdparty/"
 )
 
-# 查找源文件
 file(GLOB_RECURSE CPP_SOURCES "src/*.cpp")
 file(GLOB_RECURSE CUDA_SOURCES "src/*.cu")
 
-# 添加可执行文件
+# add_library(proprecessing STATIC  
+#     ${CPP_SOURCES}  
+#     ${CUDA_SOURCES}
+# )
+
+# ---------------------------------------------------------------------------------------
+# Example of using pre-compiled library
+# ---------------------------------------------------------------------------------------
 add_executable(main 
     ${CPP_SOURCES}  
     ${CUDA_SOURCES}
 )
 
-# 链接 spdlog 库
 # target_link_libraries(main PRIVATE spdlog::spdlog $<$<BOOL:${MINGW}>:ws2_32>)
+
+# ---------------------------------------------------------------------------------------
+# Example of using header-only library
+# ---------------------------------------------------------------------------------------
+# if(SPDLOG_BUILD_EXAMPLE_HO)
+#     add_executable(example_header_only example.cpp)
+#     target_link_libraries(example_header_only PRIVATE spdlog::spdlog_header_only)
+# endif()

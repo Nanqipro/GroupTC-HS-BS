@@ -1,0 +1,20 @@
+[2024-11-25 19:36:46.322] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Caida	36365	100	0.000026
+[2024-11-25 19:36:46.338] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/P2p-Gnutella31	2024	100	0.000026
+[2024-11-25 19:36:46.374] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Email-EuAll	267313	100	0.000053
+[2024-11-25 19:36:46.415] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Slashdot0922	602592	100	0.000134
+[2024-11-25 19:36:46.486] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-NotreDame	8910005	100	0.000241
+[2024-11-25 19:36:46.557] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Dblp	2224385	100	0.000143
+[2024-11-25 19:36:46.667] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Amazon0601	3986507	100	0.000276
+[2024-11-25 19:36:46.859] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/RoadNet-CA	120676	100	0.000214
+[2024-11-25 19:36:47.177] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Wiki-Talk	9203519	100	0.000927
+[2024-11-25 19:36:47.507] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Web-BerkStan	64690980	100	0.001134
+[2024-11-25 19:36:47.971] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/As-Skitter	28769868	100	0.001853
+[2024-11-25 19:36:48.811] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Cit-Patents	7515023	100	0.003731
+[2024-11-25 19:36:50.127] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-Pokec	32557458	100	0.008192
+[2024-11-25 19:36:52.926] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sx-Stackoverflow	114206974	100	0.022189
+[2024-11-25 19:36:55.145] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Lj	177820130	100	0.014148
+[2024-11-25 19:36:58.311] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Soc-LiveJ	285730264	100	0.019903
+[2024-11-25 19:37:01.301] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Orkut	627584181	10	0.095048
+[2024-11-25 19:37:50.424] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Twitter7	34824916864	10	3.055118
+[2024-11-25 19:39:24.660] [GroupTC-OPT_file_logger] [info] GroupTC-OPT	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Com-Friendster	4173724142	10	2.177262
+

@@ -1,0 +1,13 @@
+[2024-12-13 16:08:38.409] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	10	0.133129
+[2024-12-13 16:10:07.791] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.034052
+[2024-12-13 16:10:45.924] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.072642
+[2024-12-13 16:13:56.541] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	10	0.131928
+[2024-12-13 22:16:53.838] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901310734	10	379.266747
+[2024-12-13 22:43:31.048] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374551054	10	10.848704
+[2024-12-13 22:49:28.107] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907041475	10	20.328399
+[2024-12-13 22:52:42.232] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262060053	10	1.368796
+[2024-12-13 22:54:01.538] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	10	0.365433
+[2024-12-15 11:15:47.006] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-tpd	191659070207	10	175.086219
+[2024-12-15 11:29:46.944] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Uk-2005	21779366056	10	1.091431
+[2024-12-15 11:36:18.852] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	2.185888
+[2024-12-15 11:40:27.934] [H-INDEX_file_logger] [info] H-INDEX	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.003872

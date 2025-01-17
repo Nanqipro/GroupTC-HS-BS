@@ -1,0 +1,13 @@
+[2024-12-13 16:09:58.470] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	49	100	0.064352
+[2024-12-13 16:10:28.500] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1443	100	0.015989
+[2024-12-13 16:13:37.394] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	10	100	0.001432
+[2024-12-13 16:16:42.267] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	26	100	0.002605
+[2024-12-13 22:41:08.875] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	520901310734	10	4.939364
+[2024-12-13 22:45:00.894] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	48374551054	10	0.418660
+[2024-12-13 22:52:12.434] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	84907041475	10	0.686136
+[2024-12-13 22:53:52.441] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	12262060053	10	0.148421
+[2024-12-13 22:54:59.092] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	544743389	100	0.097261
+[2024-12-15 11:29:20.575] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-tpd	191659070207	10	2.215982
+[2024-12-15 11:30:31.495] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Uk-2005	21779366056	10	0.174944
+[2024-12-15 11:37:06.571] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	7073951555	10	0.242807
+[2024-12-15 11:40:32.727] [TRUST_file_logger] [info] TRUST	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	13652280	100	0.001536

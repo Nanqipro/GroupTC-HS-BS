@@ -1,0 +1,600 @@
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s17-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s17-e2/edges.bin
+vertex: 128675   edge: 262142
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 524284
+RemoveDuplicateEdges  m 524284
+RemoveSelfLoops  m 524284
+PermuteEdges  m 524284
+PermuteVertices  m 524284
+NormalizeEdges finished ...
+m 524284
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s17-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s17-e2/edges.bin
+vertex: 21683   edge: 158891
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 317782
+RemoveDuplicateEdges  m 317782
+RemoveSelfLoops  m 317782
+PermuteEdges  m 317782
+PermuteVertices  m 317782
+NormalizeEdges finished ...
+m 317782
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s17-e8/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s17-e8/edges.bin
+vertex: 131072   edge: 1048510
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 2097020
+RemoveDuplicateEdges  m 2097020
+RemoveSelfLoops  m 2097020
+PermuteEdges  m 2097020
+PermuteVertices  m 2097020
+NormalizeEdges finished ...
+m 2097020
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s17-e8/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s17-e8/edges.bin
+vertex: 35500   edge: 500665
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 1001330
+RemoveDuplicateEdges  m 1001330
+RemoveSelfLoops  m 1001330
+PermuteEdges  m 1001330
+PermuteVertices  m 1001330
+NormalizeEdges finished ...
+m 1001330
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s17-e32/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s17-e32/edges.bin
+vertex: 131072   edge: 4193279
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 8386558
+RemoveDuplicateEdges  m 8386558
+RemoveSelfLoops  m 8386558
+PermuteEdges  m 8386558
+PermuteVertices  m 8386558
+NormalizeEdges finished ...
+m 8386558
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s17-e32/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s17-e32/edges.bin
+vertex: 53054   edge: 1487801
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 2975602
+RemoveDuplicateEdges  m 2975602
+RemoveSelfLoops  m 2975602
+PermuteEdges  m 2975602
+PermuteVertices  m 2975602
+NormalizeEdges finished ...
+m 2975602
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s17-e128/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s17-e128/edges.bin
+vertex: 131072   edge: 16760551
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 33521102
+RemoveDuplicateEdges  m 33521102
+RemoveSelfLoops  m 33521102
+PermuteEdges  m 33521102
+PermuteVertices  m 33521102
+NormalizeEdges finished ...
+m 33521102
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s17-e128/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s17-e128/edges.bin
+vertex: 72256   edge: 4134130
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 8268260
+RemoveDuplicateEdges  m 8268260
+RemoveSelfLoops  m 8268260
+PermuteEdges  m 8268260
+PermuteVertices  m 8268260
+NormalizeEdges finished ...
+m 8268260
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s19-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s19-e2/edges.bin
+vertex: 514785   edge: 1048573
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 2097146
+RemoveDuplicateEdges  m 2097146
+RemoveSelfLoops  m 2097146
+PermuteEdges  m 2097146
+PermuteVertices  m 2097146
+NormalizeEdges finished ...
+m 2097146
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s19-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s19-e2/edges.bin
+vertex: 72188   edge: 655780
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 1311560
+RemoveDuplicateEdges  m 1311560
+RemoveSelfLoops  m 1311560
+PermuteEdges  m 1311560
+PermuteVertices  m 1311560
+NormalizeEdges finished ...
+m 1311560
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s19-e8/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s19-e8/edges.bin
+vertex: 524288   edge: 4194228
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 8388456
+RemoveDuplicateEdges  m 8388456
+RemoveSelfLoops  m 8388456
+PermuteEdges  m 8388456
+PermuteVertices  m 8388456
+NormalizeEdges finished ...
+m 8388456
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s19-e8/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s19-e8/edges.bin
+vertex: 120642   edge: 2112913
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 4225826
+RemoveDuplicateEdges  m 4225826
+RemoveSelfLoops  m 4225826
+PermuteEdges  m 4225826
+PermuteVertices  m 4225826
+NormalizeEdges finished ...
+m 4225826
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s19-e32/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s19-e32/edges.bin
+vertex: 524288   edge: 16776138
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 33552276
+RemoveDuplicateEdges  m 33552276
+RemoveSelfLoops  m 33552276
+PermuteEdges  m 33552276
+PermuteVertices  m 33552276
+NormalizeEdges finished ...
+m 33552276
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s19-e32/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s19-e32/edges.bin
+vertex: 182799   edge: 6431451
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 12862902
+RemoveDuplicateEdges  m 12862902
+RemoveSelfLoops  m 12862902
+PermuteEdges  m 12862902
+PermuteVertices  m 12862902
+NormalizeEdges finished ...
+m 12862902
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s19-e128/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s19-e128/edges.bin
+vertex: 524288   edge: 67092278
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 134184556
+RemoveDuplicateEdges  m 134184556
+RemoveSelfLoops  m 134184556
+PermuteEdges  m 134184556
+PermuteVertices  m 134184556
+NormalizeEdges finished ...
+m 134184556
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s19-e128/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s19-e128/edges.bin
+vertex: 253787   edge: 18514901
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 37029802
+RemoveDuplicateEdges  m 37029802
+RemoveSelfLoops  m 37029802
+PermuteEdges  m 37029802
+PermuteVertices  m 37029802
+NormalizeEdges finished ...
+m 37029802
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s21-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s21-e2/edges.bin
+vertex: 2058719   edge: 4194296
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 8388592
+RemoveDuplicateEdges  m 8388592
+RemoveSelfLoops  m 8388592
+PermuteEdges  m 8388592
+PermuteVertices  m 8388592
+NormalizeEdges finished ...
+m 8388592
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s21-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s21-e2/edges.bin
+vertex: 242701   edge: 2696068
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 5392136
+RemoveDuplicateEdges  m 5392136
+RemoveSelfLoops  m 5392136
+PermuteEdges  m 5392136
+PermuteVertices  m 5392136
+NormalizeEdges finished ...
+m 5392136
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s21-e8/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s21-e8/edges.bin
+vertex: 2097152   edge: 16777133
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 33554266
+RemoveDuplicateEdges  m 33554266
+RemoveSelfLoops  m 33554266
+PermuteEdges  m 33554266
+PermuteVertices  m 33554266
+NormalizeEdges finished ...
+m 33554266
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s21-e8/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s21-e8/edges.bin
+vertex: 406995   edge: 8839909
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 17679818
+RemoveDuplicateEdges  m 17679818
+RemoveSelfLoops  m 17679818
+PermuteEdges  m 17679818
+PermuteVertices  m 17679818
+NormalizeEdges finished ...
+m 17679818
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s21-e32/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s21-e32/edges.bin
+vertex: 2097152   edge: 67107783
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 134215566
+RemoveDuplicateEdges  m 134215566
+RemoveSelfLoops  m 134215566
+PermuteEdges  m 134215566
+PermuteVertices  m 134215566
+NormalizeEdges finished ...
+m 134215566
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s21-e32/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s21-e32/edges.bin
+vertex: 627011   edge: 27571684
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 55143368
+RemoveDuplicateEdges  m 55143368
+RemoveSelfLoops  m 55143368
+PermuteEdges  m 55143368
+PermuteVertices  m 55143368
+NormalizeEdges finished ...
+m 55143368
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s21-e128/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s21-e128/edges.bin
+vertex: 2097152   edge: 268418922
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 536837844
+RemoveDuplicateEdges  m 536837844
+RemoveSelfLoops  m 536837844
+PermuteEdges  m 536837844
+PermuteVertices  m 536837844
+NormalizeEdges finished ...
+m 536837844
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s21-e128/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s21-e128/edges.bin
+vertex: 892357   edge: 81535630
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 163071260
+RemoveDuplicateEdges  m 163071260
+RemoveSelfLoops  m 163071260
+PermuteEdges  m 163071260
+PermuteVertices  m 163071260
+NormalizeEdges finished ...
+m 163071260
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s23-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s23-e2/edges.bin
+vertex: 8234267   edge: 16777211
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 33554422
+RemoveDuplicateEdges  m 33554422
+RemoveSelfLoops  m 33554422
+PermuteEdges  m 33554422
+PermuteVertices  m 33554422
+NormalizeEdges finished ...
+m 33554422
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s23-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s23-e2/edges.bin
+vertex: 814390   edge: 11056421
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 22112842
+RemoveDuplicateEdges  m 22112842
+RemoveSelfLoops  m 22112842
+PermuteEdges  m 22112842
+PermuteVertices  m 22112842
+NormalizeEdges finished ...
+m 22112842
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s23-e8/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s23-e8/edges.bin
+vertex: 8388608   edge: 67108784
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 134217568
+RemoveDuplicateEdges  m 134217568
+RemoveSelfLoops  m 134217568
+PermuteEdges  m 134217568
+PermuteVertices  m 134217568
+NormalizeEdges finished ...
+m 134217568
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s23-e8/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s23-e8/edges.bin
+vertex: 1383663   edge: 36783384
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 73566768
+RemoveDuplicateEdges  m 73566768
+RemoveSelfLoops  m 73566768
+PermuteEdges  m 73566768
+PermuteVertices  m 73566768
+NormalizeEdges finished ...
+m 73566768
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s23-e32/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s23-e32/edges.bin
+vertex: 8388608   edge: 268434412
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 536868824
+RemoveDuplicateEdges  m 536868824
+RemoveSelfLoops  m 536868824
+PermuteEdges  m 536868824
+PermuteVertices  m 536868824
+NormalizeEdges finished ...
+m 536868824
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s23-e32/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s23-e32/edges.bin
+vertex: 2164231   edge: 117046170
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 234092340
+RemoveDuplicateEdges  m 234092340
+RemoveSelfLoops  m 234092340
+PermuteEdges  m 234092340
+PermuteVertices  m 234092340
+NormalizeEdges finished ...
+m 234092340
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s18-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s18-e2/edges.bin
+vertex: 257343   edge: 524283
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 1048566
+RemoveDuplicateEdges  m 1048566
+RemoveSelfLoops  m 1048566
+PermuteEdges  m 1048566
+PermuteVertices  m 1048566
+NormalizeEdges finished ...
+m 1048566
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s18-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s18-e2/edges.bin
+vertex: 39680   edge: 323139
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 646278
+RemoveDuplicateEdges  m 646278
+RemoveSelfLoops  m 646278
+PermuteEdges  m 646278
+PermuteVertices  m 646278
+NormalizeEdges finished ...
+m 646278
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s20-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s20-e2/edges.bin
+vertex: 1029153   edge: 2097148
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 4194296
+RemoveDuplicateEdges  m 4194296
+RemoveSelfLoops  m 4194296
+PermuteEdges  m 4194296
+PermuteVertices  m 4194296
+NormalizeEdges finished ...
+m 4194296
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s20-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s20-e2/edges.bin
+vertex: 132444   edge: 1331420
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 2662840
+RemoveDuplicateEdges  m 2662840
+RemoveSelfLoops  m 2662840
+PermuteEdges  m 2662840
+PermuteVertices  m 2662840
+NormalizeEdges finished ...
+m 2662840
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s22-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s22-e2/edges.bin
+vertex: 4117203   edge: 8388605
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 16777210
+RemoveDuplicateEdges  m 16777210
+RemoveSelfLoops  m 16777210
+PermuteEdges  m 16777210
+PermuteVertices  m 16777210
+NormalizeEdges finished ...
+m 16777210
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s22-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s22-e2/edges.bin
+vertex: 445144   edge: 5460757
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 10921514
+RemoveDuplicateEdges  m 10921514
+RemoveSelfLoops  m 10921514
+PermuteEdges  m 10921514
+PermuteVertices  m 10921514
+NormalizeEdges finished ...
+m 10921514
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s24-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s24-e2/edges.bin
+vertex: 16467506   edge: 33554425
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 67108850
+RemoveDuplicateEdges  m 67108850
+RemoveSelfLoops  m 67108850
+PermuteEdges  m 67108850
+PermuteVertices  m 67108850
+NormalizeEdges finished ...
+m 67108850
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s24-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s24-e2/edges.bin
+vertex: 1495847   edge: 22359351
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 44718702
+RemoveDuplicateEdges  m 44718702
+RemoveSelfLoops  m 44718702
+PermuteEdges  m 44718702
+PermuteVertices  m 44718702
+NormalizeEdges finished ...
+m 44718702
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s26-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s26-e2/edges.bin
+vertex: 65867663   edge: 134217716
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 268435432
+RemoveDuplicateEdges  m 268435432
+RemoveSelfLoops  m 268435432
+PermuteEdges  m 268435432
+PermuteVertices  m 268435432
+NormalizeEdges finished ...
+m 268435432
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s26-e2/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s26-e2/edges.bin
+vertex: 5045586   edge: 91258448
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 182516896
+RemoveDuplicateEdges  m 182516896
+RemoveSelfLoops  m 182516896
+PermuteEdges  m 182516896
+PermuteVertices  m 182516896
+NormalizeEdges finished ...
+m 182516896
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s17-e4/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s17-e4/edges.bin
+vertex: 131026   edge: 524273
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 1048546
+RemoveDuplicateEdges  m 1048546
+RemoveSelfLoops  m 1048546
+PermuteEdges  m 1048546
+PermuteVertices  m 1048546
+NormalizeEdges finished ...
+m 1048546
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s17-e4/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s17-e4/edges.bin
+vertex: 28256   edge: 284367
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 568734
+RemoveDuplicateEdges  m 568734
+RemoveSelfLoops  m 568734
+PermuteEdges  m 568734
+PermuteVertices  m 568734
+NormalizeEdges finished ...
+m 568734
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s17-e16/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s17-e16/edges.bin
+vertex: 131072   edge: 2096876
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 4193752
+RemoveDuplicateEdges  m 4193752
+RemoveSelfLoops  m 4193752
+PermuteEdges  m 4193752
+PermuteVertices  m 4193752
+NormalizeEdges finished ...
+m 4193752
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s17-e16/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s17-e16/edges.bin
+vertex: 43938   edge: 869944
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 1739888
+RemoveDuplicateEdges  m 1739888
+RemoveSelfLoops  m 1739888
+PermuteEdges  m 1739888
+PermuteVertices  m 1739888
+NormalizeEdges finished ...
+m 1739888
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s17-e64/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s17-e64/edges.bin
+vertex: 131072   edge: 8384374
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 16768748
+RemoveDuplicateEdges  m 16768748
+RemoveSelfLoops  m 16768748
+PermuteEdges  m 16768748
+PermuteVertices  m 16768748
+NormalizeEdges finished ...
+m 16768748
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s17-e64/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s17-e64/edges.bin
+vertex: 62438   edge: 2499779
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 4999558
+RemoveDuplicateEdges  m 4999558
+RemoveSelfLoops  m 4999558
+PermuteEdges  m 4999558
+PermuteVertices  m 4999558
+NormalizeEdges finished ...
+m 4999558
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s17-e256/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s17-e256/edges.bin
+vertex: 131072   edge: 33488609
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 66977218
+RemoveDuplicateEdges  m 66977218
+RemoveSelfLoops  m 66977218
+PermuteEdges  m 66977218
+PermuteVertices  m 66977218
+NormalizeEdges finished ...
+m 66977218
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s17-e256/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s17-e256/edges.bin
+vertex: 81471   edge: 6735479
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 13470958
+RemoveDuplicateEdges  m 13470958
+RemoveSelfLoops  m 13470958
+PermuteEdges  m 13470958
+PermuteVertices  m 13470958
+NormalizeEdges finished ...
+m 13470958
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster0-s17-e1024/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster0-s17-e1024/edges.bin
+vertex: 131072   edge: 133173435
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 266346870
+RemoveDuplicateEdges  m 266346870
+RemoveSelfLoops  m 266346870
+PermuteEdges  m 266346870
+PermuteVertices  m 266346870
+NormalizeEdges finished ...
+m 266346870
+WriteEdgesToFile finished ...
+infile: /home/jiangbo/TC-compare-clean/data/csr_dataset/cluster3-s17-e1024/
+outfile: /home/jiangbo/TC-compare-clean/data/polak_dataset/cluster3-s17-e1024/edges.bin
+vertex: 98842   edge: 16966540
+ReadEdgesFromCSRFile finished ...
+MakeUndirected  m 33933080
+RemoveDuplicateEdges  m 33933080
+RemoveSelfLoops  m 33933080
+PermuteEdges  m 33933080
+PermuteVertices  m 33933080
+NormalizeEdges finished ...
+m 33933080
+WriteEdgesToFile finished ...

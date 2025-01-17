@@ -1,0 +1,44 @@
+==1944836== NVPROF is profiling process 1944836, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=k-mer-graph4
+==1944836== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=k-mer-graph4
+==1944836== Profiling result:
+No events/metrics were profiled.
+==1944945== NVPROF is profiling process 1944945, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=k-mer-graph5
+==1944945== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=k-mer-graph5
+==1944945== Profiling result:
+No events/metrics were profiled.
+==1944992== NVPROF is profiling process 1944992, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=MAWI-graph4
+==1944992== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=MAWI-graph4
+==1944992== Profiling result:
+No events/metrics were profiled.
+==1945059== NVPROF is profiling process 1945059, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=MAWI-graph5
+==1945059== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=MAWI-graph5
+==1945059== Profiling result:
+No events/metrics were profiled.
+==1945151== NVPROF is profiling process 1945151, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Gsh-2015-host
+==1945151== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Gsh-2015-host
+==1945151== Profiling result:
+No events/metrics were profiled.
+==1945343== NVPROF is profiling process 1945343, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=It-2004
+==1945343== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=It-2004
+==1945343== Profiling result:
+No events/metrics were profiled.
+==1945432== NVPROF is profiling process 1945432, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Sk-2005
+==1945432== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Sk-2005
+==1945432== Profiling result:
+No events/metrics were profiled.
+==1945728== NVPROF is profiling process 1945728, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Webbase-2001
+==1945728== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Webbase-2001
+==1945728== Profiling result:
+No events/metrics were profiled.
+==1945816== NVPROF is profiling process 1945816, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Enwiki-2024
+==1945816== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Enwiki-2024
+==1945816== Profiling result:
+No events/metrics were profiled.
+==2028178== NVPROF is profiling process 2028178, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Hollywood-2011
+==2028178== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Hollywood-2011
+==2028178== Profiling result:
+No events/metrics were profiled.
+==2028204== NVPROF is profiling process 2028204, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Imdb-2021
+==2028204== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -config=./config/config-grouptc-cuckoo.ini -dataset=Imdb-2021
+==2028204== Profiling result:
+No events/metrics were profiled.

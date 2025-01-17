@@ -1,0 +1,15 @@
+[2024-12-15 11:49:45.644] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	1	0.198544
+[2024-12-15 11:49:52.661] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	1	0.004819
+[2024-12-15 11:50:31.810] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph4	1	0.369635
+[2024-12-15 11:50:46.004] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/k-mer-graph5	1	0.094573
+[2024-12-15 11:50:53.678] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph4	1	0.214195
+[2024-12-15 11:51:07.456] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/MAWI-graph5	1	0.376348
+[2024-12-15 11:51:53.124] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-host	1	13.160858
+[2024-12-15 11:56:54.343] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/It-2004	1	1.990067
+[2024-12-15 11:57:57.164] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Sk-2005	1	15.735539
+[2024-12-15 11:58:58.283] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Webbase-2001	1	1.402425
+[2024-12-15 11:59:11.652] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Enwiki-2024	1	0.258273
+[2024-12-15 11:59:19.319] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Gsh-2015-tpd	1	0.797405
+[2024-12-15 12:01:19.187] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Uk-2005	1	1.255819
+[2024-12-15 12:01:31.043] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Hollywood-2011	1	0.190155
+[2024-12-15 12:01:38.057] [Fox_preprocessing_file_logger] [info] Fox	/home/LiJB/cuda_project/TC-compare-V100/dataset_app/csr_dataset/Imdb-2021	1	0.006632

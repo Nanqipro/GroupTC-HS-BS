@@ -1,0 +1,4 @@
+==3689062== NVPROF is profiling process 3689062, command: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Twitter7
+==3689062== Profiling application: /home/LiJB/cuda_project/TC-compare-V100/build/main -dataset=Twitter7
+==3689062== Profiling result:
+No events/metrics were profiled.

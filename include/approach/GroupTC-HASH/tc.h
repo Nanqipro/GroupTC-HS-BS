@@ -19,8 +19,8 @@
 
 #define GroupTC_HASH_EDGE_CHUNK 512
 #define GroupTC_HASH_shared_CHUNK_CACHE_SIZE 640
-#define GroupTC_HASH_BLOCK_BUCKET_SIZE 100
-#define GroupTC_HASH_GROUP_BUCKET_SIZE 100
+#define GroupTC_HASH_BLOCK_BUCKET_SIZE 25
+#define GroupTC_HASH_GROUP_BUCKET_SIZE 25
 
 namespace tc {
 namespace approach {
@@ -43,5 +43,3 @@ void start_up(INIReader &config, GPUGraph &gpu_graph, int argc, char **argv);
 }  // namespace GroupTC_HASH
 }  // namespace approach
 }  // namespace tc
-
-
