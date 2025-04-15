@@ -10,7 +10,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <functional>  // 用于 std::function
-#include <cstdint>     // 用于 uint64_t
 
 // 自定义比较器，只比较整数的前n位
 struct MostSignificantBitsComparator {
@@ -20,16 +19,16 @@ struct MostSignificantBitsComparator {
     MostSignificantBitsComparator(int numBits) : numBits(numBits) {}
     
     __host__ __device__ __forceinline__
-    bool operator()(const uint64_t &a, const uint64_t &b) const {
+    bool operator()(const unsigned long long int &a, const unsigned long long int &b) const {
         // 创建掩码，只保留前numBits位
-        uint64_t mask = 0xFFFFFFFFFFFFFFFFULL;
+        unsigned long long int mask = 0xFFFFFFFFFFFFFFFFULL;
         if (numBits < 64) {
             mask = mask << (64 - numBits);
         }
         
         // 应用掩码并比较
-        uint64_t maskedA = a & mask;
-        uint64_t maskedB = b & mask;
+        unsigned long long int maskedA = a & mask;
+        unsigned long long int maskedB = b & mask;
         
         return maskedA < maskedB;
     }
@@ -37,8 +36,8 @@ struct MostSignificantBitsComparator {
 
 // 用于保存排序后的原始索引和值的结构体
 struct KeyValuePair {
-    uint64_t key;   // 原始值
-    int value;      // 原始索引
+    unsigned long long int key;   // 原始值
+    int value;                    // 原始索引
 };
 
 // 仿函数，根据键（前n位）进行比较
@@ -51,24 +50,24 @@ struct KeyValueComparator {
     __host__ __device__ __forceinline__
     bool operator()(const KeyValuePair &a, const KeyValuePair &b) const {
         // 创建掩码，只保留前numBits位
-        uint64_t mask = 0xFFFFFFFFFFFFFFFFULL;
+        unsigned long long int mask = 0xFFFFFFFFFFFFFFFFULL;
         if (numBits < 64) {
             mask = mask << (64 - numBits);
         }
         
         // 应用掩码并比较
-        uint64_t maskedA = a.key & mask;
-        uint64_t maskedB = b.key & mask;
+        unsigned long long int maskedA = a.key & mask;
+        unsigned long long int maskedB = b.key & mask;
         
         return maskedA < maskedB;
     }
 };
 
 // 对整数数组仅考虑前n位进行排序
-void sortByMostSignificantBits(uint64_t* d_in, uint64_t* d_out, int n, int numBits) {
+void sortByMostSignificantBits(unsigned long long int* d_in, unsigned long long int* d_out, int n, int numBits) {
     // 使用thrust::device_ptr包装原始指针
-    thrust::device_ptr<uint64_t> dev_ptr_in(d_in);
-    thrust::device_ptr<uint64_t> dev_ptr_out(d_out);
+    thrust::device_ptr<unsigned long long int> dev_ptr_in(d_in);
+    thrust::device_ptr<unsigned long long int> dev_ptr_out(d_out);
     
     // 自定义比较器
     MostSignificantBitsComparator comp(numBits);
@@ -84,13 +83,13 @@ void sortByMostSignificantBits(uint64_t* d_in, uint64_t* d_out, int n, int numBi
 }
 
 // 对整数数组仅考虑前n位进行排序，同时保留原始索引
-void sortByMostSignificantBitsWithIndices(uint64_t* d_keys_in, uint64_t* d_keys_out, 
+void sortByMostSignificantBitsWithIndices(unsigned long long int* d_keys_in, unsigned long long int* d_keys_out, 
                                         int* d_values_in, int* d_values_out, 
                                         int n, int numBits) {
     // 使用thrust::device_ptr包装原始指针
-    thrust::device_ptr<uint64_t> dev_keys_in(d_keys_in);
+    thrust::device_ptr<unsigned long long int> dev_keys_in(d_keys_in);
     thrust::device_ptr<int> dev_values_in(d_values_in);
-    thrust::device_ptr<uint64_t> dev_keys_out(d_keys_out);
+    thrust::device_ptr<unsigned long long int> dev_keys_out(d_keys_out);
     thrust::device_ptr<int> dev_values_out(d_values_out);
     
     // 创建仅考虑前numBits位的比较器函数
@@ -177,8 +176,8 @@ int main() {
     int numBits = 8;          // 只考虑前8位进行排序，使结果更明显
     
     // 主机内存分配
-    uint64_t* h_data = new uint64_t[n];
-    uint64_t* h_result = new uint64_t[n];
+    unsigned long long int* h_data = new unsigned long long int[n];
+    unsigned long long int* h_result = new unsigned long long int[n];
     int* h_indices = new int[n];
     int* h_indices_result = new int[n];
     
@@ -187,8 +186,8 @@ int main() {
     std::cout << "原始数据（十进制和二进制）：" << std::endl;
     for (int i = 0; i < n; i++) {
         // 生成64位随机数，创建更大范围的数据
-        h_data[i] = ((uint64_t)rand() << 48) | ((uint64_t)rand() << 32) | 
-                    ((uint64_t)rand() << 16) | (uint64_t)rand();
+        h_data[i] = ((unsigned long long int)rand() << 48) | ((unsigned long long int)rand() << 32) | 
+                    ((unsigned long long int)rand() << 16) | (unsigned long long int)rand();
         h_indices[i] = i;          // 初始索引
         
         // 输出十进制值和二进制表示
@@ -201,15 +200,15 @@ int main() {
     }
     
     // 设备内存分配
-    uint64_t *d_data, *d_result;
+    unsigned long long int *d_data, *d_result;
     int *d_indices, *d_indices_result;
-    CHECK_CUDA_ERROR(cudaMalloc(&d_data, n * sizeof(uint64_t)));
-    CHECK_CUDA_ERROR(cudaMalloc(&d_result, n * sizeof(uint64_t)));
+    CHECK_CUDA_ERROR(cudaMalloc(&d_data, n * sizeof(unsigned long long int)));
+    CHECK_CUDA_ERROR(cudaMalloc(&d_result, n * sizeof(unsigned long long int)));
     CHECK_CUDA_ERROR(cudaMalloc(&d_indices, n * sizeof(int)));
     CHECK_CUDA_ERROR(cudaMalloc(&d_indices_result, n * sizeof(int)));
     
     // 复制数据到设备
-    CHECK_CUDA_ERROR(cudaMemcpy(d_data, h_data, n * sizeof(uint64_t), cudaMemcpyHostToDevice));
+    CHECK_CUDA_ERROR(cudaMemcpy(d_data, h_data, n * sizeof(unsigned long long int), cudaMemcpyHostToDevice));
     CHECK_CUDA_ERROR(cudaMemcpy(d_indices, h_indices, n * sizeof(int), cudaMemcpyHostToDevice));
     
     std::cout << "\n执行基于前" << numBits << "位的排序..." << std::endl;
@@ -225,7 +224,7 @@ int main() {
     });
     
     // 将结果复制回主机
-    CHECK_CUDA_ERROR(cudaMemcpy(h_result, d_result, n * sizeof(uint64_t), cudaMemcpyDeviceToHost));
+    CHECK_CUDA_ERROR(cudaMemcpy(h_result, d_result, n * sizeof(unsigned long long int), cudaMemcpyDeviceToHost));
     CHECK_CUDA_ERROR(cudaMemcpy(h_indices_result, d_indices_result, n * sizeof(int), cudaMemcpyDeviceToHost));
     
     // 输出结果（只显示前10个结果，避免输出太多）
