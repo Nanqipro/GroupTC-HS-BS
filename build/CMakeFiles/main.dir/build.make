@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/LiJB/cuda_project/TC-compare-V100
+CMAKE_SOURCE_DIR = /app/ZJ/gitlocal/GroupTC-HS-BS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/LiJB/cuda_project/TC-compare-V100/build
+CMAKE_BINARY_DIR = /app/ZJ/gitlocal/GroupTC-HS-BS/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,120 +72,120 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o: ../src/approach/Green/clusteringCount.cpp
 CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o -MF CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o.d -o CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/clusteringCount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o -MF CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o.d -o CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.o -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/clusteringCount.cpp
 
 CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/clusteringCount.cpp > CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/clusteringCount.cpp > CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.i
 
 CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/clusteringCount.cpp -o CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/clusteringCount.cpp -o CMakeFiles/main.dir/src/approach/Green/clusteringCount.cpp.s
 
 CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o: ../src/approach/Green/csrdatacreate.cpp
 CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o -MF CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o.d -o CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/csrdatacreate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o -MF CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o.d -o CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.o -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/csrdatacreate.cpp
 
 CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/csrdatacreate.cpp > CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/csrdatacreate.cpp > CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.i
 
 CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/csrdatacreate.cpp -o CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/csrdatacreate.cpp -o CMakeFiles/main.dir/src/approach/Green/csrdatacreate.cpp.s
 
 CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o: ../src/approach/Green/graphRead.cpp
 CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o -MF CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o.d -o CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/graphRead.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o -MF CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o.d -o CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.o -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/graphRead.cpp
 
 CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/graphRead.cpp > CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/graphRead.cpp > CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.i
 
 CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/graphRead.cpp -o CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/graphRead.cpp -o CMakeFiles/main.dir/src/approach/Green/graphRead.cpp.s
 
 CMakeFiles/main.dir/src/comm/config_comm.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/comm/config_comm.cpp.o: ../src/comm/config_comm.cpp
 CMakeFiles/main.dir/src/comm/config_comm.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/comm/config_comm.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/comm/config_comm.cpp.o -MF CMakeFiles/main.dir/src/comm/config_comm.cpp.o.d -o CMakeFiles/main.dir/src/comm/config_comm.cpp.o -c /home/LiJB/cuda_project/TC-compare-V100/src/comm/config_comm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/comm/config_comm.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/comm/config_comm.cpp.o -MF CMakeFiles/main.dir/src/comm/config_comm.cpp.o.d -o CMakeFiles/main.dir/src/comm/config_comm.cpp.o -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/comm/config_comm.cpp
 
 CMakeFiles/main.dir/src/comm/config_comm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/comm/config_comm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/LiJB/cuda_project/TC-compare-V100/src/comm/config_comm.cpp > CMakeFiles/main.dir/src/comm/config_comm.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/ZJ/gitlocal/GroupTC-HS-BS/src/comm/config_comm.cpp > CMakeFiles/main.dir/src/comm/config_comm.cpp.i
 
 CMakeFiles/main.dir/src/comm/config_comm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/comm/config_comm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/LiJB/cuda_project/TC-compare-V100/src/comm/config_comm.cpp -o CMakeFiles/main.dir/src/comm/config_comm.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/ZJ/gitlocal/GroupTC-HS-BS/src/comm/config_comm.cpp -o CMakeFiles/main.dir/src/comm/config_comm.cpp.s
 
 CMakeFiles/main.dir/src/comm/constant_comm.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/comm/constant_comm.cpp.o: ../src/comm/constant_comm.cpp
 CMakeFiles/main.dir/src/comm/constant_comm.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/comm/constant_comm.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/comm/constant_comm.cpp.o -MF CMakeFiles/main.dir/src/comm/constant_comm.cpp.o.d -o CMakeFiles/main.dir/src/comm/constant_comm.cpp.o -c /home/LiJB/cuda_project/TC-compare-V100/src/comm/constant_comm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/comm/constant_comm.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/comm/constant_comm.cpp.o -MF CMakeFiles/main.dir/src/comm/constant_comm.cpp.o.d -o CMakeFiles/main.dir/src/comm/constant_comm.cpp.o -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/comm/constant_comm.cpp
 
 CMakeFiles/main.dir/src/comm/constant_comm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/comm/constant_comm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/LiJB/cuda_project/TC-compare-V100/src/comm/constant_comm.cpp > CMakeFiles/main.dir/src/comm/constant_comm.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/ZJ/gitlocal/GroupTC-HS-BS/src/comm/constant_comm.cpp > CMakeFiles/main.dir/src/comm/constant_comm.cpp.i
 
 CMakeFiles/main.dir/src/comm/constant_comm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/comm/constant_comm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/LiJB/cuda_project/TC-compare-V100/src/comm/constant_comm.cpp -o CMakeFiles/main.dir/src/comm/constant_comm.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/ZJ/gitlocal/GroupTC-HS-BS/src/comm/constant_comm.cpp -o CMakeFiles/main.dir/src/comm/constant_comm.cpp.s
 
 CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o: ../src/graph/cpu_graph.cpp
 CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o -MF CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o.d -o CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o -c /home/LiJB/cuda_project/TC-compare-V100/src/graph/cpu_graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o -MF CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o.d -o CMakeFiles/main.dir/src/graph/cpu_graph.cpp.o -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/graph/cpu_graph.cpp
 
 CMakeFiles/main.dir/src/graph/cpu_graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/graph/cpu_graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/LiJB/cuda_project/TC-compare-V100/src/graph/cpu_graph.cpp > CMakeFiles/main.dir/src/graph/cpu_graph.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/ZJ/gitlocal/GroupTC-HS-BS/src/graph/cpu_graph.cpp > CMakeFiles/main.dir/src/graph/cpu_graph.cpp.i
 
 CMakeFiles/main.dir/src/graph/cpu_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/graph/cpu_graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/LiJB/cuda_project/TC-compare-V100/src/graph/cpu_graph.cpp -o CMakeFiles/main.dir/src/graph/cpu_graph.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/ZJ/gitlocal/GroupTC-HS-BS/src/graph/cpu_graph.cpp -o CMakeFiles/main.dir/src/graph/cpu_graph.cpp.s
 
 CMakeFiles/main.dir/src/ini/INIReader.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/ini/INIReader.cpp.o: ../src/ini/INIReader.cpp
 CMakeFiles/main.dir/src/ini/INIReader.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/ini/INIReader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ini/INIReader.cpp.o -MF CMakeFiles/main.dir/src/ini/INIReader.cpp.o.d -o CMakeFiles/main.dir/src/ini/INIReader.cpp.o -c /home/LiJB/cuda_project/TC-compare-V100/src/ini/INIReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/ini/INIReader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ini/INIReader.cpp.o -MF CMakeFiles/main.dir/src/ini/INIReader.cpp.o.d -o CMakeFiles/main.dir/src/ini/INIReader.cpp.o -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/ini/INIReader.cpp
 
 CMakeFiles/main.dir/src/ini/INIReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ini/INIReader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/LiJB/cuda_project/TC-compare-V100/src/ini/INIReader.cpp > CMakeFiles/main.dir/src/ini/INIReader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/ZJ/gitlocal/GroupTC-HS-BS/src/ini/INIReader.cpp > CMakeFiles/main.dir/src/ini/INIReader.cpp.i
 
 CMakeFiles/main.dir/src/ini/INIReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ini/INIReader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/LiJB/cuda_project/TC-compare-V100/src/ini/INIReader.cpp -o CMakeFiles/main.dir/src/ini/INIReader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/ZJ/gitlocal/GroupTC-HS-BS/src/ini/INIReader.cpp -o CMakeFiles/main.dir/src/ini/INIReader.cpp.s
 
 CMakeFiles/main.dir/src/ini/ini.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/ini/ini.cpp.o: ../src/ini/ini.cpp
 CMakeFiles/main.dir/src/ini/ini.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/ini/ini.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ini/ini.cpp.o -MF CMakeFiles/main.dir/src/ini/ini.cpp.o.d -o CMakeFiles/main.dir/src/ini/ini.cpp.o -c /home/LiJB/cuda_project/TC-compare-V100/src/ini/ini.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/ini/ini.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ini/ini.cpp.o -MF CMakeFiles/main.dir/src/ini/ini.cpp.o.d -o CMakeFiles/main.dir/src/ini/ini.cpp.o -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/ini/ini.cpp
 
 CMakeFiles/main.dir/src/ini/ini.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ini/ini.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/LiJB/cuda_project/TC-compare-V100/src/ini/ini.cpp > CMakeFiles/main.dir/src/ini/ini.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /app/ZJ/gitlocal/GroupTC-HS-BS/src/ini/ini.cpp > CMakeFiles/main.dir/src/ini/ini.cpp.i
 
 CMakeFiles/main.dir/src/ini/ini.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ini/ini.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/LiJB/cuda_project/TC-compare-V100/src/ini/ini.cpp -o CMakeFiles/main.dir/src/ini/ini.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /app/ZJ/gitlocal/GroupTC-HS-BS/src/ini/ini.cpp -o CMakeFiles/main.dir/src/ini/ini.cpp.s
 
 CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o: ../src/approach/Bisson/tc.cu
 CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CUDA object CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o -MF CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Bisson/tc.cu -o CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CUDA object CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o -MF CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Bisson/tc.cu -o CMakeFiles/main.dir/src/approach/Bisson/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/Bisson/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/Bisson/tc.cu.i"
@@ -198,8 +198,8 @@ CMakeFiles/main.dir/src/approach/Bisson/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/Fox/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Fox/tc.cu.o: ../src/approach/Fox/tc.cu
 CMakeFiles/main.dir/src/approach/Fox/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CUDA object CMakeFiles/main.dir/src/approach/Fox/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Fox/tc.cu.o -MF CMakeFiles/main.dir/src/approach/Fox/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Fox/tc.cu -o CMakeFiles/main.dir/src/approach/Fox/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CUDA object CMakeFiles/main.dir/src/approach/Fox/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Fox/tc.cu.o -MF CMakeFiles/main.dir/src/approach/Fox/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Fox/tc.cu -o CMakeFiles/main.dir/src/approach/Fox/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/Fox/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/Fox/tc.cu.i"
@@ -212,8 +212,8 @@ CMakeFiles/main.dir/src/approach/Fox/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o: ../src/approach/Green/clusteringCount.cu
 CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CUDA object CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o -MF CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/clusteringCount.cu -o CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CUDA object CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o -MF CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/clusteringCount.cu -o CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.o
 
 CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.i"
@@ -226,8 +226,8 @@ CMakeFiles/main.dir/src/approach/Green/clusteringCount.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o: ../src/approach/Green/gpurun.cu
 CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CUDA object CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o -MF CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/gpurun.cu -o CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CUDA object CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o -MF CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/gpurun.cu -o CMakeFiles/main.dir/src/approach/Green/gpurun.cu.o
 
 CMakeFiles/main.dir/src/approach/Green/gpurun.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/Green/gpurun.cu.i"
@@ -240,8 +240,8 @@ CMakeFiles/main.dir/src/approach/Green/gpurun.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/Green/main.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Green/main.cu.o: ../src/approach/Green/main.cu
 CMakeFiles/main.dir/src/approach/Green/main.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CUDA object CMakeFiles/main.dir/src/approach/Green/main.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/main.cu.o -MF CMakeFiles/main.dir/src/approach/Green/main.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/main.cu -o CMakeFiles/main.dir/src/approach/Green/main.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CUDA object CMakeFiles/main.dir/src/approach/Green/main.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/main.cu.o -MF CMakeFiles/main.dir/src/approach/Green/main.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/main.cu -o CMakeFiles/main.dir/src/approach/Green/main.cu.o
 
 CMakeFiles/main.dir/src/approach/Green/main.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/Green/main.cu.i"
@@ -254,8 +254,8 @@ CMakeFiles/main.dir/src/approach/Green/main.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/Green/param.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Green/param.cu.o: ../src/approach/Green/param.cu
 CMakeFiles/main.dir/src/approach/Green/param.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CUDA object CMakeFiles/main.dir/src/approach/Green/param.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/param.cu.o -MF CMakeFiles/main.dir/src/approach/Green/param.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Green/param.cu -o CMakeFiles/main.dir/src/approach/Green/param.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CUDA object CMakeFiles/main.dir/src/approach/Green/param.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Green/param.cu.o -MF CMakeFiles/main.dir/src/approach/Green/param.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Green/param.cu -o CMakeFiles/main.dir/src/approach/Green/param.cu.o
 
 CMakeFiles/main.dir/src/approach/Green/param.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/Green/param.cu.i"
@@ -268,8 +268,8 @@ CMakeFiles/main.dir/src/approach/Green/param.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o: ../src/approach/GroupTC-Cuckoo/tc.cu
 CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CUDA object CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o -MF CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/GroupTC-Cuckoo/tc.cu -o CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CUDA object CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o -MF CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/GroupTC-Cuckoo/tc.cu -o CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.i"
@@ -282,8 +282,8 @@ CMakeFiles/main.dir/src/approach/GroupTC-Cuckoo/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o: ../src/approach/GroupTC-HASH-V2/tc.cu
 CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CUDA object CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o -MF CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/GroupTC-HASH-V2/tc.cu -o CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CUDA object CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o -MF CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/GroupTC-HASH-V2/tc.cu -o CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.i"
@@ -296,8 +296,8 @@ CMakeFiles/main.dir/src/approach/GroupTC-HASH-V2/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o: ../src/approach/GroupTC-HASH/tc.cu
 CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CUDA object CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o -MF CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/GroupTC-HASH/tc.cu -o CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CUDA object CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o -MF CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/GroupTC-HASH/tc.cu -o CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.i"
@@ -310,8 +310,8 @@ CMakeFiles/main.dir/src/approach/GroupTC-HASH/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o: ../src/approach/GroupTC-OPT/tc.cu
 CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CUDA object CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o -MF CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/GroupTC-OPT/tc.cu -o CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CUDA object CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o -MF CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/GroupTC-OPT/tc.cu -o CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.i"
@@ -324,8 +324,8 @@ CMakeFiles/main.dir/src/approach/GroupTC-OPT/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o: ../src/approach/GroupTC/tc.cu
 CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CUDA object CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o -MF CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/GroupTC/tc.cu -o CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CUDA object CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o -MF CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/GroupTC/tc.cu -o CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.i"
@@ -338,8 +338,8 @@ CMakeFiles/main.dir/src/approach/GroupTC/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o: ../src/approach/H-INDEX/tc.cu
 CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CUDA object CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o -MF CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/H-INDEX/tc.cu -o CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CUDA object CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o -MF CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/H-INDEX/tc.cu -o CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.i"
@@ -352,8 +352,8 @@ CMakeFiles/main.dir/src/approach/H-INDEX/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/Hu/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Hu/tc.cu.o: ../src/approach/Hu/tc.cu
 CMakeFiles/main.dir/src/approach/Hu/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CUDA object CMakeFiles/main.dir/src/approach/Hu/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Hu/tc.cu.o -MF CMakeFiles/main.dir/src/approach/Hu/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Hu/tc.cu -o CMakeFiles/main.dir/src/approach/Hu/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CUDA object CMakeFiles/main.dir/src/approach/Hu/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Hu/tc.cu.o -MF CMakeFiles/main.dir/src/approach/Hu/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Hu/tc.cu -o CMakeFiles/main.dir/src/approach/Hu/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/Hu/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/Hu/tc.cu.i"
@@ -366,8 +366,8 @@ CMakeFiles/main.dir/src/approach/Hu/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/Polak/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/Polak/tc.cu.o: ../src/approach/Polak/tc.cu
 CMakeFiles/main.dir/src/approach/Polak/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CUDA object CMakeFiles/main.dir/src/approach/Polak/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Polak/tc.cu.o -MF CMakeFiles/main.dir/src/approach/Polak/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/Polak/tc.cu -o CMakeFiles/main.dir/src/approach/Polak/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CUDA object CMakeFiles/main.dir/src/approach/Polak/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/Polak/tc.cu.o -MF CMakeFiles/main.dir/src/approach/Polak/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/Polak/tc.cu -o CMakeFiles/main.dir/src/approach/Polak/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/Polak/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/Polak/tc.cu.i"
@@ -380,8 +380,8 @@ CMakeFiles/main.dir/src/approach/Polak/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o: ../src/approach/TC-Check/tc.cu
 CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CUDA object CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o -MF CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/TC-Check/tc.cu -o CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CUDA object CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o -MF CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/TC-Check/tc.cu -o CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.i"
@@ -394,8 +394,8 @@ CMakeFiles/main.dir/src/approach/TC-Check/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o: ../src/approach/TRUST/tc.cu
 CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CUDA object CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o -MF CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/TRUST/tc.cu -o CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CUDA object CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o -MF CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/TRUST/tc.cu -o CMakeFiles/main.dir/src/approach/TRUST/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/TRUST/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/TRUST/tc.cu.i"
@@ -408,8 +408,8 @@ CMakeFiles/main.dir/src/approach/TRUST/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o: ../src/approach/TriCore/tc.cu
 CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CUDA object CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o -MF CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/approach/TriCore/tc.cu -o CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CUDA object CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o -MF CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/approach/TriCore/tc.cu -o CMakeFiles/main.dir/src/approach/TriCore/tc.cu.o
 
 CMakeFiles/main.dir/src/approach/TriCore/tc.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/approach/TriCore/tc.cu.i"
@@ -422,8 +422,8 @@ CMakeFiles/main.dir/src/approach/TriCore/tc.cu.s: cmake_force
 CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o: ../src/datatransfer/csr2dcsr_data_transfer.cu
 CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CUDA object CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o -MF CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/datatransfer/csr2dcsr_data_transfer.cu -o CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CUDA object CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o -MF CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/datatransfer/csr2dcsr_data_transfer.cu -o CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.o
 
 CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.i"
@@ -436,8 +436,8 @@ CMakeFiles/main.dir/src/datatransfer/csr2dcsr_data_transfer.cu.s: cmake_force
 CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o: ../src/datatransfer/csr2hash_dcsr_data_transfer.cu
 CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CUDA object CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o -MF CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/datatransfer/csr2hash_dcsr_data_transfer.cu -o CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CUDA object CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o -MF CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/datatransfer/csr2hash_dcsr_data_transfer.cu -o CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.o
 
 CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.i"
@@ -450,8 +450,8 @@ CMakeFiles/main.dir/src/datatransfer/csr2hash_dcsr_data_transfer.cu.s: cmake_for
 CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o: ../src/datatransfer/csr2rid_dcsr_data_transfer.cu
 CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CUDA object CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o -MF CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/datatransfer/csr2rid_dcsr_data_transfer.cu -o CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CUDA object CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o -MF CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/datatransfer/csr2rid_dcsr_data_transfer.cu -o CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.o
 
 CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.i"
@@ -464,8 +464,8 @@ CMakeFiles/main.dir/src/datatransfer/csr2rid_dcsr_data_transfer.cu.s: cmake_forc
 CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o: ../src/datatransfer/csr2trust_dcsr_data_transfer.cu
 CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CUDA object CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o -MF CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/datatransfer/csr2trust_dcsr_data_transfer.cu -o CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CUDA object CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o -MF CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/datatransfer/csr2trust_dcsr_data_transfer.cu -o CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.o
 
 CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.i"
@@ -478,8 +478,8 @@ CMakeFiles/main.dir/src/datatransfer/csr2trust_dcsr_data_transfer.cu.s: cmake_fo
 CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o: ../src/datatransfer/data_transfer.cu
 CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CUDA object CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o -MF CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/datatransfer/data_transfer.cu -o CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CUDA object CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o -MF CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/datatransfer/data_transfer.cu -o CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.o
 
 CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.i"
@@ -492,8 +492,8 @@ CMakeFiles/main.dir/src/datatransfer/data_transfer.cu.s: cmake_force
 CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o: ../src/graph/cuda_graph_comm.cu
 CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CUDA object CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o -MF CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/graph/cuda_graph_comm.cu -o CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CUDA object CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o -MF CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/graph/cuda_graph_comm.cu -o CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.o
 
 CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.i"
@@ -506,8 +506,8 @@ CMakeFiles/main.dir/src/graph/cuda_graph_comm.cu.s: cmake_force
 CMakeFiles/main.dir/src/graph/gpu_graph.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/graph/gpu_graph.cu.o: ../src/graph/gpu_graph.cu
 CMakeFiles/main.dir/src/graph/gpu_graph.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CUDA object CMakeFiles/main.dir/src/graph/gpu_graph.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/graph/gpu_graph.cu.o -MF CMakeFiles/main.dir/src/graph/gpu_graph.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/graph/gpu_graph.cu -o CMakeFiles/main.dir/src/graph/gpu_graph.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CUDA object CMakeFiles/main.dir/src/graph/gpu_graph.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/graph/gpu_graph.cu.o -MF CMakeFiles/main.dir/src/graph/gpu_graph.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/graph/gpu_graph.cu -o CMakeFiles/main.dir/src/graph/gpu_graph.cu.o
 
 CMakeFiles/main.dir/src/graph/gpu_graph.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/graph/gpu_graph.cu.i"
@@ -520,8 +520,8 @@ CMakeFiles/main.dir/src/graph/gpu_graph.cu.s: cmake_force
 CMakeFiles/main.dir/src/main.cu.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cu.o: ../src/main.cu
 CMakeFiles/main.dir/src/main.cu.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CUDA object CMakeFiles/main.dir/src/main.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cu.o -MF CMakeFiles/main.dir/src/main.cu.o.d -x cu -c /home/LiJB/cuda_project/TC-compare-V100/src/main.cu -o CMakeFiles/main.dir/src/main.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CUDA object CMakeFiles/main.dir/src/main.cu.o"
+	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cu.o -MF CMakeFiles/main.dir/src/main.cu.o.d -x cu -c /app/ZJ/gitlocal/GroupTC-HS-BS/src/main.cu -o CMakeFiles/main.dir/src/main.cu.o
 
 CMakeFiles/main.dir/src/main.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/src/main.cu.i"
@@ -605,7 +605,7 @@ main: CMakeFiles/main.dir/src/graph/gpu_graph.cu.o
 main: CMakeFiles/main.dir/src/main.cu.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -617,6 +617,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/LiJB/cuda_project/TC-compare-V100/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/LiJB/cuda_project/TC-compare-V100 /home/LiJB/cuda_project/TC-compare-V100 /home/LiJB/cuda_project/TC-compare-V100/build /home/LiJB/cuda_project/TC-compare-V100/build /home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /app/ZJ/gitlocal/GroupTC-HS-BS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /app/ZJ/gitlocal/GroupTC-HS-BS /app/ZJ/gitlocal/GroupTC-HS-BS /app/ZJ/gitlocal/GroupTC-HS-BS/build /app/ZJ/gitlocal/GroupTC-HS-BS/build /app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

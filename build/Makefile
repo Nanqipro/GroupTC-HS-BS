@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/LiJB/cuda_project/TC-compare-V100
+CMAKE_SOURCE_DIR = /app/ZJ/gitlocal/GroupTC-HS-BS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/LiJB/cuda_project/TC-compare-V100/build
+CMAKE_BINARY_DIR = /app/ZJ/gitlocal/GroupTC-HS-BS/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles /home/LiJB/cuda_project/TC-compare-V100/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles /app/ZJ/gitlocal/GroupTC-HS-BS/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,19 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named sort_by_bits
+
+# Build rule for target.
+sort_by_bits: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sort_by_bits
+.PHONY : sort_by_bits
+
+# fast build rule for target.
+sort_by_bits/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_by_bits.dir/build.make CMakeFiles/sort_by_bits.dir/build
+.PHONY : sort_by_bits/fast
 
 src/approach/Bisson/tc.o: src/approach/Bisson/tc.cu.o
 .PHONY : src/approach/Bisson/tc.o
@@ -921,6 +934,30 @@ src/main.cu.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cu.s
 .PHONY : src/main.cu.s
 
+test/main.o: test/main.cu.o
+.PHONY : test/main.o
+
+# target to build an object file
+test/main.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_by_bits.dir/build.make CMakeFiles/sort_by_bits.dir/test/main.cu.o
+.PHONY : test/main.cu.o
+
+test/main.i: test/main.cu.i
+.PHONY : test/main.i
+
+# target to preprocess a source file
+test/main.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_by_bits.dir/build.make CMakeFiles/sort_by_bits.dir/test/main.cu.i
+.PHONY : test/main.cu.i
+
+test/main.s: test/main.cu.s
+.PHONY : test/main.s
+
+# target to generate assembly for a file
+test/main.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_by_bits.dir/build.make CMakeFiles/sort_by_bits.dir/test/main.cu.s
+.PHONY : test/main.cu.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -930,6 +967,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... sort_by_bits"
 	@echo "... src/approach/Bisson/tc.o"
 	@echo "... src/approach/Bisson/tc.i"
 	@echo "... src/approach/Bisson/tc.s"
@@ -1029,6 +1067,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... test/main.o"
+	@echo "... test/main.i"
+	@echo "... test/main.s"
 .PHONY : help
 
 

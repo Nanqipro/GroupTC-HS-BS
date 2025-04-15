@@ -1,3 +1,4 @@
-/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles/main.dir
-/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles/edit_cache.dir
-/home/LiJB/cuda_project/TC-compare-V100/build/CMakeFiles/rebuild_cache.dir
+/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles/main.dir
+/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles/sort_by_bits.dir
+/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles/edit_cache.dir
+/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles/rebuild_cache.dir

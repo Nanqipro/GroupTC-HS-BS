@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/sort_by_bits.dir/test/main.cu.o -o sort_by_bits  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/local/cuda-11.4/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda-11.4/targets/x86_64-linux/lib"

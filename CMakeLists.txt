@@ -13,7 +13,7 @@ message(STATUS "CUDA_LIBRARIES: " ${CUDA_LIBRARIES})
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}-std=c++14 -O3")
-set(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS} -std=c++14 -O3")
+set(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS} -std=c++14 -O3 --extended-lambda")
 
 message(STATUS "CUDA_NVCC_FLAGS: " ${CUDA_NVCC_FLAGS})
 # set(CMAKE_C_COMPILER "/usr/bin/gcc-11")
@@ -54,6 +54,25 @@ add_executable(main
 )
 
 # target_link_libraries(main PRIVATE spdlog::spdlog $<$<BOOL:${MINGW}>:ws2_32>)
+
+# ---------------------------------------------------------------------------------------
+# 测试目录下的CUDA代码
+# ---------------------------------------------------------------------------------------
+file(GLOB_RECURSE TEST_CPP_SOURCES "test/*.cpp")
+file(GLOB_RECURSE TEST_CUDA_SOURCES "test/*.cu")
+
+# 添加基于前n位排序的测试程序
+add_executable(sort_by_bits 
+    ${TEST_CUDA_SOURCES}
+)
+
+target_link_libraries(sort_by_bits PRIVATE 
+    ${CUDA_LIBRARIES}
+)
+
+# 增加相应的CUDA编译器标志
+target_compile_options(sort_by_bits PRIVATE 
+    $<$<COMPILE_LANGUAGE:CUDA>:--extended-lambda>)
 
 # ---------------------------------------------------------------------------------------
 # Example of using header-only library

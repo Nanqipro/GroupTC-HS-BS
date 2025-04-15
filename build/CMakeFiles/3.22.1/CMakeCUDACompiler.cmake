@@ -18,7 +18,7 @@ set(CMAKE_CUDA23_COMPILE_FEATURES "")
 set(CMAKE_CUDA_PLATFORM_ID "Linux")
 set(CMAKE_CUDA_SIMULATE_ID "GNU")
 set(CMAKE_CUDA_COMPILER_FRONTEND_VARIANT "")
-set(CMAKE_CUDA_SIMULATE_VERSION "7.5")
+set(CMAKE_CUDA_SIMULATE_VERSION "9.5")
 
 
 
@@ -49,7 +49,7 @@ if(CMAKE_CUDA_LIBRARY_ARCHITECTURE)
 endif()
 
 set(CMAKE_CUDA_COMPILER_TOOLKIT_ROOT "/usr/local/cuda-11.4")
-set(CMAKE_CUDA_COMPILER_TOOLKIT_LIBRARY_ROOT "/usr/lib/nvidia-cuda-toolkit")
+set(CMAKE_CUDA_COMPILER_TOOLKIT_LIBRARY_ROOT "/usr/local/cuda-11.4")
 set(CMAKE_CUDA_COMPILER_LIBRARY_ROOT "/usr/local/cuda-11.4")
 
 set(CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES "/usr/local/cuda-11.4/targets/x86_64-linux/include")
@@ -58,9 +58,9 @@ set(CMAKE_CUDA_HOST_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CUDA_HOST_IMPLICIT_LINK_DIRECTORIES "/usr/local/cuda-11.4/targets/x86_64-linux/lib/stubs;/usr/local/cuda-11.4/targets/x86_64-linux/lib")
 set(CMAKE_CUDA_HOST_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 
-set(CMAKE_CUDA_IMPLICIT_INCLUDE_DIRECTORIES "/usr/include/c++/7;/usr/include/x86_64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include")
+set(CMAKE_CUDA_IMPLICIT_INCLUDE_DIRECTORIES "/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include")
 set(CMAKE_CUDA_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")
-set(CMAKE_CUDA_IMPLICIT_LINK_DIRECTORIES "/usr/local/cuda-11.4/targets/x86_64-linux/lib/stubs;/usr/local/cuda-11.4/targets/x86_64-linux/lib;/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
+set(CMAKE_CUDA_IMPLICIT_LINK_DIRECTORIES "/usr/local/cuda-11.4/targets/x86_64-linux/lib/stubs;/usr/local/cuda-11.4/targets/x86_64-linux/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
 set(CMAKE_CUDA_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 
 set(CMAKE_CUDA_RUNTIME_LIBRARY_DEFAULT "STATIC")
