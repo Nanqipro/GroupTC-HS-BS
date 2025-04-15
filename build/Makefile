@@ -142,6 +142,19 @@ sort_by_bits/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_by_bits.dir/build.make CMakeFiles/sort_by_bits.dir/build
 .PHONY : sort_by_bits/fast
 
+#=============================================================================
+# Target rules for targets named sort_no_index
+
+# Build rule for target.
+sort_no_index: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sort_no_index
+.PHONY : sort_no_index
+
+# fast build rule for target.
+sort_no_index/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_no_index.dir/build.make CMakeFiles/sort_no_index.dir/build
+.PHONY : sort_no_index/fast
+
 src/approach/Bisson/tc.o: src/approach/Bisson/tc.cu.o
 .PHONY : src/approach/Bisson/tc.o
 
@@ -958,6 +971,33 @@ test/main.cu.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_by_bits.dir/build.make CMakeFiles/sort_by_bits.dir/test/main.cu.s
 .PHONY : test/main.cu.s
 
+test/main_no_index.o: test/main_no_index.cu.o
+.PHONY : test/main_no_index.o
+
+# target to build an object file
+test/main_no_index.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_by_bits.dir/build.make CMakeFiles/sort_by_bits.dir/test/main_no_index.cu.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_no_index.dir/build.make CMakeFiles/sort_no_index.dir/test/main_no_index.cu.o
+.PHONY : test/main_no_index.cu.o
+
+test/main_no_index.i: test/main_no_index.cu.i
+.PHONY : test/main_no_index.i
+
+# target to preprocess a source file
+test/main_no_index.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_by_bits.dir/build.make CMakeFiles/sort_by_bits.dir/test/main_no_index.cu.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_no_index.dir/build.make CMakeFiles/sort_no_index.dir/test/main_no_index.cu.i
+.PHONY : test/main_no_index.cu.i
+
+test/main_no_index.s: test/main_no_index.cu.s
+.PHONY : test/main_no_index.s
+
+# target to generate assembly for a file
+test/main_no_index.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_by_bits.dir/build.make CMakeFiles/sort_by_bits.dir/test/main_no_index.cu.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_no_index.dir/build.make CMakeFiles/sort_no_index.dir/test/main_no_index.cu.s
+.PHONY : test/main_no_index.cu.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -968,6 +1008,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... sort_by_bits"
+	@echo "... sort_no_index"
 	@echo "... src/approach/Bisson/tc.o"
 	@echo "... src/approach/Bisson/tc.i"
 	@echo "... src/approach/Bisson/tc.s"
@@ -1070,6 +1111,9 @@ help:
 	@echo "... test/main.o"
 	@echo "... test/main.i"
 	@echo "... test/main.s"
+	@echo "... test/main_no_index.o"
+	@echo "... test/main_no_index.i"
+	@echo "... test/main_no_index.s"
 .PHONY : help
 
 

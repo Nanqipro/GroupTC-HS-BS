@@ -70,6 +70,18 @@ target_link_libraries(sort_by_bits PRIVATE
     ${CUDA_LIBRARIES}
 )
 
+# 添加不带索引的排序程序
+add_executable(sort_no_index 
+    test/main_no_index.cu
+)
+
+target_link_libraries(sort_no_index PRIVATE 
+    ${CUDA_LIBRARIES}
+)
+
+target_compile_options(sort_no_index PRIVATE 
+    $<$<COMPILE_LANGUAGE:CUDA>:--extended-lambda>)
+
 # 增加相应的CUDA编译器标志
 target_compile_options(sort_by_bits PRIVATE 
     $<$<COMPILE_LANGUAGE:CUDA>:--extended-lambda>)

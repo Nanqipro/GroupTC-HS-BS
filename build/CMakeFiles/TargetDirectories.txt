@@ -1,4 +1,5 @@
 /app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles/main.dir
 /app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles/sort_by_bits.dir
+/app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles/sort_no_index.dir
 /app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles/edit_cache.dir
 /app/ZJ/gitlocal/GroupTC-HS-BS/build/CMakeFiles/rebuild_cache.dir

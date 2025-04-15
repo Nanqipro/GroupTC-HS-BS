@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/sort_no_index.dir/test/main_no_index.cu.o -o sort_no_index  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/local/cuda-11.4/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda-11.4/targets/x86_64-linux/lib"
